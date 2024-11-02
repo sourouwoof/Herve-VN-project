@@ -1,33 +1,41 @@
 ﻿# The script of the game goes in this file.
 
-# Declare characters used by this game. The color argument colorizes the
-# name of the character.
-
-define e = Character("Eileen")
-
-
 # The game starts here.
 
 label start:
 
-    # Show a background. This uses a placeholder by default, but you can
-    # add a file (named either "bg room.png" or "bg room.jpg") to the
-    # images directory to show it.
+    pause 5
 
-    scene bg room
+    "*bzzt*"
 
-    # This shows a character sprite. A placeholder is used, but you can
-    # replace it by adding a file named "eileen happy.png" to the images
-    # directory.
+    pause 1
 
-    show eileen happy
+    "*bzzt*"
 
-    # These display lines of dialogue.
+    "*bzzt*"
 
-    e "You've created a new Ren'Py game."
+    pause 1
 
-    e "Once you add a story, pictures, and music, you can release it to the world!"
+    "You have 21 notifications unread."
 
-    # This ends the game.
+    mc "Geez, am I getting lost ?"
 
+    call end
+
+label end:
+    system "To be continued...{w=2}{nw}"
+    stop music
+    stop sound
+    scene black with Dissolve(1)
+    pause 2
+    $ MainMenu(confirm=False)
     return
+
+# -------------------------------- before main menu
+label before_main_menu:
+    window hide
+    # centered "{cps=0}{color=#ffffff}- Notice -\n This game is a work of fiction for the Novembear.\n\n
+    # {image=loading}
+    # {w=10}{nw}{/color}{/cps}"
+    # $ renpy.music.play(, fadein=5.0, loop=True)
+    call car_bumps

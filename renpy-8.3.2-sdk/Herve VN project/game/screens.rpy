@@ -395,6 +395,8 @@ style main_menu_vbox:
     yoffset -30
 
 style main_menu_text:
+    font font_main_menu
+    outlines [(0, "#00000014", 3, 3)]
     properties gui.text_properties("main_menu", accent=True)
 
 style main_menu_title:
@@ -558,6 +560,18 @@ screen about():
 
             label "[config.name!t]"
             text _("Version [config.version!t]\n")
+
+            label __("\n{color=#cc6600}-- Everything by us except --{/u}")
+            grid 2 3:
+                spacing 100
+                text __("""{u}Ren'Py addons:{/u}
+• Auto Highlight by {a=https://twitter.com/XT9Kzle}Wattson{/a}.
+• Character Blinking by {a=https://twitter.com/XT9Kzle}Wattson{/a}.""")
+                text __(""" """)
+                text __("""{u}Sound effects:{/u} 
+""")
+                text __("""{u}Musics:{/u} 
+""")
 
             ## gui.about is usually set in options.rpy.
             if gui.about:

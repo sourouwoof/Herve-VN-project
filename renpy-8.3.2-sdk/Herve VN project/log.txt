@@ -1,29 +1,44 @@
-2024-11-02 11:15:47 UTC
+2024-11-02 18:39:39 UTC
 Linux-6.1.52-valve16-1-neptune-61-x86_64-with-glibc2.37
 Ren'Py 8.3.2.24090902
 
-Early init took 0.06s
-Loading error handling took 0.03s
-Loading script took 0.08s
-Loading save slot metadata took 0.02s
+Early init took 0.09s
+Loading error handling took 0.05s
+Loading script took 0.21s
+Loading save slot metadata took 0.03s
 Loading persistent took 0.00s
-Running init code took 0.04s
+Running init code took 0.06s
 Loading analysis data took 0.02s
-Analyze and compile ATL took 0.00s
+Analyze and compile ATL took 0.02s
 Reloading save slot metadata took 0.01s
 Index archives took 0.00s
-Dump and make backups took 0.05s
+Backing up script files to '/home/deck/.renpy/backups/Herve VN project':
+Dump and make backups took 0.06s
 Cleaning cache took 0.00s
 Making clean stores took 0.00s
-Initial gc took 0.04s
+Initial gc took 0.05s
 DPI scale factor: 1.000000
 Creating interface object took 0.00s
 Cleaning stores took 0.00s
-Init translation took 0.04s
+Init translation took 0.05s
 Build styles took 0.00s
-Load screen analysis took 0.03s
-Analyze screens took 0.00s
-Save screen analysis took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.02s
 Prepare screens took 0.07s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.00s
+Save pyanalysis. took 0.02s
+Save bytecode. took 0.03s
+Running _start took 0.00s
+Interface start took 0.12s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1200)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'AMD'"
+Renderer: b'AMD Radeon Graphics (vangogh, LLVM 15.0.7, DRM 3.54, 6.1.52-valve16-1-neptune-61)'
+Version: b'4.6 (Compatibility Profile) Mesa 23.1.3 (git-87ebaf765d)'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1242, 699) drawable=(1242, 699)
+Maximum texture size: 4096x4096
+controller: '03000000de280000ff11000001000000' 'Steam Virtual Gamepad' 1
