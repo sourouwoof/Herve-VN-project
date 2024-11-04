@@ -2,9 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/screens.rpy", line 565: grid expects a non-empty block.
-    grid 2 3:
-             ^
+File "game/audio/audio.rpy", line 1: is not terminated with a newline. (Check strings and parenthesis.)
+(Perhaps you left out a " at the end of the first line.)
+    define audio.music1 = "audio/ACOUSTICCOUNTRY MUSIC Happy Piano Guitar ROYALTY FREE Download No Copyright Content _ 12 MORNINGS [ ezmp3.cc ].mp3'
 
 Ren'Py Version: Ren'Py 8.3.2.24090902
-Sat Nov  2 18:36:00 2024
+Mon Nov  4 10:55:40 2024

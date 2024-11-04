@@ -77,8 +77,8 @@ transform y_shake(amt=5, repeats=None):
 
 label car_bumps:
     camera:
-        zoom 1.01
         xalign 0.5 yalign 0.5
+        ease 1.5 zoom 1.01
         choice:
             pause 0.5
         choice:
@@ -292,3 +292,35 @@ transform dim_tint1:
 
 transform midnight_tint:
     matrixcolor TintMatrix(Color(rgb=(0.115,0.110,0.125)))*BrightnessMatrix(-0.15)
+
+# -------------------------------- say window transform
+# https://lemmasoft.renai.us/forums/viewtopic.php?t=41776
+init python:
+    def say_window_transform_function(trans, st, at):
+        global say_window_show_transform
+
+        if not "say_window_show_transform" in globals():
+            say_window_show_transform = False
+
+        if say_window_show_transform == False:
+            st = 0.5
+            trans.alpha = 1.0
+            say_window_show_transform = True
+
+        if say_window_show_transform == True:
+            if st > 0.5:
+                trans.alpha = 1
+                return None
+            else:
+                trans.alpha += trans.alpha * st
+                return 0
+        else:
+            return None
+
+    def say_window_transform_reset(trans, st, at):
+        global say_window_show_transform
+        say_window_show_transform = False
+
+transform text_fade_in_transform:
+    alpha 0
+    linear 0.5 alpha 1

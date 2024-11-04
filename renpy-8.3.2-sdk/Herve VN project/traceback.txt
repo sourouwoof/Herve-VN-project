@@ -1,34 +1,28 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
 While running game code:
-  File "renpy/common/00start.rpy", line 314, in script call
-    call expression "before_main_menu"
-  File "game/script.rpy", line 41, in script call
-    call car_bumps
-  File "renpy/common/00start.rpy", line 314, in script call
-    call expression "before_main_menu"
-  File "game/script.rpy", line 41, in script call
-    call car_bumps
-ScriptError: could not find label 'car_bumps'.
+  File "game/script.rpy", line 30, in script call
+    call end
+  File "game/script.rpy", line 33, in script
+    system "To be continued...{w=2}{nw}"
+Exception: Sayer 'system' is not defined.
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-  File "renpy/common/00start.rpy", line 314, in script call
-    call expression "before_main_menu"
-  File "game/script.rpy", line 41, in script call
-    call car_bumps
-  File "/run/media/deck/SD512/Documents/Git/Herve-VN-project/renpy-8.3.2-sdk/renpy/ast.py", line 1414, in execute
-    rv = renpy.game.context().call(label, return_site=self.next.name)
-  File "renpy/common/00start.rpy", line 314, in script call
-    call expression "before_main_menu"
-  File "game/script.rpy", line 41, in script call
-    call car_bumps
-  File "/run/media/deck/SD512/Documents/Git/Herve-VN-project/renpy-8.3.2-sdk/renpy/script.py", line 1103, in lookup
-    raise ScriptError("could not find label '%s'." % str(original))
-ScriptError: could not find label 'car_bumps'.
+  File "game/script.rpy", line 30, in script call
+    call end
+  File "game/script.rpy", line 33, in script
+    system "To be continued...{w=2}{nw}"
+  File "/run/media/deck/SD512/Documents/Git/Herve-VN-project/renpy-8.3.2-sdk/renpy/ast.py", line 2573, in execute
+    Say.execute(self)
+  File "/run/media/deck/SD512/Documents/Git/Herve-VN-project/renpy-8.3.2-sdk/renpy/ast.py", line 575, in execute
+    who = eval_who(self.who, self.who_fast)
+  File "/run/media/deck/SD512/Documents/Git/Herve-VN-project/renpy-8.3.2-sdk/renpy/ast.py", line 464, in eval_who
+    raise Exception("Sayer '%s' is not defined." % who)
+Exception: Sayer 'system' is not defined.
 
 Linux-6.1.52-valve16-1-neptune-61-x86_64-with-glibc2.37 x86_64
 Ren'Py 8.3.2.24090902
 Herve VN project 1.0
-Sat Nov  2 19:37:33 2024
+Mon Nov  4 10:28:05 2024

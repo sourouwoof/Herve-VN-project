@@ -67,7 +67,10 @@ label characters:
     what_outlines=[(1, "#201515f0", 1, 1), (1, "#201515f0", 0, 0)], # what_outlines=[(1, "#0000008b", 1, 1), (1, "#0000008b", 0, 0)],  
     #window_background="none_bg_slideshow", #"gui/textboxes/[textboxImage].png"
     ctc=At(Text(" >>", color="#f3cf63"), ctc_transform), ctc_pause=At(Text("", color="#f3cf63"), ctc_transform),
-    what_color='#f3cf63' #fae8b0 #9dcfe9 #what_style
+    what_color='#f3cf63',
+    window_background=Image("gui/textbox.png", xalign=0.5, yalign=1.0, alpha=0.25),
+    #window_style=dissolve,
+    #what_style=dissolve
     )
     define inner = Character(None, what_prefix='(', what_suffix=')', who_italic=True, kind=base)
     define outter = Character(None, what_prefix='“', what_suffix='”', kind=base)
@@ -75,5 +78,7 @@ label characters:
     define calling = Character(None, what_prefix='{image=emojis/telephone-receiver.png} “', what_suffix='”', kind=base)
 
     # main characters
-    define he = Character("Hervé", color="#80746e", image="he", kind=outter, callback = name_callback, cb_name = "he") # character
-    define mc = Character("MC", color="#97e99b", image="mc", kind=outter, callback = name_callback, cb_name = "mc")
+    define heo = Character("Hervé", color="#80746e", image="he", kind=outter, callback = name_callback, cb_name = "he") # character
+    define mco = Character("MC", color="#97e99b", image="mc", kind=outter, callback = name_callback, cb_name = "mc")
+    define mci = Character("MC", color="#97e99b", image="mc", kind=inner, callback = name_callback, cb_name = "mc")
+    define momt = Character("Mom", color="#cdb0f3", image="mc", kind=texting, callback = name_callback, cb_name = "mc")

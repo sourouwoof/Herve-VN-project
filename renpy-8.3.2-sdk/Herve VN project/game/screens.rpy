@@ -95,10 +95,17 @@ style frame:
 ##
 ## https://www.renpy.org/doc/html/screen_special.html#say
 
+transform say_window_transform:
+    on show:
+        function say_window_transform_function
+    on hide:
+        linear 0.55 alpha 0
+        function say_window_transform_reset
+
 screen say(who, what):
     style_prefix "say"
 
-    window:
+    window at say_window_transform:
         id "window"
 
         if who is not None:
@@ -129,14 +136,13 @@ style say_thought is say_dialogue
 style namebox is default
 style namebox_label is say_label
 
-
 style window:
     xalign 0.5
     xfill True
     yalign gui.textbox_yalign
     ysize gui.textbox_height
 
-    background Image("gui/textbox.png", xalign=0.5, yalign=1.0)
+    # background Image("gui/textbox.png", xalign=0.5, yalign=1.0)
 
 style namebox:
     xpos gui.name_xpos
@@ -348,12 +354,16 @@ style navigation_button_text:
 ##
 ## https://www.renpy.org/doc/html/screen_special.html#main-menu
 
+transform main_menu_transform:
+    alpha 0.0 #set to invisible 
+    linear 2.0 alpha 1.0 #fade back in
+
 screen main_menu():
 
     ## This ensures that any other menu screen is replaced.
     tag menu
 
-    add gui.main_menu_background
+    add gui.main_menu_background at main_menu_transform
 
     ## This empty frame darkens the main menu.
     frame:
@@ -361,18 +371,23 @@ screen main_menu():
 
     ## The use statement includes another screen inside this one. The actual
     ## contents of the main menu are in the navigation screen.
-    use navigation
+    # use navigation
+
+    vbox:
+        xalign 0.5 # 1.0
+        yalign 0.3 # 1.0
+        text "[config.name]":
+            style "main_menu_title"
+
+        text "[config.version]":
+            style "main_menu_version"  
 
     if gui.show_name:
-
+    ## Show the main title and version in main menu
         vbox:
             style "main_menu_vbox"
 
-            text "[config.name!t]":
-                style "main_menu_title"
-
-            text "[config.version]":
-                style "main_menu_version"
+            use main_menu_navigation 
 
 
 style main_menu_frame is empty
@@ -384,27 +399,43 @@ style main_menu_version is main_menu_text
 style main_menu_frame:
     xsize 420
     yfill True
-
-    background "gui/overlay/main_menu.png"
+    # background "gui/overlay/main_menu.png"
 
 style main_menu_vbox:
-    xalign 1.0
-    xoffset -30
-    xmaximum 1200
-    yalign 1.0
-    yoffset -30
+    xalign 1.0 # 1.0
+    xoffset -750 # -30
+    xmaximum 1200 # 1200
+    yalign 1.0 # 1.0
+    yoffset -585 # -30
 
 style main_menu_text:
-    font font_main_menu
-    outlines [(0, "#00000014", 3, 3)]
+    font "fonts/Belwe Bold.otf"
+    outlines [(0, "#00000014", 6, 6)]
     properties gui.text_properties("main_menu", accent=True)
 
 style main_menu_title:
     properties gui.text_properties("title")
 
 style main_menu_version:
+    xoffset 25
     properties gui.text_properties("version")
 
+style main_menu_text_buttons:
+    size 35
+
+screen main_menu_navigation():
+
+    grid 2 2:
+        style_prefix "main_menu_navigation"
+        style "main_menu_text_buttons"
+
+        spacing gui.navigation_spacing
+        
+        # textbutton _(languageIterator.next(languageCurrent)[1]) action [Language(languageIterator.next(languageCurrent)[0]), SetVariable("languageCurrent", languageIterator.next(languageCurrent))]
+        textbutton _("New Game") action Start()
+        textbutton _("Load Game") action ShowMenu("load")
+        textbutton _("Options") action ShowMenu("preferences")
+        textbutton _("Quit") action Quit(confirm=not main_menu)
 
 ## Game Menu screen ############################################################
 ##
@@ -561,16 +592,20 @@ screen about():
             label "[config.name!t]"
             text _("Version [config.version!t]\n")
 
-            label __("\n{color=#cc6600}-- Everything by us except --{/u}")
-            grid 2 3:
-                spacing 100
+            label __("\n{color=#cc6600}Everything by us except{u}")
+            grid 2 2:
+                spacing 0
                 text __("""{u}Ren'Py addons:{/u}
-• Auto Highlight by {a=https://twitter.com/XT9Kzle}Wattson{/a}.
-• Character Blinking by {a=https://twitter.com/XT9Kzle}Wattson{/a}.""")
-                text __(""" """)
+• Auto Highlight by {a=https://wattson.itch.io/renpy-auto-highlight}Wattson{/a}.""")
+                text __("""{u}Fonts:{/u} 
+• Belwe Bold
+• SamsungSans-Medium           
+""")
                 text __("""{u}Sound effects:{/u} 
+• Multiple sources from {a=https://freesound.org/}freesound.org{/a}.
 """)
                 text __("""{u}Musics:{/u} 
+• Royalty free musics from {a=https://www.youtube.com/watch?v=x55DAQghz1I&list=PL9Awn3xplT3vopxmd0E2S_rQaUNk-R79A&index=1}We Have A Tripod{/a}.         
 """)
 
             ## gui.about is usually set in options.rpy.
@@ -1143,7 +1178,8 @@ style help_label_text:
     xalign 1.0
     textalign 1.0
 
-
+style gui_label_text:
+    font "Belwe Bold.otf"
 
 ################################################################################
 ## Additional screens
@@ -1450,8 +1486,7 @@ screen bubble(who, what):
                 text who:
                     id "who"
 
-        text what:
-            id "what"
+        text what id "what"
 
 style bubble_window is empty
 style bubble_namebox is empty
