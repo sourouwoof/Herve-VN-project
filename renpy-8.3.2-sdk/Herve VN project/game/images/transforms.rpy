@@ -78,22 +78,22 @@ transform y_shake(amt=5, repeats=None):
 label car_bumps:
     camera:
         xalign 0.5 yalign 0.5
-        ease 1.5 zoom 1.01
+        ease 1.5 zoom 1.025
         choice:
             pause 0.5
         choice:
-            y_shake(5, 2)
+            y_shake(8, 2)
         repeat
     return
 
 label train_bumps:
     camera:
-        zoom 1.01
         xalign 0.5 yalign 0.5
+        ease 1.5 zoom 1.025
         choice:
             pause 0.5
         choice:
-            x_shake(5, 2)
+            x_shake(8, 2)
         repeat
     return
 # camera # bumps end

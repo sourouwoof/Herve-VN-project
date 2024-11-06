@@ -1,18 +1,18 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
 While running game code:
-  File "game/script.rpy", line 30, in script call
+  File "game/script.rpy", line 99, in script call
     call end
-  File "game/script.rpy", line 33, in script
+  File "game/script.rpy", line 102, in script
     system "To be continued...{w=2}{nw}"
 Exception: Sayer 'system' is not defined.
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-  File "game/script.rpy", line 30, in script call
+  File "game/script.rpy", line 99, in script call
     call end
-  File "game/script.rpy", line 33, in script
+  File "game/script.rpy", line 102, in script
     system "To be continued...{w=2}{nw}"
   File "/run/media/deck/SD512/Documents/Git/Herve-VN-project/renpy-8.3.2-sdk/renpy/ast.py", line 2573, in execute
     Say.execute(self)
@@ -22,7 +22,7 @@ Full traceback:
     raise Exception("Sayer '%s' is not defined." % who)
 Exception: Sayer 'system' is not defined.
 
-Linux-6.1.52-valve16-1-neptune-61-x86_64-with-glibc2.37 x86_64
+Linux-6.1.52-valve16-1-neptune-61-x86_64-with-glibc2.40 x86_64
 Ren'Py 8.3.2.24090902
-Herve VN project 1.0
-Mon Nov  4 10:28:05 2024
+Hervé VN project 1.0
+Tue Nov  5 19:43:07 2024

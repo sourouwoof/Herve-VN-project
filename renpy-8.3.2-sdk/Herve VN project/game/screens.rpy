@@ -403,7 +403,7 @@ style main_menu_frame:
 
 style main_menu_vbox:
     xalign 1.0 # 1.0
-    xoffset -750 # -30
+    xoffset -785 # -30
     xmaximum 1200 # 1200
     yalign 1.0 # 1.0
     yoffset -585 # -30
@@ -605,7 +605,7 @@ screen about():
 • Multiple sources from {a=https://freesound.org/}freesound.org{/a}.
 """)
                 text __("""{u}Musics:{/u} 
-• Royalty free musics from {a=https://www.youtube.com/watch?v=x55DAQghz1I&list=PL9Awn3xplT3vopxmd0E2S_rQaUNk-R79A&index=1}We Have A Tripod{/a}.         
+• Royalty free musics from {a=https://www.youtube.com/@WHATPictures/playlists}We Have A Tripod{/a}.         
 """)
 
             ## gui.about is usually set in options.rpy.

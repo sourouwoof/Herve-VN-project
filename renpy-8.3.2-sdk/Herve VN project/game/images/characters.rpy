@@ -72,13 +72,16 @@ label characters:
     #window_style=dissolve,
     #what_style=dissolve
     )
-    define inner = Character(None, what_prefix='(', what_suffix=')', who_italic=True, kind=base)
+    define inner = Character(None, who_suffix="  {image=emojis/thought-balloon.png}", what_prefix='(', what_suffix=')', who_italic=True, kind=base)
     define outter = Character(None, what_prefix='“', what_suffix='”', kind=base)
-    define texting = Character(None, what_prefix='{image=emojis/speech-balloon.png} “', what_suffix='”', kind=base)
-    define calling = Character(None, what_prefix='{image=emojis/telephone-receiver.png} “', what_suffix='”', kind=base)
+    define texting = Character(None, who_suffix="  {image=emojis/mobile-phone.png}{image=emojis/speech-balloon.png}", what_prefix='“', what_suffix='”', kind=base)
+    define calling = Character(None, who_suffix="  {image=emojis/telephone-receiver.png}", what_prefix='“', what_suffix='”', kind=base)
 
     # main characters
-    define heo = Character("Hervé", color="#80746e", image="he", kind=outter, callback = name_callback, cb_name = "he") # character
-    define mco = Character("MC", color="#97e99b", image="mc", kind=outter, callback = name_callback, cb_name = "mc")
-    define mci = Character("MC", color="#97e99b", image="mc", kind=inner, callback = name_callback, cb_name = "mc")
-    define momt = Character("Mom", color="#cdb0f3", image="mc", kind=texting, callback = name_callback, cb_name = "mc")
+    define player_name = "Me"
+    define her = Character("Hervé", color="#80746e", image="he", kind=outter, callback = name_callback, cb_name = "he") # character
+    define mco = Character("[player_name]", color="#97e99b", image="mc", kind=outter, callback = name_callback, cb_name = "mc")
+    define mci = Character("[player_name]", color="#97e99b", kind=inner)
+    define mct = Character("[player_name]", color="#97e99b", kind=texting)
+    define hert = Character("Hervé", color="#80746e", kind=texting)
+    define momt = Character("Mom", color="#cdb0f3", kind=texting)
