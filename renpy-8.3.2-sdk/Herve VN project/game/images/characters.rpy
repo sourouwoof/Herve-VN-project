@@ -1,57 +1,9 @@
-# ===================================== init images
-
-layeredimage he:
-    at sprite_highlight('he')
-
-    group base auto:
-        attribute shirt default
-
-    group eyebrows auto
-
-    group eyes
-    group glasses auto
-
-    group mouth auto
-
-    group blush auto
-
-    group tongue auto
-
-    zoom 0.55
-    xalign 0.5
-    yalign 0.30
-
-image side heSide = LayeredImageProxy("he", Transform(crop=(250, 350, 700, 510), zoom=0.75))
-
-layeredimage mc:
-    at sprite_highlight('mc')
-
-    group base auto:
-        attribute shirt default
-
-    group eyebrows auto
-
-    group eyes
-    group glasses auto
-
-    group mouth auto
-
-    group blush auto
-
-    group tongue auto
-
-    zoom 0.55
-    xalign 0.5
-    yalign 0.30
-
-image side mcSide = LayeredImageProxy("mc", Transform(crop=(250, 350, 700, 510), zoom=0.75))
-
 # ===================================== init characters
-
+"""
 init python:
     config.tag_layer["he"] = 'char'
     config.tag_layer["mc"] = 'char'
-
+"""
 transform ctc_transform:
         alpha 0
         pause 1
@@ -78,10 +30,11 @@ label characters:
     define calling = Character(None, who_suffix="  {image=emojis/telephone-receiver.png}", what_prefix='“', what_suffix='”', kind=base)
 
     # main characters
-    define player_name = "Me"
+    define mc_name = "Me"
     define her = Character("Hervé", color="#80746e", image="he", kind=outter, callback = name_callback, cb_name = "he") # character
-    define mco = Character("[player_name]", color="#97e99b", image="mc", kind=outter, callback = name_callback, cb_name = "mc")
-    define mci = Character("[player_name]", color="#97e99b", kind=inner)
-    define mct = Character("[player_name]", color="#97e99b", kind=texting)
+    define mco = Character("[mc_name]", color="#97e99b", image="mcSide", kind=outter, callback = name_callback, cb_name = "mc")
+    define mci = Character("[mc_name]", color="#97e99b", kind=inner)
+    define mct = Character("[mc_name]", color="#97e99b", kind=texting)
     define hert = Character("Hervé", color="#80746e", kind=texting)
     define momt = Character("Mom", color="#cdb0f3", kind=texting)
+    define womc = Character("Women voice", color="#fafafa", kind=texting)

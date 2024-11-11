@@ -8,7 +8,10 @@ define audio.clangclang = 'audio/sfx/460181__johanwestling__mechanic_old_cog_cha
 define audio.car_break = 'audio/sfx/542448__200154michaela__car-pulling-up-and-break-squeak.wav'
 define audio.car_door = 'audio/sfx/556689__nachtmahrtv__car-door-open-and-close.ogg'
 define audio.car_arriving = 'audio/sfx/136536__jmdh__cararriveandstop.wav'
+define audio.knockknock = "audio/sfx/629987__flem0527__knocking-on-wood-door-1.wav"
+define audio.fireplace = "audio/sfx/81800__silencyo__silencyo_cc_fire-in-fireplace_close-up_reverberant.ogg"
 
-$ renpy.music.register_channel("sfx1", "sfx", loop=True)
+init:
+    $ renpy.music.register_channel("sfx1", "music", loop=True)
 
 # ffmpeg -i my_sound_file.wav my_sound_file.ogg

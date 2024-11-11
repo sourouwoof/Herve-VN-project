@@ -95,6 +95,8 @@ style frame:
 ##
 ## https://www.renpy.org/doc/html/screen_special.html#say
 
+define config.layers = ['master', 'char', 'item', 'transient', 'screens', 'overlay']
+
 transform say_window_transform:
     on show:
         function say_window_transform_function
@@ -417,7 +419,8 @@ style main_menu_title:
     properties gui.text_properties("title")
 
 style main_menu_version:
-    xoffset 25
+    xoffset 50
+    yoffset -25
     properties gui.text_properties("version")
 
 style main_menu_text_buttons:

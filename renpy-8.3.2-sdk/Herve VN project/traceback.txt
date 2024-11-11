@@ -1,28 +1,83 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
-While running game code:
-  File "game/script.rpy", line 99, in script call
-    call end
-  File "game/script.rpy", line 102, in script
-    system "To be continued...{w=2}{nw}"
-Exception: Sayer 'system' is not defined.
+While processing text tag {size} in '“I should, I should, {size=21}I quite like my own company too{size}.”'.:
+  File "game/script.rpy", line 7, in script call
+    call story1
+  File "game/story/script1.rpy", line 198, in script
+    her "I should, I should, {size=21}I quite like my own company too{size}."
+Exception: empty value supplied for tag 'size'
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-  File "game/script.rpy", line 99, in script call
-    call end
-  File "game/script.rpy", line 102, in script
-    system "To be continued...{w=2}{nw}"
+  File "game/script.rpy", line 7, in script call
+    call story1
+  File "game/story/script1.rpy", line 198, in script
+    her "I should, I should, {size=21}I quite like my own company too{size}."
   File "/run/media/deck/SD512/Documents/Git/Herve-VN-project/renpy-8.3.2-sdk/renpy/ast.py", line 2573, in execute
     Say.execute(self)
-  File "/run/media/deck/SD512/Documents/Git/Herve-VN-project/renpy-8.3.2-sdk/renpy/ast.py", line 575, in execute
-    who = eval_who(self.who, self.who_fast)
-  File "/run/media/deck/SD512/Documents/Git/Herve-VN-project/renpy-8.3.2-sdk/renpy/ast.py", line 464, in eval_who
-    raise Exception("Sayer '%s' is not defined." % who)
-Exception: Sayer 'system' is not defined.
+  File "/run/media/deck/SD512/Documents/Git/Herve-VN-project/renpy-8.3.2-sdk/renpy/ast.py", line 615, in execute
+    renpy.exports.say(who, what, *args, **kwargs)
+  File "/run/media/deck/SD512/Documents/Git/Herve-VN-project/renpy-8.3.2-sdk/renpy/exports/sayexports.py", line 132, in say
+    who(what, *args, **kwargs)
+  File "/run/media/deck/SD512/Documents/Git/Herve-VN-project/renpy-8.3.2-sdk/renpy/character.py", line 1455, in __call__
+    self.do_display(who, what, cb_args=self.cb_args, dtt=dtt, **display_args)
+  File "/run/media/deck/SD512/Documents/Git/Herve-VN-project/renpy-8.3.2-sdk/renpy/character.py", line 1106, in do_display
+    display_say(who,
+  File "/run/media/deck/SD512/Documents/Git/Herve-VN-project/renpy-8.3.2-sdk/renpy/character.py", line 803, in display_say
+    rv = renpy.ui.interact(mouse='say', type=type, roll_forward=roll_forward)
+  File "/run/media/deck/SD512/Documents/Git/Herve-VN-project/renpy-8.3.2-sdk/renpy/ui.py", line 301, in interact
+    rv = renpy.game.interface.interact(roll_forward=roll_forward, **kwargs)
+  File "/run/media/deck/SD512/Documents/Git/Herve-VN-project/renpy-8.3.2-sdk/renpy/display/core.py", line 2215, in interact
+    repeat, rv = self.interact_core(preloads=preloads, trans_pause=trans_pause, pause=pause, pause_start=pause_start, pause_modal=pause_modal, **kwargs) # type: ignore
+  File "/run/media/deck/SD512/Documents/Git/Herve-VN-project/renpy-8.3.2-sdk/renpy/display/core.py", line 2879, in interact_core
+    self.draw_screen(root_widget, fullscreen_video, (not fullscreen_video) or video_frame_drawn)
+  File "/run/media/deck/SD512/Documents/Git/Herve-VN-project/renpy-8.3.2-sdk/renpy/display/core.py", line 1381, in draw_screen
+    surftree = renpy.display.render.render_screen(
+  File "render.pyx", line 486, in renpy.display.render.render_screen
+  File "render.pyx", line 260, in renpy.display.render.render
+  File "/run/media/deck/SD512/Documents/Git/Herve-VN-project/renpy-8.3.2-sdk/renpy/display/layout.py", line 903, in render
+    surf = render(child, width, height, cst, cat)
+  File "render.pyx", line 170, in renpy.display.render.render
+  File "render.pyx", line 260, in renpy.display.render.render
+  File "/run/media/deck/SD512/Documents/Git/Herve-VN-project/renpy-8.3.2-sdk/renpy/display/layout.py", line 903, in render
+    surf = render(child, width, height, cst, cat)
+  File "render.pyx", line 170, in renpy.display.render.render
+  File "render.pyx", line 260, in renpy.display.render.render
+  File "/run/media/deck/SD512/Documents/Git/Herve-VN-project/renpy-8.3.2-sdk/renpy/display/layout.py", line 903, in render
+    surf = render(child, width, height, cst, cat)
+  File "render.pyx", line 170, in renpy.display.render.render
+  File "render.pyx", line 260, in renpy.display.render.render
+  File "/run/media/deck/SD512/Documents/Git/Herve-VN-project/renpy-8.3.2-sdk/renpy/display/screen.py", line 754, in render
+    child = renpy.display.render.render(self.child, w, h, st, at)
+  File "render.pyx", line 170, in renpy.display.render.render
+  File "render.pyx", line 260, in renpy.display.render.render
+  File "/run/media/deck/SD512/Documents/Git/Herve-VN-project/renpy-8.3.2-sdk/renpy/display/layout.py", line 903, in render
+    surf = render(child, width, height, cst, cat)
+  File "render.pyx", line 170, in renpy.display.render.render
+  File "render.pyx", line 260, in renpy.display.render.render
+  File "/run/media/deck/SD512/Documents/Git/Herve-VN-project/renpy-8.3.2-sdk/renpy/display/transform.py", line 1056, in render
+    return RenderTransform(self).render(width, height, st, at)
+  File "accelerator.pyx", line 994, in renpy.display.accelerator.RenderTransform.render
+  File "accelerator.pyx", line 427, in renpy.display.accelerator.RenderTransform.render_child
+  File "render.pyx", line 260, in renpy.display.render.render
+  File "/run/media/deck/SD512/Documents/Git/Herve-VN-project/renpy-8.3.2-sdk/renpy/display/layout.py", line 1454, in render
+    surf = render(child,
+  File "render.pyx", line 170, in renpy.display.render.render
+  File "render.pyx", line 260, in renpy.display.render.render
+  File "/run/media/deck/SD512/Documents/Git/Herve-VN-project/renpy-8.3.2-sdk/renpy/display/layout.py", line 903, in render
+    surf = render(child, width, height, cst, cat)
+  File "render.pyx", line 170, in renpy.display.render.render
+  File "render.pyx", line 260, in renpy.display.render.render
+  File "/run/media/deck/SD512/Documents/Git/Herve-VN-project/renpy-8.3.2-sdk/renpy/text/text.py", line 2540, in render
+    virtual_layout = Layout(self, width, height, renders, drawable_res=False, size_only=True)
+  File "/run/media/deck/SD512/Documents/Git/Herve-VN-project/renpy-8.3.2-sdk/renpy/text/text.py", line 733, in __init__
+    self.paragraphs = self.segment(text.tokens, style, renders, text)
+  File "/run/media/deck/SD512/Documents/Git/Herve-VN-project/renpy-8.3.2-sdk/renpy/text/text.py", line 1404, in segment
+    raise Exception("empty value supplied for tag %r" % tag)
+Exception: empty value supplied for tag 'size'
 
 Linux-6.1.52-valve16-1-neptune-61-x86_64-with-glibc2.40 x86_64
 Ren'Py 8.3.2.24090902
-Hervé VN project 1.0
-Tue Nov  5 19:43:07 2024
+Hervé 1.0
+Mon Nov 11 14:39:44 2024

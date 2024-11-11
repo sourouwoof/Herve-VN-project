@@ -2,9 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/script.rpy", line 96: end of line expected.
-    call close eyes
-               ^
+File "game/story/script1.rpy", line 231: expected 'simple_expression' not found.
+    show house at with Fade(1,0,1)
+                  ^
 
 Ren'Py Version: Ren'Py 8.3.2.24090902
-Tue Nov  5 13:28:59 2024
+Mon Nov 11 16:58:40 2024
