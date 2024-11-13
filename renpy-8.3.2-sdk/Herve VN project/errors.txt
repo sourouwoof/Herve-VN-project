@@ -2,9 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/story/script1.rpy", line 231: expected 'simple_expression' not found.
-    show house at with Fade(1,0,1)
-                  ^
+File "game/story/script1.rpy", line 274: expected statement.
+    her
+       ^
 
 Ren'Py Version: Ren'Py 8.3.2.24090902
-Mon Nov 11 16:58:40 2024
+Wed Nov 13 19:56:15 2024

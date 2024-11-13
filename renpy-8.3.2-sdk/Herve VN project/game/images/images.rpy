@@ -4,6 +4,7 @@ image house1 = im.Scale("images/bgs/house1.jpg", 1920, 1080)
 image houseGuestHouse = im.Scale("images/bgs/houseGuestHouse.jpg", 1920, 1080)
 image houseKitchen = im.Scale("images/bgs/houseKitchen.jpg", 1920, 1080)
 image houseLounge = im.Scale("images/bgs/houseLounge.jpg", 1920, 1080)
+image houseBedroom = im.Scale("images/bgs/houseBedroom.jpg", 1920, 1080)
 
 define gui.main_menu_background = im.Scale("images/bgs/road1.jpg", 1920, 1080) # "gui/main_menu.png"
 

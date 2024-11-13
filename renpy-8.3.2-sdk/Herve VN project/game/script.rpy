@@ -24,7 +24,7 @@ Ils continuent à jouer aux jv mais plus proches qu'avant
 (Pour la novembear je pense arriver jusque là 🙏 petit cliff hanger peut-être)
 Pour la suite:
 jour 4: 
-MC a de + en + de sentiments pour RV. Mais le joueur a un choix  entre répondre au job et simplement rester amis avec RV. Ou bien ne pas répondre et avancer plus vers ses sentiments pour RV
+MC a de + en + de sentiments pour RV. Mais le joueur a un choix entre répondre au job et simplement rester amis avec RV. Ou bien ne pas répondre et avancer plus vers ses sentiments pour RV
 Comme buts il y a:
 La vie de RV (comment était sa famille, pourquoi il est ici, son ancien petit-ami, sa sexualité)
 Le problème de la candidature de MC à avouer à RV
