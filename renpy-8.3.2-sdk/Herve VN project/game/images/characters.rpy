@@ -36,5 +36,6 @@ label characters:
     define mci = Character("[player_name]", color="#97e99b", kind=inner)
     define mct = Character("[player_name]", color="#97e99b", kind=texting)
     define hert = Character("Hervé", color="#80746e", kind=texting)
+    define hero = Character("Hervé", color="#80746e", image="heSide", kind=outter, callback = name_callback, cb_name = "he") # character
     define momt = Character("Mom", color="#cdb0f3", kind=texting)
     define womc = Character("Women voice", color="#fafafa", kind=texting)

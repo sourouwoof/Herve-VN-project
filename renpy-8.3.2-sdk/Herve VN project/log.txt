@@ -1,22 +1,22 @@
-2024-11-13 06:36:23 UTC
+2024-11-14 18:21:12 UTC
 Linux-6.1.52-valve16-1-neptune-61-x86_64-with-glibc2.40
 Ren'Py 8.3.2.24090902
 
-Early init took 0.08s
+Early init took 0.09s
 Loading error handling took 0.06s
-Loading script took 0.47s
-Loading save slot metadata took 0.05s
+Loading script took 0.53s
+Loading save slot metadata took 0.09s
 Loading persistent took 0.00s
-Running init code took 0.08s
+Running init code took 0.10s
 Loading analysis data took 0.03s
 Analyze and compile ATL took 0.01s
 Reloading save slot metadata took 0.03s
 Index archives took 0.00s
 Backing up script files to '/home/deck/.renpy/backups/Herve VN project':
-Dump and make backups took 0.07s
+Dump and make backups took 0.09s
 Cleaning cache took 0.00s
 Making clean stores took 0.00s
-Initial gc took 0.06s
+Initial gc took 0.08s
 DPI scale factor: 1.000000
 Creating interface object took 0.00s
 Cleaning stores took 0.00s
@@ -25,11 +25,11 @@ Build styles took 0.00s
 Load screen analysis took 0.00s
 Analyze screens took 0.02s
 Save screen analysis took 0.03s
-Prepare screens took 0.10s
+Prepare screens took 0.11s
 Save pyanalysis. took 0.00s
-Save bytecode. took 0.04s
+Save bytecode. took 0.03s
 Running _start took 0.00s
-Interface start took 0.15s
+Interface start took 0.17s
 
 Initializing gl2 renderer:
 primary display bounds: (0, 0, 2560, 1440)
@@ -43,12 +43,1813 @@ Screen sizes: virtual=(1920, 1080) physical=(1243, 699) drawable=(1243, 699)
 Maximum texture size: 4096x4096
 controller: '03000000de280000ff11000001000000' 'Steam Virtual Gamepad' 1
 Resetting cache.
-Early init took 1161.15s
+Early init took 109.30s
 Loading error handling took 0.07s
-Loading script took 0.34s
+Loading script took 0.32s
 Loading save slot metadata took 0.05s
 Loading persistent took 0.00s
+Running init code took 0.06s
+Loading analysis data took 0.03s
+Analyze and compile ATL took 0.01s
+Reloading save slot metadata took 0.03s
+Index archives took 0.00s
+Backing up script files to '/home/deck/.renpy/backups/Herve VN project':
+Dump and make backups took 0.09s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.10s
+DPI scale factor: 1.000000
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.06s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.02s
+Save screen analysis took 0.03s
+Prepare screens took 0.10s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Interface start took 0.07s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 2560, 1440)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'AMD'"
+Renderer: b'AMD Custom GPU 0932 (radeonsi, vangogh, LLVM 18.1.8, DRM 3.54, 6.1.52-valve16-1-neptune-61)'
+Version: b'4.6 (Compatibility Profile) Mesa 24.2.4 (git-e2ab51c49f)'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1243, 699) drawable=(1243, 699)
+Maximum texture size: 4096x4096
+controller: '03000000de280000ff11000001000000' 'Steam Virtual Gamepad' 1
+Resetting cache.
+Early init took 156.42s
+Loading error handling took 0.03s
+Loading script took 0.29s
+Loading save slot metadata took 0.04s
+Loading persistent took 0.00s
+Running init code took 0.06s
+Loading analysis data took 0.03s
+Analyze and compile ATL took 0.01s
+Reloading save slot metadata took 0.03s
+Index archives took 0.00s
+Backing up script files to '/home/deck/.renpy/backups/Herve VN project':
+Dump and make backups took 0.07s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.09s
+DPI scale factor: 1.000000
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.06s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.02s
+Save screen analysis took 0.02s
+Prepare screens took 0.09s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Interface start took 0.08s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 2560, 1440)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'AMD'"
+Renderer: b'AMD Custom GPU 0932 (radeonsi, vangogh, LLVM 18.1.8, DRM 3.54, 6.1.52-valve16-1-neptune-61)'
+Version: b'4.6 (Compatibility Profile) Mesa 24.2.4 (git-e2ab51c49f)'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1243, 699) drawable=(1243, 699)
+Maximum texture size: 4096x4096
+controller: '03000000de280000ff11000001000000' 'Steam Virtual Gamepad' 1
+Resetting cache.
+Early init took 167.33s
+Loading error handling took 0.04s
+Loading script took 0.28s
+Loading save slot metadata took 0.03s
+Loading persistent took 0.00s
+Running init code took 0.05s
+Loading analysis data took 0.03s
+Analyze and compile ATL took 0.01s
+Reloading save slot metadata took 0.03s
+Index archives took 0.00s
+Backing up script files to '/home/deck/.renpy/backups/Herve VN project':
+Dump and make backups took 0.08s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.09s
+DPI scale factor: 1.000000
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.08s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.02s
+Save screen analysis took 0.04s
+Prepare screens took 0.11s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Interface start took 0.09s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 2560, 1440)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'AMD'"
+Renderer: b'AMD Custom GPU 0932 (radeonsi, vangogh, LLVM 18.1.8, DRM 3.54, 6.1.52-valve16-1-neptune-61)'
+Version: b'4.6 (Compatibility Profile) Mesa 24.2.4 (git-e2ab51c49f)'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1243, 699) drawable=(1243, 699)
+Maximum texture size: 4096x4096
+controller: '03000000de280000ff11000001000000' 'Steam Virtual Gamepad' 1
+Resetting cache.
+Early init took 280.45s
+Loading error handling took 0.04s
+Loading script took 0.29s
+Loading save slot metadata took 0.03s
+Loading persistent took 0.00s
 Running init code took 0.07s
+Loading analysis data took 0.03s
+Analyze and compile ATL took 0.01s
+Reloading save slot metadata took 0.03s
+Index archives took 0.00s
+Backing up script files to '/home/deck/.renpy/backups/Herve VN project':
+Dump and make backups took 0.07s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.09s
+DPI scale factor: 1.000000
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.06s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.02s
+Save screen analysis took 0.03s
+Prepare screens took 0.09s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Interface start took 0.07s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 2560, 1440)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'AMD'"
+Renderer: b'AMD Custom GPU 0932 (radeonsi, vangogh, LLVM 18.1.8, DRM 3.54, 6.1.52-valve16-1-neptune-61)'
+Version: b'4.6 (Compatibility Profile) Mesa 24.2.4 (git-e2ab51c49f)'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1243, 699) drawable=(1243, 699)
+Maximum texture size: 4096x4096
+controller: '03000000de280000ff11000001000000' 'Steam Virtual Gamepad' 1
+Resetting cache.
+Early init took 299.06s
+Loading error handling took 0.04s
+Loading script took 0.32s
+Loading save slot metadata took 0.04s
+Loading persistent took 0.00s
+Running init code took 0.05s
+Loading analysis data took 0.03s
+Analyze and compile ATL took 0.01s
+Reloading save slot metadata took 0.02s
+Index archives took 0.00s
+Backing up script files to '/home/deck/.renpy/backups/Herve VN project':
+Dump and make backups took 0.07s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.10s
+DPI scale factor: 1.000000
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.07s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.02s
+Save screen analysis took 0.02s
+Prepare screens took 0.09s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Interface start took 0.09s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 2560, 1440)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'AMD'"
+Renderer: b'AMD Custom GPU 0932 (radeonsi, vangogh, LLVM 18.1.8, DRM 3.54, 6.1.52-valve16-1-neptune-61)'
+Version: b'4.6 (Compatibility Profile) Mesa 24.2.4 (git-e2ab51c49f)'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1243, 699) drawable=(1243, 699)
+Maximum texture size: 4096x4096
+controller: '03000000de280000ff11000001000000' 'Steam Virtual Gamepad' 1
+Resetting cache.
+Early init took 328.62s
+Loading error handling took 0.05s
+Loading script took 0.25s
+Loading save slot metadata took 0.03s
+Loading persistent took 0.00s
+Running init code took 0.04s
+Loading analysis data took 0.03s
+Analyze and compile ATL took 0.01s
+Reloading save slot metadata took 0.02s
+Index archives took 0.00s
+Backing up script files to '/home/deck/.renpy/backups/Herve VN project':
+Dump and make backups took 0.06s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.09s
+DPI scale factor: 1.000000
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.06s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.02s
+Save screen analysis took 0.03s
+Prepare screens took 0.08s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Interface start took 0.07s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 2560, 1440)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'AMD'"
+Renderer: b'AMD Custom GPU 0932 (radeonsi, vangogh, LLVM 18.1.8, DRM 3.54, 6.1.52-valve16-1-neptune-61)'
+Version: b'4.6 (Compatibility Profile) Mesa 24.2.4 (git-e2ab51c49f)'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1243, 699) drawable=(1243, 699)
+Maximum texture size: 4096x4096
+controller: '03000000de280000ff11000001000000' 'Steam Virtual Gamepad' 1
+Resetting cache.
+Early init took 383.26s
+Loading error handling took 0.04s
+Loading script took 0.28s
+Loading save slot metadata took 0.04s
+Loading persistent took 0.00s
+Running init code took 0.05s
+Loading analysis data took 0.03s
+Analyze and compile ATL took 0.01s
+Reloading save slot metadata took 0.03s
+Index archives took 0.00s
+Backing up script files to '/home/deck/.renpy/backups/Herve VN project':
+Dump and make backups took 0.08s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.09s
+DPI scale factor: 1.000000
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.09s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.02s
+Save screen analysis took 0.03s
+Prepare screens took 0.10s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Interface start took 0.12s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 2560, 1440)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'AMD'"
+Renderer: b'AMD Custom GPU 0932 (radeonsi, vangogh, LLVM 18.1.8, DRM 3.54, 6.1.52-valve16-1-neptune-61)'
+Version: b'4.6 (Compatibility Profile) Mesa 24.2.4 (git-e2ab51c49f)'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1243, 699) drawable=(1243, 699)
+Maximum texture size: 4096x4096
+controller: '03000000de280000ff11000001000000' 'Steam Virtual Gamepad' 1
+Resetting cache.
+Early init took 407.78s
+Loading error handling took 0.05s
+Loading script took 0.33s
+Loading save slot metadata took 0.04s
+Loading persistent took 0.00s
+Running init code took 0.05s
+Loading analysis data took 0.03s
+Analyze and compile ATL took 0.01s
+Reloading save slot metadata took 0.03s
+Index archives took 0.00s
+Backing up script files to '/home/deck/.renpy/backups/Herve VN project':
+Dump and make backups took 0.07s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.11s
+DPI scale factor: 1.000000
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.07s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.02s
+Save screen analysis took 0.02s
+Prepare screens took 0.09s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Interface start took 0.09s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 2560, 1440)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'AMD'"
+Renderer: b'AMD Custom GPU 0932 (radeonsi, vangogh, LLVM 18.1.8, DRM 3.54, 6.1.52-valve16-1-neptune-61)'
+Version: b'4.6 (Compatibility Profile) Mesa 24.2.4 (git-e2ab51c49f)'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1243, 699) drawable=(1243, 699)
+Maximum texture size: 4096x4096
+controller: '03000000de280000ff11000001000000' 'Steam Virtual Gamepad' 1
+Resetting cache.
+Early init took 555.43s
+Loading error handling took 0.04s
+Loading script took 0.29s
+Loading save slot metadata took 0.03s
+Loading persistent took 0.00s
+Running init code took 0.05s
+Loading analysis data took 0.03s
+Analyze and compile ATL took 0.01s
+Reloading save slot metadata took 0.03s
+Index archives took 0.00s
+Backing up script files to '/home/deck/.renpy/backups/Herve VN project':
+Dump and make backups took 0.08s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.10s
+DPI scale factor: 1.000000
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.06s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.02s
+Save screen analysis took 0.02s
+Prepare screens took 0.09s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Interface start took 0.08s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 2560, 1440)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'AMD'"
+Renderer: b'AMD Custom GPU 0932 (radeonsi, vangogh, LLVM 18.1.8, DRM 3.54, 6.1.52-valve16-1-neptune-61)'
+Version: b'4.6 (Compatibility Profile) Mesa 24.2.4 (git-e2ab51c49f)'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1243, 699) drawable=(1243, 699)
+Maximum texture size: 4096x4096
+controller: '03000000de280000ff11000001000000' 'Steam Virtual Gamepad' 1
+Resetting cache.
+Early init took 564.83s
+Loading error handling took 0.04s
+Loading script took 0.29s
+Loading save slot metadata took 0.03s
+Loading persistent took 0.00s
+Running init code took 0.05s
+Loading analysis data took 0.03s
+Analyze and compile ATL took 0.01s
+Reloading save slot metadata took 0.03s
+Index archives took 0.00s
+Backing up script files to '/home/deck/.renpy/backups/Herve VN project':
+Dump and make backups took 0.08s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.10s
+DPI scale factor: 1.000000
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.10s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.02s
+Save screen analysis took 0.02s
+Prepare screens took 0.10s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Interface start took 0.07s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 2560, 1440)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'AMD'"
+Renderer: b'AMD Custom GPU 0932 (radeonsi, vangogh, LLVM 18.1.8, DRM 3.54, 6.1.52-valve16-1-neptune-61)'
+Version: b'4.6 (Compatibility Profile) Mesa 24.2.4 (git-e2ab51c49f)'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1243, 699) drawable=(1243, 699)
+Maximum texture size: 4096x4096
+controller: '03000000de280000ff11000001000000' 'Steam Virtual Gamepad' 1
+Screen sizes: virtual=(1920, 1080) physical=(1243, 701) drawable=(1243, 701)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1920, 1080) physical=(1517, 811) drawable=(1517, 811)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 732.15s
+Loading error handling took 0.05s
+Loading script took 0.35s
+Loading save slot metadata took 0.03s
+Loading persistent took 0.00s
+Running init code took 0.05s
+Loading analysis data took 0.03s
+Analyze and compile ATL took 0.01s
+Reloading save slot metadata took 0.03s
+Index archives took 0.00s
+Backing up script files to '/home/deck/.renpy/backups/Herve VN project':
+Dump and make backups took 0.07s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.11s
+DPI scale factor: 1.000000
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.08s
+Build styles took 0.01s
+Load screen analysis took 0.00s
+Analyze screens took 0.02s
+Save screen analysis took 0.03s
+Prepare screens took 0.10s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Interface start took 0.10s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 2560, 1440)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'AMD'"
+Renderer: b'AMD Custom GPU 0932 (radeonsi, vangogh, LLVM 18.1.8, DRM 3.54, 6.1.52-valve16-1-neptune-61)'
+Version: b'4.6 (Compatibility Profile) Mesa 24.2.4 (git-e2ab51c49f)'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1442, 811) drawable=(1442, 811)
+Maximum texture size: 4096x4096
+controller: '03000000de280000ff11000001000000' 'Steam Virtual Gamepad' 1
+
+Full traceback:
+  File "game/script.rpy", line 7, in script call
+    call story1
+  File "game/story/script1.rpy", line 310, in script
+    hero "So... ? How was it to follow me to work ?"
+  File "/run/media/deck/SD512/Documents/Git/Herve-VN-project/renpy-8.3.2-sdk/renpy/ast.py", line 2573, in execute
+    Say.execute(self)
+  File "/run/media/deck/SD512/Documents/Git/Herve-VN-project/renpy-8.3.2-sdk/renpy/ast.py", line 575, in execute
+    who = eval_who(self.who, self.who_fast)
+  File "/run/media/deck/SD512/Documents/Git/Herve-VN-project/renpy-8.3.2-sdk/renpy/ast.py", line 464, in eval_who
+    raise Exception("Sayer '%s' is not defined." % who)
+Exception: Sayer 'hero' is not defined.
+
+While running game code:
+  File "game/script.rpy", line 7, in script call
+    call story1
+  File "game/story/script1.rpy", line 310, in script
+    hero "So... ? How was it to follow me to work ?"
+Exception: Sayer 'hero' is not defined.
+Resetting cache.
+Early init took 756.65s
+Loading error handling took 0.04s
+Loading script took 0.22s
+Loading save slot metadata took 0.04s
+Loading persistent took 0.00s
+Running init code took 0.06s
+Loading analysis data took 0.03s
+Analyze and compile ATL took 0.01s
+Reloading save slot metadata took 0.03s
+Index archives took 0.00s
+Backing up script files to '/home/deck/.renpy/backups/Herve VN project':
+Dump and make backups took 0.08s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.11s
+DPI scale factor: 1.000000
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.07s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.02s
+Save screen analysis took 0.03s
+Prepare screens took 0.09s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Interface start took 0.08s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 2560, 1440)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'AMD'"
+Renderer: b'AMD Custom GPU 0932 (radeonsi, vangogh, LLVM 18.1.8, DRM 3.54, 6.1.52-valve16-1-neptune-61)'
+Version: b'4.6 (Compatibility Profile) Mesa 24.2.4 (git-e2ab51c49f)'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1442, 811) drawable=(1442, 811)
+Maximum texture size: 4096x4096
+controller: '03000000de280000ff11000001000000' 'Steam Virtual Gamepad' 1
+Resetting cache.
+Early init took 761.60s
+Loading error handling took 0.04s
+Loading script took 0.22s
+Loading save slot metadata took 0.04s
+Loading persistent took 0.00s
+Running init code took 0.08s
+Loading analysis data took 0.04s
+Analyze and compile ATL took 0.01s
+Reloading save slot metadata took 0.03s
+Index archives took 0.00s
+Backing up script files to '/home/deck/.renpy/backups/Herve VN project':
+Dump and make backups took 0.09s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.09s
+DPI scale factor: 1.000000
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.06s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.02s
+Prepare screens took 0.08s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Interface start took 0.07s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 2560, 1440)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'AMD'"
+Renderer: b'AMD Custom GPU 0932 (radeonsi, vangogh, LLVM 18.1.8, DRM 3.54, 6.1.52-valve16-1-neptune-61)'
+Version: b'4.6 (Compatibility Profile) Mesa 24.2.4 (git-e2ab51c49f)'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1442, 811) drawable=(1442, 811)
+Maximum texture size: 4096x4096
+controller: '03000000de280000ff11000001000000' 'Steam Virtual Gamepad' 1
+Resetting cache.
+Early init took 781.60s
+Loading error handling took 0.04s
+Loading script took 0.22s
+Loading save slot metadata took 0.04s
+Loading persistent took 0.00s
+Running init code took 0.06s
+Loading analysis data took 0.04s
+Analyze and compile ATL took 0.02s
+Reloading save slot metadata took 0.03s
+Index archives took 0.00s
+Backing up script files to '/home/deck/.renpy/backups/Herve VN project':
+Dump and make backups took 0.09s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.11s
+DPI scale factor: 1.000000
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.07s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.02s
+Save screen analysis took 0.02s
+Prepare screens took 0.09s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Interface start took 0.09s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 2560, 1440)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'AMD'"
+Renderer: b'AMD Custom GPU 0932 (radeonsi, vangogh, LLVM 18.1.8, DRM 3.54, 6.1.52-valve16-1-neptune-61)'
+Version: b'4.6 (Compatibility Profile) Mesa 24.2.4 (git-e2ab51c49f)'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1442, 811) drawable=(1442, 811)
+Maximum texture size: 4096x4096
+controller: '03000000de280000ff11000001000000' 'Steam Virtual Gamepad' 1
+Resetting cache.
+Early init took 786.53s
+Loading error handling took 0.03s
+Loading script took 0.20s
+Loading save slot metadata took 0.04s
+Loading persistent took 0.00s
+Running init code took 0.05s
+Loading analysis data took 0.03s
+Analyze and compile ATL took 0.01s
+Reloading save slot metadata took 0.03s
+Index archives took 0.00s
+Backing up script files to '/home/deck/.renpy/backups/Herve VN project':
+Dump and make backups took 0.08s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.09s
+DPI scale factor: 1.000000
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.06s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.02s
+Save screen analysis took 0.03s
+Prepare screens took 0.10s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Interface start took 0.08s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 2560, 1440)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'AMD'"
+Renderer: b'AMD Custom GPU 0932 (radeonsi, vangogh, LLVM 18.1.8, DRM 3.54, 6.1.52-valve16-1-neptune-61)'
+Version: b'4.6 (Compatibility Profile) Mesa 24.2.4 (git-e2ab51c49f)'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1442, 811) drawable=(1442, 811)
+Maximum texture size: 4096x4096
+controller: '03000000de280000ff11000001000000' 'Steam Virtual Gamepad' 1
+Resetting cache.
+Early init took 794.48s
+Loading error handling took 0.03s
+Loading script took 0.20s
+Loading save slot metadata took 0.04s
+Loading persistent took 0.00s
+Running init code took 0.05s
+Loading analysis data took 0.03s
+Analyze and compile ATL took 0.01s
+Reloading save slot metadata took 0.03s
+Index archives took 0.00s
+Backing up script files to '/home/deck/.renpy/backups/Herve VN project':
+Dump and make backups took 0.08s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.12s
+DPI scale factor: 1.000000
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.07s
+Build styles took 0.01s
+Load screen analysis took 0.00s
+Analyze screens took 0.02s
+Save screen analysis took 0.03s
+Prepare screens took 0.10s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Interface start took 0.08s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 2560, 1440)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'AMD'"
+Renderer: b'AMD Custom GPU 0932 (radeonsi, vangogh, LLVM 18.1.8, DRM 3.54, 6.1.52-valve16-1-neptune-61)'
+Version: b'4.6 (Compatibility Profile) Mesa 24.2.4 (git-e2ab51c49f)'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1442, 811) drawable=(1442, 811)
+Maximum texture size: 4096x4096
+controller: '03000000de280000ff11000001000000' 'Steam Virtual Gamepad' 1
+Resetting cache.
+Early init took 886.59s
+Loading error handling took 0.03s
+Loading script took 0.31s
+Loading save slot metadata took 0.03s
+Loading persistent took 0.00s
+Running init code took 0.05s
+Loading analysis data took 0.03s
+Analyze and compile ATL took 0.01s
+Reloading save slot metadata took 0.03s
+Index archives took 0.00s
+Backing up script files to '/home/deck/.renpy/backups/Herve VN project':
+Dump and make backups took 0.07s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.09s
+DPI scale factor: 1.000000
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.06s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.02s
+Save screen analysis took 0.02s
+Prepare screens took 0.08s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Interface start took 0.07s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 2560, 1440)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'AMD'"
+Renderer: b'AMD Custom GPU 0932 (radeonsi, vangogh, LLVM 18.1.8, DRM 3.54, 6.1.52-valve16-1-neptune-61)'
+Version: b'4.6 (Compatibility Profile) Mesa 24.2.4 (git-e2ab51c49f)'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1442, 811) drawable=(1442, 811)
+Maximum texture size: 4096x4096
+controller: '03000000de280000ff11000001000000' 'Steam Virtual Gamepad' 1
+Resetting cache.
+Early init took 987.71s
+Loading error handling took 0.04s
+Loading script took 0.31s
+Loading save slot metadata took 0.04s
+Loading persistent took 0.00s
+Running init code took 0.05s
+Loading analysis data took 0.03s
+Analyze and compile ATL took 0.01s
+Reloading save slot metadata took 0.03s
+Index archives took 0.00s
+Backing up script files to '/home/deck/.renpy/backups/Herve VN project':
+Dump and make backups took 0.08s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.12s
+DPI scale factor: 1.000000
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.06s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.02s
+Prepare screens took 0.08s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Interface start took 0.07s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 2560, 1440)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'AMD'"
+Renderer: b'AMD Custom GPU 0932 (radeonsi, vangogh, LLVM 18.1.8, DRM 3.54, 6.1.52-valve16-1-neptune-61)'
+Version: b'4.6 (Compatibility Profile) Mesa 24.2.4 (git-e2ab51c49f)'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1442, 811) drawable=(1442, 811)
+Maximum texture size: 4096x4096
+controller: '03000000de280000ff11000001000000' 'Steam Virtual Gamepad' 1
+Resetting cache.
+Early init took 1063.23s
+Loading error handling took 0.03s
+Loading script took 0.20s
+Loading save slot metadata took 0.04s
+Loading persistent took 0.00s
+Running init code took 0.07s
+Loading analysis data took 0.03s
+Analyze and compile ATL took 0.01s
+Reloading save slot metadata took 0.03s
+Index archives took 0.00s
+Backing up script files to '/home/deck/.renpy/backups/Herve VN project':
+Dump and make backups took 0.08s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.10s
+DPI scale factor: 1.000000
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.07s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.02s
+Save screen analysis took 0.02s
+Prepare screens took 0.09s
+Save pyanalysis. took 0.02s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Interface start took 0.07s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 2560, 1440)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'AMD'"
+Renderer: b'AMD Custom GPU 0932 (radeonsi, vangogh, LLVM 18.1.8, DRM 3.54, 6.1.52-valve16-1-neptune-61)'
+Version: b'4.6 (Compatibility Profile) Mesa 24.2.4 (git-e2ab51c49f)'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1442, 811) drawable=(1442, 811)
+Maximum texture size: 4096x4096
+controller: '03000000de280000ff11000001000000' 'Steam Virtual Gamepad' 1
+Resetting cache.
+Early init took 1069.62s
+Loading error handling took 0.03s
+Loading script took 0.20s
+Loading save slot metadata took 0.04s
+Loading persistent took 0.00s
+Running init code took 0.05s
+Loading analysis data took 0.04s
+Analyze and compile ATL took 0.01s
+Reloading save slot metadata took 0.03s
+Index archives took 0.00s
+Backing up script files to '/home/deck/.renpy/backups/Herve VN project':
+Dump and make backups took 0.10s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.11s
+DPI scale factor: 1.000000
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.10s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.02s
+Save screen analysis took 0.03s
+Prepare screens took 0.10s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Interface start took 0.08s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 2560, 1440)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'AMD'"
+Renderer: b'AMD Custom GPU 0932 (radeonsi, vangogh, LLVM 18.1.8, DRM 3.54, 6.1.52-valve16-1-neptune-61)'
+Version: b'4.6 (Compatibility Profile) Mesa 24.2.4 (git-e2ab51c49f)'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1442, 811) drawable=(1442, 811)
+Maximum texture size: 4096x4096
+controller: '03000000de280000ff11000001000000' 'Steam Virtual Gamepad' 1
+Resetting cache.
+Early init took 1089.60s
+Loading error handling took 0.04s
+Loading script took 0.31s
+Loading save slot metadata took 0.04s
+Loading persistent took 0.00s
+Running init code took 0.05s
+Loading analysis data took 0.03s
+Analyze and compile ATL took 0.01s
+Reloading save slot metadata took 0.03s
+Index archives took 0.00s
+Backing up script files to '/home/deck/.renpy/backups/Herve VN project':
+Dump and make backups took 0.07s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.10s
+DPI scale factor: 1.000000
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.09s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.02s
+Save screen analysis took 0.02s
+Prepare screens took 0.09s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Interface start took 0.08s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 2560, 1440)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'AMD'"
+Renderer: b'AMD Custom GPU 0932 (radeonsi, vangogh, LLVM 18.1.8, DRM 3.54, 6.1.52-valve16-1-neptune-61)'
+Version: b'4.6 (Compatibility Profile) Mesa 24.2.4 (git-e2ab51c49f)'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1442, 811) drawable=(1442, 811)
+Maximum texture size: 4096x4096
+controller: '03000000de280000ff11000001000000' 'Steam Virtual Gamepad' 1
+Resetting cache.
+Early init took 1100.57s
+Loading error handling took 0.04s
+Loading script took 0.27s
+Loading save slot metadata took 0.03s
+Loading persistent took 0.00s
+Running init code took 0.06s
+Loading analysis data took 0.03s
+Analyze and compile ATL took 0.01s
+Reloading save slot metadata took 0.02s
+Index archives took 0.00s
+Backing up script files to '/home/deck/.renpy/backups/Herve VN project':
+Dump and make backups took 0.07s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.09s
+DPI scale factor: 1.000000
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.06s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.02s
+Prepare screens took 0.09s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Interface start took 0.07s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 2560, 1440)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'AMD'"
+Renderer: b'AMD Custom GPU 0932 (radeonsi, vangogh, LLVM 18.1.8, DRM 3.54, 6.1.52-valve16-1-neptune-61)'
+Version: b'4.6 (Compatibility Profile) Mesa 24.2.4 (git-e2ab51c49f)'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1442, 811) drawable=(1442, 811)
+Maximum texture size: 4096x4096
+controller: '03000000de280000ff11000001000000' 'Steam Virtual Gamepad' 1
+Resetting cache.
+Early init took 1114.51s
+Loading error handling took 0.03s
+Loading script took 0.29s
+Loading save slot metadata took 0.04s
+Loading persistent took 0.00s
+Running init code took 0.06s
+Loading analysis data took 0.04s
+Analyze and compile ATL took 0.01s
+Reloading save slot metadata took 0.03s
+Index archives took 0.00s
+Backing up script files to '/home/deck/.renpy/backups/Herve VN project':
+Dump and make backups took 0.08s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.14s
+DPI scale factor: 1.000000
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.08s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.02s
+Save screen analysis took 0.02s
+Prepare screens took 0.09s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Interface start took 0.09s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 2560, 1440)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'AMD'"
+Renderer: b'AMD Custom GPU 0932 (radeonsi, vangogh, LLVM 18.1.8, DRM 3.54, 6.1.52-valve16-1-neptune-61)'
+Version: b'4.6 (Compatibility Profile) Mesa 24.2.4 (git-e2ab51c49f)'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1442, 811) drawable=(1442, 811)
+Maximum texture size: 4096x4096
+controller: '03000000de280000ff11000001000000' 'Steam Virtual Gamepad' 1
+Resetting cache.
+Early init took 1129.93s
+Loading error handling took 0.03s
+Loading script took 0.27s
+Loading save slot metadata took 0.04s
+Loading persistent took 0.00s
+Running init code took 0.06s
+Loading analysis data took 0.04s
+Analyze and compile ATL took 0.01s
+Reloading save slot metadata took 0.03s
+Index archives took 0.00s
+Backing up script files to '/home/deck/.renpy/backups/Herve VN project':
+Dump and make backups took 0.08s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.09s
+DPI scale factor: 1.000000
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.06s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.02s
+Save screen analysis took 0.02s
+Prepare screens took 0.09s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Interface start took 0.07s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 2560, 1440)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'AMD'"
+Renderer: b'AMD Custom GPU 0932 (radeonsi, vangogh, LLVM 18.1.8, DRM 3.54, 6.1.52-valve16-1-neptune-61)'
+Version: b'4.6 (Compatibility Profile) Mesa 24.2.4 (git-e2ab51c49f)'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1442, 811) drawable=(1442, 811)
+Maximum texture size: 4096x4096
+controller: '03000000de280000ff11000001000000' 'Steam Virtual Gamepad' 1
+Resetting cache.
+Early init took 1143.86s
+Loading error handling took 0.03s
+Loading script took 0.26s
+Loading save slot metadata took 0.03s
+Loading persistent took 0.00s
+Running init code took 0.05s
+Loading analysis data took 0.03s
+Analyze and compile ATL took 0.01s
+Reloading save slot metadata took 0.02s
+Index archives took 0.00s
+Backing up script files to '/home/deck/.renpy/backups/Herve VN project':
+Dump and make backups took 0.07s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.09s
+DPI scale factor: 1.000000
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.06s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.02s
+Prepare screens took 0.09s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Interface start took 0.07s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 2560, 1440)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'AMD'"
+Renderer: b'AMD Custom GPU 0932 (radeonsi, vangogh, LLVM 18.1.8, DRM 3.54, 6.1.52-valve16-1-neptune-61)'
+Version: b'4.6 (Compatibility Profile) Mesa 24.2.4 (git-e2ab51c49f)'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1442, 811) drawable=(1442, 811)
+Maximum texture size: 4096x4096
+controller: '03000000de280000ff11000001000000' 'Steam Virtual Gamepad' 1
+Resetting cache.
+Early init took 1444.79s
+Loading error handling took 0.04s
+Loading script took 0.29s
+Loading save slot metadata took 0.03s
+Loading persistent took 0.00s
+Running init code took 0.04s
+Loading analysis data took 0.03s
+Analyze and compile ATL took 0.01s
+Reloading save slot metadata took 0.02s
+Index archives took 0.00s
+Backing up script files to '/home/deck/.renpy/backups/Herve VN project':
+Dump and make backups took 0.06s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.09s
+DPI scale factor: 1.000000
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.07s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.02s
+Save screen analysis took 0.02s
+Prepare screens took 0.09s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Interface start took 0.09s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 2560, 1440)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'AMD'"
+Renderer: b'AMD Custom GPU 0932 (radeonsi, vangogh, LLVM 18.1.8, DRM 3.54, 6.1.52-valve16-1-neptune-61)'
+Version: b'4.6 (Compatibility Profile) Mesa 24.2.4 (git-e2ab51c49f)'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1442, 811) drawable=(1442, 811)
+Maximum texture size: 4096x4096
+controller: '03000000de280000ff11000001000000' 'Steam Virtual Gamepad' 1
+Resetting cache.
+Early init took 1545.90s
+Loading error handling took 0.04s
+Loading script took 0.25s
+Loading save slot metadata took 0.04s
+Loading persistent took 0.00s
+Running init code took 0.06s
+Loading analysis data took 0.04s
+Analyze and compile ATL took 0.01s
+Reloading save slot metadata took 0.03s
+Index archives took 0.00s
+Backing up script files to '/home/deck/.renpy/backups/Herve VN project':
+Dump and make backups took 0.07s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.12s
+DPI scale factor: 1.000000
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.09s
+Build styles took 0.01s
+Load screen analysis took 0.00s
+Analyze screens took 0.02s
+Save screen analysis took 0.03s
+Prepare screens took 0.11s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Interface start took 0.12s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 2560, 1440)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'AMD'"
+Renderer: b'AMD Custom GPU 0932 (radeonsi, vangogh, LLVM 18.1.8, DRM 3.54, 6.1.52-valve16-1-neptune-61)'
+Version: b'4.6 (Compatibility Profile) Mesa 24.2.4 (git-e2ab51c49f)'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1442, 811) drawable=(1442, 811)
+Maximum texture size: 4096x4096
+controller: '03000000de280000ff11000001000000' 'Steam Virtual Gamepad' 1
+Resetting cache.
+Early init took 1774.77s
+Loading error handling took 0.03s
+Loading script took 0.21s
+Loading save slot metadata took 0.03s
+Loading persistent took 0.00s
+Running init code took 0.04s
+Loading analysis data took 0.03s
+Analyze and compile ATL took 0.01s
+Reloading save slot metadata took 0.02s
+Index archives took 0.00s
+Backing up script files to '/home/deck/.renpy/backups/Herve VN project':
+Dump and make backups took 0.06s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.11s
+DPI scale factor: 1.000000
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.07s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.02s
+Prepare screens took 0.10s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Interface start took 0.10s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 2560, 1440)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'AMD'"
+Renderer: b'AMD Custom GPU 0932 (radeonsi, vangogh, LLVM 18.1.8, DRM 3.54, 6.1.52-valve16-1-neptune-61)'
+Version: b'4.6 (Compatibility Profile) Mesa 24.2.4 (git-e2ab51c49f)'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1442, 811) drawable=(1442, 811)
+Maximum texture size: 4096x4096
+controller: '03000000de280000ff11000001000000' 'Steam Virtual Gamepad' 1
+Resetting cache.
+Early init took 2297.96s
+Loading error handling took 0.04s
+Loading script took 0.23s
+Loading save slot metadata took 0.03s
+Loading persistent took 0.00s
+Running init code took 0.04s
+Loading analysis data took 0.03s
+Analyze and compile ATL took 0.01s
+Reloading save slot metadata took 0.02s
+Index archives took 0.00s
+Backing up script files to '/home/deck/.renpy/backups/Herve VN project':
+Dump and make backups took 0.06s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.10s
+DPI scale factor: 1.000000
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.07s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.02s
+Save screen analysis took 0.03s
+Prepare screens took 0.09s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Interface start took 0.08s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 2560, 1440)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'AMD'"
+Renderer: b'AMD Custom GPU 0932 (radeonsi, vangogh, LLVM 18.1.8, DRM 3.54, 6.1.52-valve16-1-neptune-61)'
+Version: b'4.6 (Compatibility Profile) Mesa 24.2.4 (git-e2ab51c49f)'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1442, 811) drawable=(1442, 811)
+Maximum texture size: 4096x4096
+controller: '03000000de280000ff11000001000000' 'Steam Virtual Gamepad' 1
+Resetting cache.
+Early init took 2529.71s
+Loading error handling took 0.03s
+Loading script took 0.22s
+Loading save slot metadata took 0.03s
+Loading persistent took 0.00s
+Running init code took 0.04s
+Loading analysis data took 0.03s
+Analyze and compile ATL took 0.01s
+Reloading save slot metadata took 0.03s
+Index archives took 0.00s
+Backing up script files to '/home/deck/.renpy/backups/Herve VN project':
+Dump and make backups took 0.07s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.16s
+DPI scale factor: 1.000000
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.09s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.02s
+Save screen analysis took 0.03s
+Prepare screens took 0.10s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Interface start took 0.11s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 2560, 1440)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'AMD'"
+Renderer: b'AMD Custom GPU 0932 (radeonsi, vangogh, LLVM 18.1.8, DRM 3.54, 6.1.52-valve16-1-neptune-61)'
+Version: b'4.6 (Compatibility Profile) Mesa 24.2.4 (git-e2ab51c49f)'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1442, 811) drawable=(1442, 811)
+Maximum texture size: 4096x4096
+controller: '03000000de280000ff11000001000000' 'Steam Virtual Gamepad' 1
+Resetting cache.
+Early init took 2630.78s
+Loading error handling took 0.03s
+Loading script took 0.27s
+Loading save slot metadata took 0.03s
+Loading persistent took 0.00s
+Running init code took 0.05s
+Loading analysis data took 0.04s
+Analyze and compile ATL took 0.01s
+Reloading save slot metadata took 0.02s
+Index archives took 0.00s
+Backing up script files to '/home/deck/.renpy/backups/Herve VN project':
+Dump and make backups took 0.07s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.11s
+DPI scale factor: 1.000000
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.10s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.03s
+Save screen analysis took 0.03s
+Prepare screens took 0.10s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Interface start took 0.10s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 2560, 1440)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'AMD'"
+Renderer: b'AMD Custom GPU 0932 (radeonsi, vangogh, LLVM 18.1.8, DRM 3.54, 6.1.52-valve16-1-neptune-61)'
+Version: b'4.6 (Compatibility Profile) Mesa 24.2.4 (git-e2ab51c49f)'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1442, 811) drawable=(1442, 811)
+Maximum texture size: 4096x4096
+controller: '03000000de280000ff11000001000000' 'Steam Virtual Gamepad' 1
+Resetting cache.
+Early init took 6205.33s
+Loading error handling took 0.05s
+Loading script took 0.33s
+Loading save slot metadata took 0.04s
+Loading persistent took 0.00s
+Running init code took 0.05s
+Loading analysis data took 0.03s
+Analyze and compile ATL took 0.01s
+Reloading save slot metadata took 0.02s
+Index archives took 0.00s
+Backing up script files to '/home/deck/.renpy/backups/Herve VN project':
+Dump and make backups took 0.07s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.10s
+DPI scale factor: 1.000000
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.07s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.02s
+Prepare screens took 0.09s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Interface start took 0.08s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 2560, 1440)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'AMD'"
+Renderer: b'AMD Custom GPU 0932 (radeonsi, vangogh, LLVM 18.1.8, DRM 3.54, 6.1.52-valve16-1-neptune-61)'
+Version: b'4.6 (Compatibility Profile) Mesa 24.2.4 (git-e2ab51c49f)'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1442, 811) drawable=(1442, 811)
+Maximum texture size: 4096x4096
+controller: '03000000de280000ff11000001000000' 'Steam Virtual Gamepad' 1
+Resetting cache.
+Early init took 6313.91s
+Loading error handling took 0.04s
+Loading script took 0.29s
+Loading save slot metadata took 0.03s
+Loading persistent took 0.00s
+Running init code took 0.05s
+Loading analysis data took 0.03s
+Analyze and compile ATL took 0.01s
+Reloading save slot metadata took 0.03s
+Index archives took 0.00s
+Backing up script files to '/home/deck/.renpy/backups/Herve VN project':
+Dump and make backups took 0.08s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.09s
+DPI scale factor: 1.000000
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.07s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.02s
+Save screen analysis took 0.03s
+Prepare screens took 0.09s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Interface start took 0.08s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 2560, 1440)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'AMD'"
+Renderer: b'AMD Custom GPU 0932 (radeonsi, vangogh, LLVM 18.1.8, DRM 3.54, 6.1.52-valve16-1-neptune-61)'
+Version: b'4.6 (Compatibility Profile) Mesa 24.2.4 (git-e2ab51c49f)'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1442, 811) drawable=(1442, 811)
+Maximum texture size: 4096x4096
+controller: '03000000de280000ff11000001000000' 'Steam Virtual Gamepad' 1
+Resetting cache.
+Early init took 6359.40s
+Loading error handling took 0.04s
+Loading script took 0.30s
+Loading save slot metadata took 0.04s
+Loading persistent took 0.00s
+Running init code took 0.05s
+Loading analysis data took 0.03s
+Analyze and compile ATL took 0.01s
+Reloading save slot metadata took 0.03s
+Index archives took 0.00s
+Backing up script files to '/home/deck/.renpy/backups/Herve VN project':
+Dump and make backups took 0.08s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.10s
+DPI scale factor: 1.000000
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.07s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.02s
+Save screen analysis took 0.03s
+Prepare screens took 0.11s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Interface start took 0.08s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 2560, 1440)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'AMD'"
+Renderer: b'AMD Custom GPU 0932 (radeonsi, vangogh, LLVM 18.1.8, DRM 3.54, 6.1.52-valve16-1-neptune-61)'
+Version: b'4.6 (Compatibility Profile) Mesa 24.2.4 (git-e2ab51c49f)'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1442, 811) drawable=(1442, 811)
+Maximum texture size: 4096x4096
+controller: '03000000de280000ff11000001000000' 'Steam Virtual Gamepad' 1
+Resetting cache.
+Early init took 6365.80s
+Loading error handling took 0.04s
+Loading script took 0.29s
+Loading save slot metadata took 0.04s
+Loading persistent took 0.00s
+Running init code took 0.07s
+Loading analysis data took 0.03s
+Analyze and compile ATL took 0.01s
+Reloading save slot metadata took 0.03s
+Index archives took 0.00s
+Backing up script files to '/home/deck/.renpy/backups/Herve VN project':
+Dump and make backups took 0.07s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.10s
+DPI scale factor: 1.000000
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.07s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.02s
+Save screen analysis took 0.02s
+Prepare screens took 0.09s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Interface start took 0.09s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 2560, 1440)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'AMD'"
+Renderer: b'AMD Custom GPU 0932 (radeonsi, vangogh, LLVM 18.1.8, DRM 3.54, 6.1.52-valve16-1-neptune-61)'
+Version: b'4.6 (Compatibility Profile) Mesa 24.2.4 (git-e2ab51c49f)'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1442, 811) drawable=(1442, 811)
+Maximum texture size: 4096x4096
+controller: '03000000de280000ff11000001000000' 'Steam Virtual Gamepad' 1
+Resetting cache.
+Early init took 6424.82s
+Loading error handling took 0.04s
+Loading script took 0.30s
+Loading save slot metadata took 0.03s
+Loading persistent took 0.00s
+Running init code took 0.06s
+Loading analysis data took 0.03s
+Analyze and compile ATL took 0.01s
+Reloading save slot metadata took 0.03s
+Index archives took 0.00s
+Backing up script files to '/home/deck/.renpy/backups/Herve VN project':
+Dump and make backups took 0.08s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.12s
+DPI scale factor: 1.000000
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.08s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.02s
+Save screen analysis took 0.02s
+Prepare screens took 0.10s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Interface start took 0.09s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 2560, 1440)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'AMD'"
+Renderer: b'AMD Custom GPU 0932 (radeonsi, vangogh, LLVM 18.1.8, DRM 3.54, 6.1.52-valve16-1-neptune-61)'
+Version: b'4.6 (Compatibility Profile) Mesa 24.2.4 (git-e2ab51c49f)'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1442, 811) drawable=(1442, 811)
+Maximum texture size: 4096x4096
+controller: '03000000de280000ff11000001000000' 'Steam Virtual Gamepad' 1
+Screen sizes: virtual=(1920, 1080) physical=(1280, 763) drawable=(1280, 763)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1920, 1080) physical=(1442, 811) drawable=(1442, 811)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 6611.53s
+Loading error handling took 0.04s
+Loading script took 0.28s
+Loading save slot metadata took 0.04s
+Loading persistent took 0.00s
+Running init code took 0.06s
+Loading analysis data took 0.04s
+Analyze and compile ATL took 0.01s
+Reloading save slot metadata took 0.03s
+Index archives took 0.00s
+Backing up script files to '/home/deck/.renpy/backups/Herve VN project':
+Dump and make backups took 0.08s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.10s
+DPI scale factor: 1.000000
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.07s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.02s
+Save screen analysis took 0.02s
+Prepare screens took 0.09s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Interface start took 0.11s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 2560, 1440)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'AMD'"
+Renderer: b'AMD Custom GPU 0932 (radeonsi, vangogh, LLVM 18.1.8, DRM 3.54, 6.1.52-valve16-1-neptune-61)'
+Version: b'4.6 (Compatibility Profile) Mesa 24.2.4 (git-e2ab51c49f)'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1442, 811) drawable=(1442, 811)
+Maximum texture size: 4096x4096
+controller: '03000000de280000ff11000001000000' 'Steam Virtual Gamepad' 1
+Resetting cache.
+Early init took 6685.52s
+Loading error handling took 0.04s
+Loading script took 0.28s
+Loading save slot metadata took 0.03s
+Loading persistent took 0.00s
+Running init code took 0.05s
+Loading analysis data took 0.03s
+Analyze and compile ATL took 0.01s
+Reloading save slot metadata took 0.03s
+Index archives took 0.00s
+Backing up script files to '/home/deck/.renpy/backups/Herve VN project':
+Dump and make backups took 0.08s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.09s
+DPI scale factor: 1.000000
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.07s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.02s
+Save screen analysis took 0.02s
+Prepare screens took 0.09s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Interface start took 0.07s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 2560, 1440)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'AMD'"
+Renderer: b'AMD Custom GPU 0932 (radeonsi, vangogh, LLVM 18.1.8, DRM 3.54, 6.1.52-valve16-1-neptune-61)'
+Version: b'4.6 (Compatibility Profile) Mesa 24.2.4 (git-e2ab51c49f)'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1442, 811) drawable=(1442, 811)
+Maximum texture size: 4096x4096
+controller: '03000000de280000ff11000001000000' 'Steam Virtual Gamepad' 1
+Resetting cache.
+Early init took 6872.19s
+Loading error handling took 0.04s
+Loading script took 0.28s
+Loading save slot metadata took 0.03s
+Loading persistent took 0.00s
+Running init code took 0.07s
+Loading analysis data took 0.04s
+Analyze and compile ATL took 0.01s
+Reloading save slot metadata took 0.03s
+Index archives took 0.00s
+Backing up script files to '/home/deck/.renpy/backups/Herve VN project':
+Dump and make backups took 0.07s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.09s
+DPI scale factor: 1.000000
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.06s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.02s
+Prepare screens took 0.08s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Interface start took 0.08s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 2560, 1440)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'AMD'"
+Renderer: b'AMD Custom GPU 0932 (radeonsi, vangogh, LLVM 18.1.8, DRM 3.54, 6.1.52-valve16-1-neptune-61)'
+Version: b'4.6 (Compatibility Profile) Mesa 24.2.4 (git-e2ab51c49f)'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1442, 811) drawable=(1442, 811)
+Maximum texture size: 4096x4096
+controller: '03000000de280000ff11000001000000' 'Steam Virtual Gamepad' 1
+Resetting cache.
+Early init took 6920.73s
+Loading error handling took 0.04s
+Loading script took 0.33s
+Loading save slot metadata took 0.03s
+Loading persistent took 0.00s
+Running init code took 0.05s
+Loading analysis data took 0.03s
+Analyze and compile ATL took 0.01s
+Reloading save slot metadata took 0.03s
+Index archives took 0.00s
+Backing up script files to '/home/deck/.renpy/backups/Herve VN project':
+Dump and make backups took 0.07s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.10s
+DPI scale factor: 1.000000
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.08s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.02s
+Save screen analysis took 0.02s
+Prepare screens took 0.09s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Interface start took 0.09s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 2560, 1440)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'AMD'"
+Renderer: b'AMD Custom GPU 0932 (radeonsi, vangogh, LLVM 18.1.8, DRM 3.54, 6.1.52-valve16-1-neptune-61)'
+Version: b'4.6 (Compatibility Profile) Mesa 24.2.4 (git-e2ab51c49f)'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1442, 811) drawable=(1442, 811)
+Maximum texture size: 4096x4096
+controller: '03000000de280000ff11000001000000' 'Steam Virtual Gamepad' 1
+Screen sizes: virtual=(1920, 1080) physical=(1280, 763) drawable=(1280, 763)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1920, 1080) physical=(1442, 811) drawable=(1442, 811)
+Maximum texture size: 4096x4096
+Cleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.01s
+Load screen analysis took 0.07s
+Analyze screens took 0.00s
+Prepare screens took 0.00s
+Running _start took 0.00s
+Resetting cache.
+Early init took 7158.35s
+Loading error handling took 0.04s
+Loading script took 0.20s
+Loading save slot metadata took 0.03s
+Loading persistent took 0.00s
+Running init code took 0.05s
+Loading analysis data took 0.03s
+Analyze and compile ATL took 0.01s
+Reloading save slot metadata took 0.03s
+Index archives took 0.00s
+Dump and make backups took 0.07s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.13s
+DPI scale factor: 1.000000
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.07s
+Build styles took 0.00s
+Load screen analysis took 0.04s
+Analyze screens took 0.00s
+Save screen analysis took 0.00s
+Prepare screens took 0.09s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.00s
+Running _start took 0.00s
+Interface start took 0.09s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 2560, 1440)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'AMD'"
+Renderer: b'AMD Custom GPU 0932 (radeonsi, vangogh, LLVM 18.1.8, DRM 3.54, 6.1.52-valve16-1-neptune-61)'
+Version: b'4.6 (Compatibility Profile) Mesa 24.2.4 (git-e2ab51c49f)'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1442, 811) drawable=(1442, 811)
+Maximum texture size: 4096x4096
+controller: '03000000de280000ff11000001000000' 'Steam Virtual Gamepad' 1
+Resetting cache.
+Early init took 7198.11s
+Loading error handling took 0.04s
+Loading script took 0.20s
+Loading save slot metadata took 0.03s
+Loading persistent took 0.00s
+Running init code took 0.05s
+Loading analysis data took 0.03s
+Analyze and compile ATL took 0.01s
+Reloading save slot metadata took 0.02s
+Index archives took 0.00s
+Backing up script files to '/home/deck/.renpy/backups/Herve VN project':
+Dump and make backups took 0.07s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.11s
+DPI scale factor: 1.000000
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.07s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.02s
+Prepare screens took 0.09s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Interface start took 0.08s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 2560, 1440)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'AMD'"
+Renderer: b'AMD Custom GPU 0932 (radeonsi, vangogh, LLVM 18.1.8, DRM 3.54, 6.1.52-valve16-1-neptune-61)'
+Version: b'4.6 (Compatibility Profile) Mesa 24.2.4 (git-e2ab51c49f)'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1442, 811) drawable=(1442, 811)
+Maximum texture size: 4096x4096
+controller: '03000000de280000ff11000001000000' 'Steam Virtual Gamepad' 1
+Resetting cache.
+Early init took 7203.07s
+Loading error handling took 0.04s
+Loading script took 0.23s
+Loading save slot metadata took 0.04s
+Loading persistent took 0.00s
+Running init code took 0.05s
+Loading analysis data took 0.03s
+Analyze and compile ATL took 0.01s
+Reloading save slot metadata took 0.03s
+Index archives took 0.00s
+Backing up script files to '/home/deck/.renpy/backups/Herve VN project':
+Dump and make backups took 0.08s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.10s
+DPI scale factor: 1.000000
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.07s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.03s
+Prepare screens took 0.09s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Interface start took 0.08s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 2560, 1440)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'AMD'"
+Renderer: b'AMD Custom GPU 0932 (radeonsi, vangogh, LLVM 18.1.8, DRM 3.54, 6.1.52-valve16-1-neptune-61)'
+Version: b'4.6 (Compatibility Profile) Mesa 24.2.4 (git-e2ab51c49f)'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1442, 811) drawable=(1442, 811)
+Maximum texture size: 4096x4096
+controller: '03000000de280000ff11000001000000' 'Steam Virtual Gamepad' 1
+Resetting cache.
+Early init took 7209.50s
+Loading error handling took 0.04s
+Loading script took 0.20s
+Loading save slot metadata took 0.04s
+Loading persistent took 0.00s
+Running init code took 0.06s
 Loading analysis data took 0.04s
 Analyze and compile ATL took 0.01s
 Reloading save slot metadata took 0.03s
@@ -70,170 +1871,6 @@ Prepare screens took 0.12s
 Save pyanalysis. took 0.00s
 Save bytecode. took 0.02s
 Running _start took 0.00s
-Interface start took 0.07s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 2560, 1440)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'AMD'"
-Renderer: b'AMD Custom GPU 0932 (radeonsi, vangogh, LLVM 18.1.8, DRM 3.54, 6.1.52-valve16-1-neptune-61)'
-Version: b'4.6 (Compatibility Profile) Mesa 24.2.4 (git-e2ab51c49f)'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1243, 699) drawable=(1243, 699)
-Maximum texture size: 4096x4096
-controller: '03000000de280000ff11000001000000' 'Steam Virtual Gamepad' 1
-Resetting cache.
-Early init took 1256.21s
-Loading error handling took 0.03s
-Loading script took 0.27s
-Loading save slot metadata took 0.04s
-Loading persistent took 0.00s
-Running init code took 0.05s
-Loading analysis data took 0.03s
-Analyze and compile ATL took 0.01s
-Reloading save slot metadata took 0.02s
-Index archives took 0.00s
-Backing up script files to '/home/deck/.renpy/backups/Herve VN project':
-Dump and make backups took 0.08s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc took 0.09s
-DPI scale factor: 1.000000
-Creating interface object took 0.00s
-Cleaning stores took 0.00s
-Init translation took 0.06s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.02s
-Save screen analysis took 0.02s
-Prepare screens took 0.09s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.02s
-Running _start took 0.00s
-Interface start took 0.07s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 2560, 1440)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'AMD'"
-Renderer: b'AMD Custom GPU 0932 (radeonsi, vangogh, LLVM 18.1.8, DRM 3.54, 6.1.52-valve16-1-neptune-61)'
-Version: b'4.6 (Compatibility Profile) Mesa 24.2.4 (git-e2ab51c49f)'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1243, 699) drawable=(1243, 699)
-Maximum texture size: 4096x4096
-controller: '03000000de280000ff11000001000000' 'Steam Virtual Gamepad' 1
-Resetting cache.
-Early init took 1261.12s
-Loading error handling took 0.04s
-Loading script took 0.23s
-Loading save slot metadata took 0.03s
-Loading persistent took 0.00s
-Running init code took 0.05s
-Loading analysis data took 0.03s
-Analyze and compile ATL took 0.01s
-Reloading save slot metadata took 0.02s
-Index archives took 0.00s
-Backing up script files to '/home/deck/.renpy/backups/Herve VN project':
-Dump and make backups took 0.08s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc took 0.09s
-DPI scale factor: 1.000000
-Creating interface object took 0.00s
-Cleaning stores took 0.00s
-Init translation took 0.06s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.01s
-Save screen analysis took 0.02s
-Prepare screens took 0.08s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.02s
-Running _start took 0.00s
-Interface start took 0.07s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 2560, 1440)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'AMD'"
-Renderer: b'AMD Custom GPU 0932 (radeonsi, vangogh, LLVM 18.1.8, DRM 3.54, 6.1.52-valve16-1-neptune-61)'
-Version: b'4.6 (Compatibility Profile) Mesa 24.2.4 (git-e2ab51c49f)'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1243, 699) drawable=(1243, 699)
-Maximum texture size: 4096x4096
-controller: '03000000de280000ff11000001000000' 'Steam Virtual Gamepad' 1
-Resetting cache.
-Early init took 1273.54s
-Loading error handling took 0.04s
-Loading script took 0.24s
-Loading save slot metadata took 0.03s
-Loading persistent took 0.00s
-Running init code took 0.06s
-Loading analysis data took 0.04s
-Analyze and compile ATL took 0.01s
-Reloading save slot metadata took 0.03s
-Index archives took 0.00s
-Backing up script files to '/home/deck/.renpy/backups/Herve VN project':
-Dump and make backups took 0.07s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc took 0.09s
-DPI scale factor: 1.000000
-Creating interface object took 0.00s
-Cleaning stores took 0.00s
-Init translation took 0.06s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.01s
-Save screen analysis took 0.02s
-Prepare screens took 0.08s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.02s
-Running _start took 0.00s
-Interface start took 0.07s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 2560, 1440)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'AMD'"
-Renderer: b'AMD Custom GPU 0932 (radeonsi, vangogh, LLVM 18.1.8, DRM 3.54, 6.1.52-valve16-1-neptune-61)'
-Version: b'4.6 (Compatibility Profile) Mesa 24.2.4 (git-e2ab51c49f)'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1243, 699) drawable=(1243, 699)
-Maximum texture size: 4096x4096
-controller: '03000000de280000ff11000001000000' 'Steam Virtual Gamepad' 1
-Resetting cache.
-Early init took 1288.96s
-Loading error handling took 0.04s
-Loading script took 0.25s
-Loading save slot metadata took 0.04s
-Loading persistent took 0.00s
-Running init code took 0.06s
-Loading analysis data took 0.03s
-Analyze and compile ATL took 0.01s
-Reloading save slot metadata took 0.03s
-Index archives took 0.00s
-Backing up script files to '/home/deck/.renpy/backups/Herve VN project':
-Dump and make backups took 0.08s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc took 0.09s
-DPI scale factor: 1.000000
-Creating interface object took 0.00s
-Cleaning stores took 0.00s
-Init translation took 0.06s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.02s
-Save screen analysis took 0.02s
-Prepare screens took 0.09s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.02s
-Running _start took 0.00s
 Interface start took 0.09s
 
 Initializing gl2 renderer:
@@ -244,32 +1881,32 @@ Vendor: "b'AMD'"
 Renderer: b'AMD Custom GPU 0932 (radeonsi, vangogh, LLVM 18.1.8, DRM 3.54, 6.1.52-valve16-1-neptune-61)'
 Version: b'4.6 (Compatibility Profile) Mesa 24.2.4 (git-e2ab51c49f)'
 Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1243, 699) drawable=(1243, 699)
+Screen sizes: virtual=(1920, 1080) physical=(1442, 811) drawable=(1442, 811)
 Maximum texture size: 4096x4096
 controller: '03000000de280000ff11000001000000' 'Steam Virtual Gamepad' 1
 Resetting cache.
-Early init took 1362.97s
+Early init took 7220.47s
 Loading error handling took 0.04s
-Loading script took 0.23s
+Loading script took 0.19s
 Loading save slot metadata took 0.03s
 Loading persistent took 0.00s
 Running init code took 0.05s
 Loading analysis data took 0.03s
 Analyze and compile ATL took 0.01s
-Reloading save slot metadata took 0.02s
+Reloading save slot metadata took 0.03s
 Index archives took 0.00s
 Backing up script files to '/home/deck/.renpy/backups/Herve VN project':
-Dump and make backups took 0.07s
+Dump and make backups took 0.08s
 Cleaning cache took 0.00s
 Making clean stores took 0.00s
 Initial gc took 0.09s
 DPI scale factor: 1.000000
 Creating interface object took 0.00s
 Cleaning stores took 0.00s
-Init translation took 0.06s
+Init translation took 0.07s
 Build styles took 0.00s
 Load screen analysis took 0.00s
-Analyze screens took 0.02s
+Analyze screens took 0.01s
 Save screen analysis took 0.02s
 Prepare screens took 0.09s
 Save pyanalysis. took 0.00s
@@ -285,56 +1922,15 @@ Vendor: "b'AMD'"
 Renderer: b'AMD Custom GPU 0932 (radeonsi, vangogh, LLVM 18.1.8, DRM 3.54, 6.1.52-valve16-1-neptune-61)'
 Version: b'4.6 (Compatibility Profile) Mesa 24.2.4 (git-e2ab51c49f)'
 Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1243, 699) drawable=(1243, 699)
+Screen sizes: virtual=(1920, 1080) physical=(1442, 811) drawable=(1442, 811)
 Maximum texture size: 4096x4096
 controller: '03000000de280000ff11000001000000' 'Steam Virtual Gamepad' 1
 Resetting cache.
-Early init took 1417.84s
+Early init took 7238.93s
 Loading error handling took 0.04s
-Loading script took 0.27s
+Loading script took 0.22s
 Loading save slot metadata took 0.04s
 Loading persistent took 0.00s
-Running init code took 0.06s
-Loading analysis data took 0.03s
-Analyze and compile ATL took 0.01s
-Reloading save slot metadata took 0.03s
-Index archives took 0.00s
-Backing up script files to '/home/deck/.renpy/backups/Herve VN project':
-Dump and make backups took 0.07s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc took 0.09s
-DPI scale factor: 1.000000
-Creating interface object took 0.00s
-Cleaning stores took 0.00s
-Init translation took 0.06s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.01s
-Save screen analysis took 0.02s
-Prepare screens took 0.09s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.02s
-Running _start took 0.00s
-Interface start took 0.07s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 2560, 1440)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'AMD'"
-Renderer: b'AMD Custom GPU 0932 (radeonsi, vangogh, LLVM 18.1.8, DRM 3.54, 6.1.52-valve16-1-neptune-61)'
-Version: b'4.6 (Compatibility Profile) Mesa 24.2.4 (git-e2ab51c49f)'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1243, 699) drawable=(1243, 699)
-Maximum texture size: 4096x4096
-controller: '03000000de280000ff11000001000000' 'Steam Virtual Gamepad' 1
-Resetting cache.
-Early init took 1425.78s
-Loading error handling took 0.04s
-Loading script took 0.24s
-Loading save slot metadata took 0.03s
-Loading persistent took 0.00s
 Running init code took 0.05s
 Loading analysis data took 0.03s
 Analyze and compile ATL took 0.01s
@@ -342,47 +1938,6 @@ Reloading save slot metadata took 0.03s
 Index archives took 0.00s
 Backing up script files to '/home/deck/.renpy/backups/Herve VN project':
 Dump and make backups took 0.07s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc took 0.08s
-DPI scale factor: 1.000000
-Creating interface object took 0.00s
-Cleaning stores took 0.00s
-Init translation took 0.06s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.02s
-Save screen analysis took 0.02s
-Prepare screens took 0.08s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.02s
-Running _start took 0.00s
-Interface start took 0.07s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 2560, 1440)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'AMD'"
-Renderer: b'AMD Custom GPU 0932 (radeonsi, vangogh, LLVM 18.1.8, DRM 3.54, 6.1.52-valve16-1-neptune-61)'
-Version: b'4.6 (Compatibility Profile) Mesa 24.2.4 (git-e2ab51c49f)'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1243, 699) drawable=(1243, 699)
-Maximum texture size: 4096x4096
-controller: '03000000de280000ff11000001000000' 'Steam Virtual Gamepad' 1
-Resetting cache.
-Early init took 1439.73s
-Loading error handling took 0.04s
-Loading script took 0.28s
-Loading save slot metadata took 0.03s
-Loading persistent took 0.00s
-Running init code took 0.05s
-Loading analysis data took 0.03s
-Analyze and compile ATL took 0.01s
-Reloading save slot metadata took 0.02s
-Index archives took 0.00s
-Backing up script files to '/home/deck/.renpy/backups/Herve VN project':
-Dump and make backups took 0.08s
 Cleaning cache took 0.00s
 Making clean stores took 0.00s
 Initial gc took 0.10s
@@ -393,135 +1948,12 @@ Init translation took 0.07s
 Build styles took 0.00s
 Load screen analysis took 0.00s
 Analyze screens took 0.02s
-Save screen analysis took 0.02s
-Prepare screens took 0.09s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.02s
-Running _start took 0.00s
-Interface start took 0.07s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 2560, 1440)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'AMD'"
-Renderer: b'AMD Custom GPU 0932 (radeonsi, vangogh, LLVM 18.1.8, DRM 3.54, 6.1.52-valve16-1-neptune-61)'
-Version: b'4.6 (Compatibility Profile) Mesa 24.2.4 (git-e2ab51c49f)'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1243, 699) drawable=(1243, 699)
-Maximum texture size: 4096x4096
-controller: '03000000de280000ff11000001000000' 'Steam Virtual Gamepad' 1
-Resetting cache.
-Early init took 1461.18s
-Loading error handling took 0.04s
-Loading script took 0.26s
-Loading save slot metadata took 0.03s
-Loading persistent took 0.00s
-Running init code took 0.05s
-Loading analysis data took 0.03s
-Analyze and compile ATL took 0.01s
-Reloading save slot metadata took 0.03s
-Index archives took 0.00s
-Backing up script files to '/home/deck/.renpy/backups/Herve VN project':
-Dump and make backups took 0.08s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc took 0.09s
-DPI scale factor: 1.000000
-Creating interface object took 0.00s
-Cleaning stores took 0.00s
-Init translation took 0.07s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.02s
-Save screen analysis took 0.02s
-Prepare screens took 0.09s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.02s
-Running _start took 0.00s
-Interface start took 0.08s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 2560, 1440)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'AMD'"
-Renderer: b'AMD Custom GPU 0932 (radeonsi, vangogh, LLVM 18.1.8, DRM 3.54, 6.1.52-valve16-1-neptune-61)'
-Version: b'4.6 (Compatibility Profile) Mesa 24.2.4 (git-e2ab51c49f)'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1243, 699) drawable=(1243, 699)
-Maximum texture size: 4096x4096
-controller: '03000000de280000ff11000001000000' 'Steam Virtual Gamepad' 1
-Resetting cache.
-Early init took 1469.08s
-Loading error handling took 0.03s
-Loading script took 0.25s
-Loading save slot metadata took 0.03s
-Loading persistent took 0.00s
-Running init code took 0.05s
-Loading analysis data took 0.03s
-Analyze and compile ATL took 0.01s
-Reloading save slot metadata took 0.03s
-Index archives took 0.00s
-Backing up script files to '/home/deck/.renpy/backups/Herve VN project':
-Dump and make backups took 0.07s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc took 0.09s
-DPI scale factor: 1.000000
-Creating interface object took 0.00s
-Cleaning stores took 0.00s
-Init translation took 0.06s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.01s
-Save screen analysis took 0.02s
-Prepare screens took 0.08s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.02s
-Running _start took 0.00s
-Interface start took 0.07s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 2560, 1440)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'AMD'"
-Renderer: b'AMD Custom GPU 0932 (radeonsi, vangogh, LLVM 18.1.8, DRM 3.54, 6.1.52-valve16-1-neptune-61)'
-Version: b'4.6 (Compatibility Profile) Mesa 24.2.4 (git-e2ab51c49f)'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1243, 699) drawable=(1243, 699)
-Maximum texture size: 4096x4096
-controller: '03000000de280000ff11000001000000' 'Steam Virtual Gamepad' 1
-Resetting cache.
-Early init took 1625.75s
-Loading error handling took 0.04s
-Loading script took 0.25s
-Loading save slot metadata took 0.04s
-Loading persistent took 0.00s
-Running init code took 0.07s
-Loading analysis data took 0.04s
-Analyze and compile ATL took 0.01s
-Reloading save slot metadata took 0.03s
-Index archives took 0.00s
-Backing up script files to '/home/deck/.renpy/backups/Herve VN project':
-Dump and make backups took 0.08s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc took 0.11s
-DPI scale factor: 1.000000
-Creating interface object took 0.00s
-Cleaning stores took 0.00s
-Init translation took 0.08s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.02s
 Save screen analysis took 0.03s
-Prepare screens took 0.13s
+Prepare screens took 0.10s
 Save pyanalysis. took 0.00s
 Save bytecode. took 0.02s
 Running _start took 0.00s
-Interface start took 0.13s
+Interface start took 0.10s
 
 Initializing gl2 renderer:
 primary display bounds: (0, 0, 2560, 1440)
@@ -531,52 +1963,11 @@ Vendor: "b'AMD'"
 Renderer: b'AMD Custom GPU 0932 (radeonsi, vangogh, LLVM 18.1.8, DRM 3.54, 6.1.52-valve16-1-neptune-61)'
 Version: b'4.6 (Compatibility Profile) Mesa 24.2.4 (git-e2ab51c49f)'
 Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1243, 699) drawable=(1243, 699)
+Screen sizes: virtual=(1920, 1080) physical=(1442, 811) drawable=(1442, 811)
 Maximum texture size: 4096x4096
 controller: '03000000de280000ff11000001000000' 'Steam Virtual Gamepad' 1
 Resetting cache.
-Early init took 1686.25s
-Loading error handling took 0.03s
-Loading script took 0.25s
-Loading save slot metadata took 0.03s
-Loading persistent took 0.00s
-Running init code took 0.05s
-Loading analysis data took 0.03s
-Analyze and compile ATL took 0.01s
-Reloading save slot metadata took 0.03s
-Index archives took 0.00s
-Backing up script files to '/home/deck/.renpy/backups/Herve VN project':
-Dump and make backups took 0.09s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc took 0.08s
-DPI scale factor: 1.000000
-Creating interface object took 0.00s
-Cleaning stores took 0.00s
-Init translation took 0.06s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.02s
-Save screen analysis took 0.02s
-Prepare screens took 0.09s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.02s
-Running _start took 0.00s
-Interface start took 0.07s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 2560, 1440)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'AMD'"
-Renderer: b'AMD Custom GPU 0932 (radeonsi, vangogh, LLVM 18.1.8, DRM 3.54, 6.1.52-valve16-1-neptune-61)'
-Version: b'4.6 (Compatibility Profile) Mesa 24.2.4 (git-e2ab51c49f)'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1243, 699) drawable=(1243, 699)
-Maximum texture size: 4096x4096
-controller: '03000000de280000ff11000001000000' 'Steam Virtual Gamepad' 1
-Resetting cache.
-Early init took 2116.35s
+Early init took 7251.34s
 Loading error handling took 0.04s
 Loading script took 0.20s
 Loading save slot metadata took 0.04s
@@ -590,17 +1981,17 @@ Backing up script files to '/home/deck/.renpy/backups/Herve VN project':
 Dump and make backups took 0.08s
 Cleaning cache took 0.00s
 Making clean stores took 0.00s
-Initial gc took 0.09s
+Initial gc took 0.10s
 DPI scale factor: 1.000000
 Creating interface object took 0.00s
 Cleaning stores took 0.00s
 Init translation took 0.07s
 Build styles took 0.00s
 Load screen analysis took 0.00s
-Analyze screens took 0.02s
+Analyze screens took 0.01s
 Save screen analysis took 0.03s
 Prepare screens took 0.10s
-Save pyanalysis. took 0.03s
+Save pyanalysis. took 0.00s
 Save bytecode. took 0.02s
 Running _start took 0.00s
 Interface start took 0.08s
@@ -613,14 +2004,14 @@ Vendor: "b'AMD'"
 Renderer: b'AMD Custom GPU 0932 (radeonsi, vangogh, LLVM 18.1.8, DRM 3.54, 6.1.52-valve16-1-neptune-61)'
 Version: b'4.6 (Compatibility Profile) Mesa 24.2.4 (git-e2ab51c49f)'
 Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1243, 699) drawable=(1243, 699)
+Screen sizes: virtual=(1920, 1080) physical=(1442, 811) drawable=(1442, 811)
 Maximum texture size: 4096x4096
 controller: '03000000de280000ff11000001000000' 'Steam Virtual Gamepad' 1
 Resetting cache.
-Early init took 2199.42s
+Early init took 7259.31s
 Loading error handling took 0.04s
-Loading script took 0.26s
-Loading save slot metadata took 0.03s
+Loading script took 0.22s
+Loading save slot metadata took 0.04s
 Loading persistent took 0.00s
 Running init code took 0.06s
 Loading analysis data took 0.04s
@@ -628,105 +2019,23 @@ Analyze and compile ATL took 0.01s
 Reloading save slot metadata took 0.03s
 Index archives took 0.00s
 Backing up script files to '/home/deck/.renpy/backups/Herve VN project':
-Dump and make backups took 0.07s
+Dump and make backups took 0.08s
 Cleaning cache took 0.00s
 Making clean stores took 0.00s
-Initial gc took 0.10s
+Initial gc took 0.12s
 DPI scale factor: 1.000000
 Creating interface object took 0.00s
 Cleaning stores took 0.00s
-Init translation took 0.07s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.02s
-Save screen analysis took 0.02s
-Prepare screens took 0.09s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.02s
-Running _start took 0.00s
-Interface start took 0.09s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 2560, 1440)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'AMD'"
-Renderer: b'AMD Custom GPU 0932 (radeonsi, vangogh, LLVM 18.1.8, DRM 3.54, 6.1.52-valve16-1-neptune-61)'
-Version: b'4.6 (Compatibility Profile) Mesa 24.2.4 (git-e2ab51c49f)'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1243, 699) drawable=(1243, 699)
-Maximum texture size: 4096x4096
-controller: '03000000de280000ff11000001000000' 'Steam Virtual Gamepad' 1
-Resetting cache.
-Early init took 40689.64s
-Loading error handling took 0.04s
-Loading script took 0.26s
-Loading save slot metadata took 0.07s
-Loading persistent took 0.00s
-Running init code took 0.06s
-Loading analysis data took 0.03s
-Analyze and compile ATL took 0.01s
-Reloading save slot metadata took 0.03s
-Index archives took 0.00s
-Backing up script files to '/home/deck/.renpy/backups/Herve VN project':
-Dump and make backups took 0.09s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc took 0.09s
-DPI scale factor: 1.000000
-Creating interface object took 0.00s
-Cleaning stores took 0.00s
-Init translation took 0.07s
+Init translation took 0.08s
 Build styles took 0.00s
 Load screen analysis took 0.00s
 Analyze screens took 0.02s
 Save screen analysis took 0.03s
-Prepare screens took 0.10s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.02s
-Running _start took 0.00s
-Interface start took 0.07s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 2560, 1440)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'AMD'"
-Renderer: b'AMD Custom GPU 0932 (radeonsi, vangogh, LLVM 18.1.8, DRM 3.54, 6.1.52-valve16-1-neptune-61)'
-Version: b'4.6 (Compatibility Profile) Mesa 24.2.4 (git-e2ab51c49f)'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1243, 699) drawable=(1243, 699)
-Maximum texture size: 4096x4096
-controller: '03000000de280000ff11000001000000' 'Steam Virtual Gamepad' 1
-Resetting cache.
-Early init took 40993.52s
-Loading error handling took 0.03s
-Loading script took 0.25s
-Loading save slot metadata took 0.04s
-Loading persistent took 0.00s
-Running init code took 0.06s
-Loading analysis data took 0.03s
-Analyze and compile ATL took 0.01s
-Reloading save slot metadata took 0.03s
-Index archives took 0.00s
-Backing up script files to '/home/deck/.renpy/backups/Herve VN project':
-Dump and make backups took 0.08s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc took 0.10s
-DPI scale factor: 1.000000
-Creating interface object took 0.00s
-Cleaning stores took 0.00s
-Init translation took 0.07s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.02s
-Save screen analysis took 0.02s
 Prepare screens took 0.09s
 Save pyanalysis. took 0.00s
 Save bytecode. took 0.02s
 Running _start took 0.00s
-Interface start took 0.07s
+Interface start took 0.10s
 
 Initializing gl2 renderer:
 primary display bounds: (0, 0, 2560, 1440)
@@ -736,22 +2045,22 @@ Vendor: "b'AMD'"
 Renderer: b'AMD Custom GPU 0932 (radeonsi, vangogh, LLVM 18.1.8, DRM 3.54, 6.1.52-valve16-1-neptune-61)'
 Version: b'4.6 (Compatibility Profile) Mesa 24.2.4 (git-e2ab51c49f)'
 Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1243, 699) drawable=(1243, 699)
+Screen sizes: virtual=(1920, 1080) physical=(1442, 811) drawable=(1442, 811)
 Maximum texture size: 4096x4096
 controller: '03000000de280000ff11000001000000' 'Steam Virtual Gamepad' 1
 Resetting cache.
-Early init took 41217.82s
-Loading error handling took 0.04s
-Loading script took 0.26s
-Loading save slot metadata took 0.05s
+Early init took 7282.30s
+Loading error handling took 0.03s
+Loading script took 0.16s
+Loading save slot metadata took 0.03s
 Loading persistent took 0.00s
-Running init code took 0.07s
+Running init code took 0.04s
 Loading analysis data took 0.03s
 Analyze and compile ATL took 0.01s
-Reloading save slot metadata took 0.03s
+Reloading save slot metadata took 0.02s
 Index archives took 0.00s
 Backing up script files to '/home/deck/.renpy/backups/Herve VN project':
-Dump and make backups took 0.08s
+Dump and make backups took 0.06s
 Cleaning cache took 0.00s
 Making clean stores took 0.00s
 Initial gc took 0.09s
@@ -761,7 +2070,7 @@ Cleaning stores took 0.00s
 Init translation took 0.06s
 Build styles took 0.00s
 Load screen analysis took 0.00s
-Analyze screens took 0.02s
+Analyze screens took 0.01s
 Save screen analysis took 0.02s
 Prepare screens took 0.09s
 Save pyanalysis. took 0.00s
@@ -777,25 +2086,25 @@ Vendor: "b'AMD'"
 Renderer: b'AMD Custom GPU 0932 (radeonsi, vangogh, LLVM 18.1.8, DRM 3.54, 6.1.52-valve16-1-neptune-61)'
 Version: b'4.6 (Compatibility Profile) Mesa 24.2.4 (git-e2ab51c49f)'
 Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1243, 699) drawable=(1243, 699)
+Screen sizes: virtual=(1920, 1080) physical=(1442, 811) drawable=(1442, 811)
 Maximum texture size: 4096x4096
 controller: '03000000de280000ff11000001000000' 'Steam Virtual Gamepad' 1
 Resetting cache.
-Early init took 41284.39s
+Early init took 7288.78s
 Loading error handling took 0.04s
-Loading script took 0.23s
+Loading script took 0.20s
 Loading save slot metadata took 0.03s
 Loading persistent took 0.00s
-Running init code took 0.04s
+Running init code took 0.05s
 Loading analysis data took 0.03s
 Analyze and compile ATL took 0.01s
-Reloading save slot metadata took 0.02s
+Reloading save slot metadata took 0.03s
 Index archives took 0.00s
 Backing up script files to '/home/deck/.renpy/backups/Herve VN project':
 Dump and make backups took 0.07s
 Cleaning cache took 0.00s
 Making clean stores took 0.00s
-Initial gc took 0.09s
+Initial gc took 0.11s
 DPI scale factor: 1.000000
 Creating interface object took 0.00s
 Cleaning stores took 0.00s
@@ -808,7 +2117,7 @@ Prepare screens took 0.08s
 Save pyanalysis. took 0.00s
 Save bytecode. took 0.02s
 Running _start took 0.00s
-Interface start took 0.08s
+Interface start took 0.09s
 
 Initializing gl2 renderer:
 primary display bounds: (0, 0, 2560, 1440)
@@ -818,13 +2127,13 @@ Vendor: "b'AMD'"
 Renderer: b'AMD Custom GPU 0932 (radeonsi, vangogh, LLVM 18.1.8, DRM 3.54, 6.1.52-valve16-1-neptune-61)'
 Version: b'4.6 (Compatibility Profile) Mesa 24.2.4 (git-e2ab51c49f)'
 Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1243, 699) drawable=(1243, 699)
+Screen sizes: virtual=(1920, 1080) physical=(1442, 811) drawable=(1442, 811)
 Maximum texture size: 4096x4096
 controller: '03000000de280000ff11000001000000' 'Steam Virtual Gamepad' 1
 Resetting cache.
-Early init took 41508.65s
-Loading error handling took 0.03s
-Loading script took 0.26s
+Early init took 7296.77s
+Loading error handling took 0.04s
+Loading script took 0.21s
 Loading save slot metadata took 0.04s
 Loading persistent took 0.00s
 Running init code took 0.06s
@@ -833,96 +2142,14 @@ Analyze and compile ATL took 0.01s
 Reloading save slot metadata took 0.03s
 Index archives took 0.00s
 Backing up script files to '/home/deck/.renpy/backups/Herve VN project':
-Dump and make backups took 0.08s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc took 0.10s
-DPI scale factor: 1.000000
-Creating interface object took 0.00s
-Cleaning stores took 0.00s
-Init translation took 0.08s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.02s
-Save screen analysis took 0.03s
-Prepare screens took 0.09s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.02s
-Running _start took 0.00s
-Interface start took 0.07s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 2560, 1440)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'AMD'"
-Renderer: b'AMD Custom GPU 0932 (radeonsi, vangogh, LLVM 18.1.8, DRM 3.54, 6.1.52-valve16-1-neptune-61)'
-Version: b'4.6 (Compatibility Profile) Mesa 24.2.4 (git-e2ab51c49f)'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1243, 699) drawable=(1243, 699)
-Maximum texture size: 4096x4096
-controller: '03000000de280000ff11000001000000' 'Steam Virtual Gamepad' 1
-Resetting cache.
-Early init took 43896.96s
-Loading error handling took 0.04s
-Loading script took 0.25s
-Loading save slot metadata took 0.03s
-Loading persistent took 0.00s
-Running init code took 0.05s
-Loading analysis data took 0.03s
-Analyze and compile ATL took 0.01s
-Reloading save slot metadata took 0.03s
-Index archives took 0.00s
-Backing up script files to '/home/deck/.renpy/backups/Herve VN project':
-Dump and make backups took 0.08s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc took 0.10s
-DPI scale factor: 1.000000
-Creating interface object took 0.00s
-Cleaning stores took 0.00s
-Init translation took 0.08s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.02s
-Save screen analysis took 0.03s
-Prepare screens took 0.09s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.02s
-Running _start took 0.00s
-Interface start took 0.08s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 2560, 1440)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'AMD'"
-Renderer: b'AMD Custom GPU 0932 (radeonsi, vangogh, LLVM 18.1.8, DRM 3.54, 6.1.52-valve16-1-neptune-61)'
-Version: b'4.6 (Compatibility Profile) Mesa 24.2.4 (git-e2ab51c49f)'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1243, 699) drawable=(1243, 699)
-Maximum texture size: 4096x4096
-controller: '03000000de280000ff11000001000000' 'Steam Virtual Gamepad' 1
-Resetting cache.
-Early init took 43918.42s
-Loading error handling took 0.04s
-Loading script took 0.25s
-Loading save slot metadata took 0.03s
-Loading persistent took 0.00s
-Running init code took 0.05s
-Loading analysis data took 0.03s
-Analyze and compile ATL took 0.01s
-Reloading save slot metadata took 0.02s
-Index archives took 0.00s
-Backing up script files to '/home/deck/.renpy/backups/Herve VN project':
 Dump and make backups took 0.07s
 Cleaning cache took 0.00s
 Making clean stores took 0.00s
-Initial gc took 0.08s
+Initial gc took 0.10s
 DPI scale factor: 1.000000
 Creating interface object took 0.00s
 Cleaning stores took 0.00s
-Init translation took 0.06s
+Init translation took 0.07s
 Build styles took 0.00s
 Load screen analysis took 0.00s
 Analyze screens took 0.02s
@@ -941,63 +2168,22 @@ Vendor: "b'AMD'"
 Renderer: b'AMD Custom GPU 0932 (radeonsi, vangogh, LLVM 18.1.8, DRM 3.54, 6.1.52-valve16-1-neptune-61)'
 Version: b'4.6 (Compatibility Profile) Mesa 24.2.4 (git-e2ab51c49f)'
 Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1243, 699) drawable=(1243, 699)
+Screen sizes: virtual=(1920, 1080) physical=(1442, 811) drawable=(1442, 811)
 Maximum texture size: 4096x4096
 controller: '03000000de280000ff11000001000000' 'Steam Virtual Gamepad' 1
 Resetting cache.
-Early init took 44024.16s
-Loading error handling took 0.03s
-Loading script took 0.25s
+Early init took 7304.66s
+Loading error handling took 0.02s
+Loading script took 0.14s
 Loading save slot metadata took 0.03s
 Loading persistent took 0.00s
-Running init code took 0.05s
+Running init code took 0.04s
 Loading analysis data took 0.03s
 Analyze and compile ATL took 0.01s
-Reloading save slot metadata took 0.03s
+Reloading save slot metadata took 0.02s
 Index archives took 0.00s
 Backing up script files to '/home/deck/.renpy/backups/Herve VN project':
-Dump and make backups took 0.08s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc took 0.09s
-DPI scale factor: 1.000000
-Creating interface object took 0.00s
-Cleaning stores took 0.00s
-Init translation took 0.06s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.02s
-Save screen analysis took 0.03s
-Prepare screens took 0.09s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.02s
-Running _start took 0.00s
-Interface start took 0.07s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 2560, 1440)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'AMD'"
-Renderer: b'AMD Custom GPU 0932 (radeonsi, vangogh, LLVM 18.1.8, DRM 3.54, 6.1.52-valve16-1-neptune-61)'
-Version: b'4.6 (Compatibility Profile) Mesa 24.2.4 (git-e2ab51c49f)'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1243, 699) drawable=(1243, 699)
-Maximum texture size: 4096x4096
-controller: '03000000de280000ff11000001000000' 'Steam Virtual Gamepad' 1
-Resetting cache.
-Early init took 44053.16s
-Loading error handling took 0.03s
-Loading script took 0.26s
-Loading save slot metadata took 0.04s
-Loading persistent took 0.00s
-Running init code took 0.05s
-Loading analysis data took 0.03s
-Analyze and compile ATL took 0.01s
-Reloading save slot metadata took 0.03s
-Index archives took 0.00s
-Backing up script files to '/home/deck/.renpy/backups/Herve VN project':
-Dump and make backups took 0.08s
+Dump and make backups took 0.06s
 Cleaning cache took 0.00s
 Making clean stores took 0.00s
 Initial gc took 0.11s
@@ -1007,8 +2193,90 @@ Cleaning stores took 0.00s
 Init translation took 0.07s
 Build styles took 0.00s
 Load screen analysis took 0.00s
-Analyze screens took 0.02s
+Analyze screens took 0.01s
 Save screen analysis took 0.03s
+Prepare screens took 0.10s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Interface start took 0.08s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 2560, 1440)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'AMD'"
+Renderer: b'AMD Custom GPU 0932 (radeonsi, vangogh, LLVM 18.1.8, DRM 3.54, 6.1.52-valve16-1-neptune-61)'
+Version: b'4.6 (Compatibility Profile) Mesa 24.2.4 (git-e2ab51c49f)'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1442, 811) drawable=(1442, 811)
+Maximum texture size: 4096x4096
+controller: '03000000de280000ff11000001000000' 'Steam Virtual Gamepad' 1
+Resetting cache.
+Early init took 7320.12s
+Loading error handling took 0.03s
+Loading script took 0.18s
+Loading save slot metadata took 0.03s
+Loading persistent took 0.00s
+Running init code took 0.04s
+Loading analysis data took 0.03s
+Analyze and compile ATL took 0.01s
+Reloading save slot metadata took 0.02s
+Index archives took 0.00s
+Backing up script files to '/home/deck/.renpy/backups/Herve VN project':
+Dump and make backups took 0.06s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.10s
+DPI scale factor: 1.000000
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.07s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.02s
+Prepare screens took 0.09s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Interface start took 0.08s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 2560, 1440)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'AMD'"
+Renderer: b'AMD Custom GPU 0932 (radeonsi, vangogh, LLVM 18.1.8, DRM 3.54, 6.1.52-valve16-1-neptune-61)'
+Version: b'4.6 (Compatibility Profile) Mesa 24.2.4 (git-e2ab51c49f)'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1442, 811) drawable=(1442, 811)
+Maximum texture size: 4096x4096
+controller: '03000000de280000ff11000001000000' 'Steam Virtual Gamepad' 1
+Resetting cache.
+Early init took 7329.55s
+Loading error handling took 0.04s
+Loading script took 0.22s
+Loading save slot metadata took 0.04s
+Loading persistent took 0.00s
+Running init code took 0.06s
+Loading analysis data took 0.04s
+Analyze and compile ATL took 0.01s
+Reloading save slot metadata took 0.03s
+Index archives took 0.00s
+Backing up script files to '/home/deck/.renpy/backups/Herve VN project':
+Dump and make backups took 0.08s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.10s
+DPI scale factor: 1.000000
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.07s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.02s
+Save screen analysis took 0.02s
 Prepare screens took 0.09s
 Save pyanalysis. took 0.00s
 Save bytecode. took 0.02s
@@ -1023,16 +2291,16 @@ Vendor: "b'AMD'"
 Renderer: b'AMD Custom GPU 0932 (radeonsi, vangogh, LLVM 18.1.8, DRM 3.54, 6.1.52-valve16-1-neptune-61)'
 Version: b'4.6 (Compatibility Profile) Mesa 24.2.4 (git-e2ab51c49f)'
 Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1243, 699) drawable=(1243, 699)
+Screen sizes: virtual=(1920, 1080) physical=(1442, 811) drawable=(1442, 811)
 Maximum texture size: 4096x4096
 controller: '03000000de280000ff11000001000000' 'Steam Virtual Gamepad' 1
 Resetting cache.
-Early init took 44125.84s
-Loading error handling took 0.03s
+Early init took 7397.74s
+Loading error handling took 0.04s
 Loading script took 0.19s
-Loading save slot metadata took 0.03s
+Loading save slot metadata took 0.04s
 Loading persistent took 0.00s
-Running init code took 0.06s
+Running init code took 0.05s
 Loading analysis data took 0.03s
 Analyze and compile ATL took 0.01s
 Reloading save slot metadata took 0.03s
@@ -1044,7 +2312,7 @@ Initial gc took 0.09s
 DPI scale factor: 1.000000
 Creating interface object took 0.00s
 Cleaning stores took 0.00s
-Init translation took 0.06s
+Init translation took 0.07s
 Build styles took 0.00s
 Load screen analysis took 0.04s
 Analyze screens took 0.00s
@@ -1053,7 +2321,7 @@ Prepare screens took 0.09s
 Save pyanalysis. took 0.00s
 Save bytecode. took 0.00s
 Running _start took 0.00s
-Interface start took 0.09s
+Interface start took 0.10s
 
 Initializing gl2 renderer:
 primary display bounds: (0, 0, 2560, 1440)
@@ -1063,325 +2331,38 @@ Vendor: "b'AMD'"
 Renderer: b'AMD Custom GPU 0932 (radeonsi, vangogh, LLVM 18.1.8, DRM 3.54, 6.1.52-valve16-1-neptune-61)'
 Version: b'4.6 (Compatibility Profile) Mesa 24.2.4 (git-e2ab51c49f)'
 Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1243, 699) drawable=(1243, 699)
+Screen sizes: virtual=(1920, 1080) physical=(1442, 811) drawable=(1442, 811)
 Maximum texture size: 4096x4096
 controller: '03000000de280000ff11000001000000' 'Steam Virtual Gamepad' 1
 Resetting cache.
-Early init took 44159.26s
-Loading error handling took 0.03s
-Loading script took 0.25s
-Loading save slot metadata took 0.03s
-Loading persistent took 0.00s
-Running init code took 0.05s
-Loading analysis data took 0.03s
-Analyze and compile ATL took 0.01s
-Reloading save slot metadata took 0.03s
-Index archives took 0.00s
-Backing up script files to '/home/deck/.renpy/backups/Herve VN project':
-Dump and make backups took 0.08s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc took 0.09s
-DPI scale factor: 1.000000
-Creating interface object took 0.00s
-Cleaning stores took 0.00s
-Init translation took 0.07s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.02s
-Save screen analysis took 0.02s
-Prepare screens took 0.09s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.02s
-Running _start took 0.00s
-Interface start took 0.08s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 2560, 1440)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'AMD'"
-Renderer: b'AMD Custom GPU 0932 (radeonsi, vangogh, LLVM 18.1.8, DRM 3.54, 6.1.52-valve16-1-neptune-61)'
-Version: b'4.6 (Compatibility Profile) Mesa 24.2.4 (git-e2ab51c49f)'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1243, 699) drawable=(1243, 699)
-Maximum texture size: 4096x4096
-controller: '03000000de280000ff11000001000000' 'Steam Virtual Gamepad' 1
-Resetting cache.
-Early init took 44188.24s
+Early init took 7411.70s
 Loading error handling took 0.04s
-Loading script took 0.26s
-Loading save slot metadata took 0.04s
-Loading persistent took 0.00s
-Running init code took 0.05s
-Loading analysis data took 0.03s
-Analyze and compile ATL took 0.01s
-Reloading save slot metadata took 0.03s
-Index archives took 0.00s
-Backing up script files to '/home/deck/.renpy/backups/Herve VN project':
-Dump and make backups took 0.07s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc took 0.09s
-DPI scale factor: 1.000000
-Creating interface object took 0.00s
-Cleaning stores took 0.00s
-Init translation took 0.07s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.02s
-Save screen analysis took 0.03s
-Prepare screens took 0.09s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.02s
-Running _start took 0.00s
-Interface start took 0.08s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 2560, 1440)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'AMD'"
-Renderer: b'AMD Custom GPU 0932 (radeonsi, vangogh, LLVM 18.1.8, DRM 3.54, 6.1.52-valve16-1-neptune-61)'
-Version: b'4.6 (Compatibility Profile) Mesa 24.2.4 (git-e2ab51c49f)'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1243, 699) drawable=(1243, 699)
-Maximum texture size: 4096x4096
-controller: '03000000de280000ff11000001000000' 'Steam Virtual Gamepad' 1
-Resetting cache.
-Early init took 44211.14s
-Loading error handling took 0.03s
-Loading script took 0.24s
-Loading save slot metadata took 0.03s
-Loading persistent took 0.00s
-Running init code took 0.05s
-Loading analysis data took 0.03s
-Analyze and compile ATL took 0.01s
-Reloading save slot metadata took 0.03s
-Index archives took 0.00s
-Backing up script files to '/home/deck/.renpy/backups/Herve VN project':
-Dump and make backups took 0.08s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc took 0.09s
-DPI scale factor: 1.000000
-Creating interface object took 0.00s
-Cleaning stores took 0.00s
-Init translation took 0.06s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.02s
-Save screen analysis took 0.02s
-Prepare screens took 0.09s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.02s
-Running _start took 0.00s
-Interface start took 0.08s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 2560, 1440)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'AMD'"
-Renderer: b'AMD Custom GPU 0932 (radeonsi, vangogh, LLVM 18.1.8, DRM 3.54, 6.1.52-valve16-1-neptune-61)'
-Version: b'4.6 (Compatibility Profile) Mesa 24.2.4 (git-e2ab51c49f)'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1243, 699) drawable=(1243, 699)
-Maximum texture size: 4096x4096
-controller: '03000000de280000ff11000001000000' 'Steam Virtual Gamepad' 1
-Resetting cache.
-Early init took 44217.55s
-Loading error handling took 0.04s
-Loading script took 0.27s
-Loading save slot metadata took 0.03s
-Loading persistent took 0.00s
-Running init code took 0.05s
-Loading analysis data took 0.03s
-Analyze and compile ATL took 0.01s
-Reloading save slot metadata took 0.03s
-Index archives took 0.00s
-Backing up script files to '/home/deck/.renpy/backups/Herve VN project':
-Dump and make backups took 0.08s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc took 0.09s
-DPI scale factor: 1.000000
-Creating interface object took 0.00s
-Cleaning stores took 0.00s
-Init translation took 0.06s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.02s
-Save screen analysis took 0.02s
-Prepare screens took 0.09s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.02s
-Running _start took 0.00s
-Interface start took 0.08s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 2560, 1440)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'AMD'"
-Renderer: b'AMD Custom GPU 0932 (radeonsi, vangogh, LLVM 18.1.8, DRM 3.54, 6.1.52-valve16-1-neptune-61)'
-Version: b'4.6 (Compatibility Profile) Mesa 24.2.4 (git-e2ab51c49f)'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1243, 699) drawable=(1243, 699)
-Maximum texture size: 4096x4096
-controller: '03000000de280000ff11000001000000' 'Steam Virtual Gamepad' 1
-Resetting cache.
-Early init took 44222.43s
-Loading error handling took 0.03s
-Loading script took 0.26s
-Loading save slot metadata took 0.03s
-Loading persistent took 0.00s
-Running init code took 0.05s
-Loading analysis data took 0.03s
-Analyze and compile ATL took 0.01s
-Reloading save slot metadata took 0.03s
-Index archives took 0.00s
-Backing up script files to '/home/deck/.renpy/backups/Herve VN project':
-Dump and make backups took 0.08s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc took 0.09s
-DPI scale factor: 1.000000
-Creating interface object took 0.00s
-Cleaning stores took 0.00s
-Init translation took 0.06s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.02s
-Save screen analysis took 0.03s
-Prepare screens took 0.09s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.02s
-Running _start took 0.00s
-Interface start took 0.07s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 2560, 1440)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'AMD'"
-Renderer: b'AMD Custom GPU 0932 (radeonsi, vangogh, LLVM 18.1.8, DRM 3.54, 6.1.52-valve16-1-neptune-61)'
-Version: b'4.6 (Compatibility Profile) Mesa 24.2.4 (git-e2ab51c49f)'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1243, 699) drawable=(1243, 699)
-Maximum texture size: 4096x4096
-controller: '03000000de280000ff11000001000000' 'Steam Virtual Gamepad' 1
-Resetting cache.
-Early init took 44230.33s
-Loading error handling took 0.03s
-Loading script took 0.25s
-Loading save slot metadata took 0.03s
-Loading persistent took 0.00s
-Running init code took 0.05s
-Loading analysis data took 0.03s
-Analyze and compile ATL took 0.01s
-Reloading save slot metadata took 0.03s
-Index archives took 0.00s
-Backing up script files to '/home/deck/.renpy/backups/Herve VN project':
-Dump and make backups took 0.08s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc took 0.09s
-DPI scale factor: 1.000000
-Creating interface object took 0.00s
-Cleaning stores took 0.00s
-Init translation took 0.06s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.02s
-Save screen analysis took 0.02s
-Prepare screens took 0.09s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.02s
-Running _start took 0.00s
-Interface start took 0.07s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 2560, 1440)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'AMD'"
-Renderer: b'AMD Custom GPU 0932 (radeonsi, vangogh, LLVM 18.1.8, DRM 3.54, 6.1.52-valve16-1-neptune-61)'
-Version: b'4.6 (Compatibility Profile) Mesa 24.2.4 (git-e2ab51c49f)'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1243, 699) drawable=(1243, 699)
-Maximum texture size: 4096x4096
-controller: '03000000de280000ff11000001000000' 'Steam Virtual Gamepad' 1
-Resetting cache.
-Early init took 44259.27s
-Loading error handling took 0.03s
 Loading script took 0.21s
-Loading save slot metadata took 0.02s
-Loading persistent took 0.00s
-Running init code took 0.04s
-Loading analysis data took 0.03s
-Analyze and compile ATL took 0.01s
-Reloading save slot metadata took 0.02s
-Index archives took 0.00s
-Backing up script files to '/home/deck/.renpy/backups/Herve VN project':
-Dump and make backups took 0.08s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc took 0.11s
-DPI scale factor: 1.000000
-Creating interface object took 0.00s
-Cleaning stores took 0.00s
-Init translation took 0.07s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.01s
-Save screen analysis took 0.02s
-Prepare screens took 0.08s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.02s
-Running _start took 0.00s
-Interface start took 0.09s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 2560, 1440)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'AMD'"
-Renderer: b'AMD Custom GPU 0932 (radeonsi, vangogh, LLVM 18.1.8, DRM 3.54, 6.1.52-valve16-1-neptune-61)'
-Version: b'4.6 (Compatibility Profile) Mesa 24.2.4 (git-e2ab51c49f)'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1243, 699) drawable=(1243, 699)
-Maximum texture size: 4096x4096
-controller: '03000000de280000ff11000001000000' 'Steam Virtual Gamepad' 1
-Resetting cache.
-Early init took 44287.07s
-Loading error handling took 0.03s
-Loading script took 0.28s
 Loading save slot metadata took 0.04s
 Loading persistent took 0.00s
 Running init code took 0.06s
-Loading analysis data took 0.03s
+Loading analysis data took 0.04s
 Analyze and compile ATL took 0.01s
 Reloading save slot metadata took 0.03s
 Index archives took 0.00s
 Backing up script files to '/home/deck/.renpy/backups/Herve VN project':
-Dump and make backups took 0.07s
+Dump and make backups took 0.08s
 Cleaning cache took 0.00s
 Making clean stores took 0.00s
-Initial gc took 0.08s
+Initial gc took 0.10s
 DPI scale factor: 1.000000
 Creating interface object took 0.00s
 Cleaning stores took 0.00s
-Init translation took 0.06s
+Init translation took 0.07s
 Build styles took 0.00s
 Load screen analysis took 0.00s
-Analyze screens took 0.01s
+Analyze screens took 0.02s
 Save screen analysis took 0.02s
 Prepare screens took 0.09s
 Save pyanalysis. took 0.00s
 Save bytecode. took 0.02s
 Running _start took 0.00s
-Interface start took 0.07s
+Interface start took 0.08s
 
 Initializing gl2 renderer:
 primary display bounds: (0, 0, 2560, 1440)
@@ -1391,19 +2372,60 @@ Vendor: "b'AMD'"
 Renderer: b'AMD Custom GPU 0932 (radeonsi, vangogh, LLVM 18.1.8, DRM 3.54, 6.1.52-valve16-1-neptune-61)'
 Version: b'4.6 (Compatibility Profile) Mesa 24.2.4 (git-e2ab51c49f)'
 Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1243, 699) drawable=(1243, 699)
+Screen sizes: virtual=(1920, 1080) physical=(1442, 811) drawable=(1442, 811)
 Maximum texture size: 4096x4096
 controller: '03000000de280000ff11000001000000' 'Steam Virtual Gamepad' 1
 Resetting cache.
-Early init took 44306.96s
+Early init took 7615.11s
 Loading error handling took 0.03s
 Loading script took 0.29s
 Loading save slot metadata took 0.03s
 Loading persistent took 0.00s
-Running init code took 0.05s
+Running init code took 0.06s
 Loading analysis data took 0.03s
 Analyze and compile ATL took 0.01s
 Reloading save slot metadata took 0.03s
+Index archives took 0.00s
+Backing up script files to '/home/deck/.renpy/backups/Herve VN project':
+Dump and make backups took 0.06s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.10s
+DPI scale factor: 1.000000
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.06s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.02s
+Prepare screens took 0.09s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Interface start took 0.08s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 2560, 1440)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'AMD'"
+Renderer: b'AMD Custom GPU 0932 (radeonsi, vangogh, LLVM 18.1.8, DRM 3.54, 6.1.52-valve16-1-neptune-61)'
+Version: b'4.6 (Compatibility Profile) Mesa 24.2.4 (git-e2ab51c49f)'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1442, 811) drawable=(1442, 811)
+Maximum texture size: 4096x4096
+controller: '03000000de280000ff11000001000000' 'Steam Virtual Gamepad' 1
+Resetting cache.
+Early init took 8089.96s
+Loading error handling took 0.04s
+Loading script took 0.28s
+Loading save slot metadata took 0.05s
+Loading persistent took 0.00s
+Running init code took 0.05s
+Loading analysis data took 0.03s
+Analyze and compile ATL took 0.01s
+Reloading save slot metadata took 0.02s
 Index archives took 0.00s
 Backing up script files to '/home/deck/.renpy/backups/Herve VN project':
 Dump and make backups took 0.07s
@@ -1413,75 +2435,10 @@ Initial gc took 0.10s
 DPI scale factor: 1.000000
 Creating interface object took 0.00s
 Cleaning stores took 0.00s
-Init translation took 0.08s
+Init translation took 0.06s
 Build styles took 0.00s
 Load screen analysis took 0.00s
 Analyze screens took 0.01s
-Save screen analysis took 0.02s
-Prepare screens took 0.08s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.02s
-Running _start took 0.00s
-Interface start took 0.10s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 2560, 1440)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'AMD'"
-Renderer: b'AMD Custom GPU 0932 (radeonsi, vangogh, LLVM 18.1.8, DRM 3.54, 6.1.52-valve16-1-neptune-61)'
-Version: b'4.6 (Compatibility Profile) Mesa 24.2.4 (git-e2ab51c49f)'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1243, 699) drawable=(1243, 699)
-Maximum texture size: 4096x4096
-controller: '03000000de280000ff11000001000000' 'Steam Virtual Gamepad' 1
-Resetting cache.
-Early init took 44391.51s
-Loading error handling took 0.03s
-Loading script took 0.24s
-Loading save slot metadata took 0.04s
-Loading persistent took 0.00s
-
-File "game/story/script1.rpy", line 274: expected statement.
-    her
-       ^
-DPI scale factor: 1.000000
-Interface start took 0.15s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 2560, 1440)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'AMD'"
-Renderer: b'AMD Custom GPU 0932 (radeonsi, vangogh, LLVM 18.1.8, DRM 3.54, 6.1.52-valve16-1-neptune-61)'
-Version: b'4.6 (Compatibility Profile) Mesa 24.2.4 (git-e2ab51c49f)'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1243, 699) drawable=(1243, 699)
-Maximum texture size: 4096x4096
-controller: '03000000de280000ff11000001000000' 'Steam Virtual Gamepad' 1
-Resetting cache.
-Early init took 44436.69s
-Loading error handling took 0.03s
-Loading script took 0.27s
-Loading save slot metadata took 0.03s
-Loading persistent took 0.00s
-Running init code took 0.08s
-Loading analysis data took 0.03s
-Analyze and compile ATL took 0.01s
-Reloading save slot metadata took 0.02s
-Index archives took 0.00s
-Backing up script files to '/home/deck/.renpy/backups/Herve VN project':
-Dump and make backups took 0.07s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc took 0.07s
-DPI scale factor: 1.000000
-Creating interface object took 0.00s
-Cleaning stores took 0.00s
-Init translation took 0.07s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.02s
 Save screen analysis took 0.03s
 Prepare screens took 0.10s
 Save pyanalysis. took 0.00s
@@ -1497,1129 +2454,63 @@ Vendor: "b'AMD'"
 Renderer: b'AMD Custom GPU 0932 (radeonsi, vangogh, LLVM 18.1.8, DRM 3.54, 6.1.52-valve16-1-neptune-61)'
 Version: b'4.6 (Compatibility Profile) Mesa 24.2.4 (git-e2ab51c49f)'
 Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1243, 699) drawable=(1243, 699)
+Screen sizes: virtual=(1920, 1080) physical=(1442, 811) drawable=(1442, 811)
 Maximum texture size: 4096x4096
 controller: '03000000de280000ff11000001000000' 'Steam Virtual Gamepad' 1
 Resetting cache.
-Early init took 44450.58s
+Early init took 8457.09s
 Loading error handling took 0.04s
-Loading script took 0.27s
-Loading save slot metadata took 0.03s
-Loading persistent took 0.00s
-Running init code took 0.06s
-Loading analysis data took 0.03s
-Analyze and compile ATL took 0.01s
-Reloading save slot metadata took 0.03s
-Index archives took 0.00s
-Backing up script files to '/home/deck/.renpy/backups/Herve VN project':
-Dump and make backups took 0.08s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc took 0.09s
-DPI scale factor: 1.000000
-Creating interface object took 0.00s
-Cleaning stores took 0.00s
-Init translation took 0.06s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.01s
-Save screen analysis took 0.02s
-Prepare screens took 0.09s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.02s
-Running _start took 0.00s
-Interface start took 0.09s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 2560, 1440)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'AMD'"
-Renderer: b'AMD Custom GPU 0932 (radeonsi, vangogh, LLVM 18.1.8, DRM 3.54, 6.1.52-valve16-1-neptune-61)'
-Version: b'4.6 (Compatibility Profile) Mesa 24.2.4 (git-e2ab51c49f)'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1243, 699) drawable=(1243, 699)
-Maximum texture size: 4096x4096
-controller: '03000000de280000ff11000001000000' 'Steam Virtual Gamepad' 1
-Resetting cache.
-Early init took 44849.09s
-Loading error handling took 0.03s
-Loading script took 0.24s
-Loading save slot metadata took 0.03s
-Loading persistent took 0.00s
-Running init code took 0.06s
-Loading analysis data took 0.03s
-Analyze and compile ATL took 0.01s
-Reloading save slot metadata took 0.04s
-Index archives took 0.00s
-Backing up script files to '/home/deck/.renpy/backups/Herve VN project':
-Dump and make backups took 0.08s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc took 0.10s
-DPI scale factor: 1.000000
-Creating interface object took 0.00s
-Cleaning stores took 0.00s
-Init translation took 0.07s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.02s
-Save screen analysis took 0.03s
-Prepare screens took 0.09s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.02s
-Running _start took 0.00s
-Interface start took 0.07s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 2560, 1440)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'AMD'"
-Renderer: b'AMD Custom GPU 0932 (radeonsi, vangogh, LLVM 18.1.8, DRM 3.54, 6.1.52-valve16-1-neptune-61)'
-Version: b'4.6 (Compatibility Profile) Mesa 24.2.4 (git-e2ab51c49f)'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1243, 699) drawable=(1243, 699)
-Maximum texture size: 4096x4096
-controller: '03000000de280000ff11000001000000' 'Steam Virtual Gamepad' 1
-Resetting cache.
-Early init took 44881.01s
-Loading error handling took 0.03s
-Loading script took 0.24s
-Loading save slot metadata took 0.03s
-Loading persistent took 0.00s
-Running init code took 0.05s
-Loading analysis data took 0.03s
-Analyze and compile ATL took 0.01s
-Reloading save slot metadata took 0.03s
-Index archives took 0.00s
-Backing up script files to '/home/deck/.renpy/backups/Herve VN project':
-Dump and make backups took 0.08s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc took 0.09s
-DPI scale factor: 1.000000
-Creating interface object took 0.00s
-Cleaning stores took 0.00s
-Init translation took 0.07s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.02s
-Save screen analysis took 0.02s
-Prepare screens took 0.09s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.02s
-Running _start took 0.00s
-Interface start took 0.07s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 2560, 1440)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'AMD'"
-Renderer: b'AMD Custom GPU 0932 (radeonsi, vangogh, LLVM 18.1.8, DRM 3.54, 6.1.52-valve16-1-neptune-61)'
-Version: b'4.6 (Compatibility Profile) Mesa 24.2.4 (git-e2ab51c49f)'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1243, 699) drawable=(1243, 699)
-Maximum texture size: 4096x4096
-controller: '03000000de280000ff11000001000000' 'Steam Virtual Gamepad' 1
-Resetting cache.
-Early init took 45036.17s
-Loading error handling took 0.03s
-Loading script took 0.25s
-Loading save slot metadata took 0.03s
-Loading persistent took 0.00s
-Running init code took 0.05s
-Loading analysis data took 0.03s
-Analyze and compile ATL took 0.01s
-Reloading save slot metadata took 0.03s
-Index archives took 0.00s
-Backing up script files to '/home/deck/.renpy/backups/Herve VN project':
-Dump and make backups took 0.07s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc took 0.09s
-DPI scale factor: 1.000000
-Creating interface object took 0.00s
-Cleaning stores took 0.00s
-Init translation took 0.06s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.02s
-Save screen analysis took 0.02s
-Prepare screens took 0.09s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.02s
-Running _start took 0.00s
-Interface start took 0.08s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 2560, 1440)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'AMD'"
-Renderer: b'AMD Custom GPU 0932 (radeonsi, vangogh, LLVM 18.1.8, DRM 3.54, 6.1.52-valve16-1-neptune-61)'
-Version: b'4.6 (Compatibility Profile) Mesa 24.2.4 (git-e2ab51c49f)'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1243, 699) drawable=(1243, 699)
-Maximum texture size: 4096x4096
-controller: '03000000de280000ff11000001000000' 'Steam Virtual Gamepad' 1
-Resetting cache.
-Early init took 45068.13s
-Loading error handling took 0.04s
-Loading script took 0.27s
-Loading save slot metadata took 0.03s
-Loading persistent took 0.00s
-Running init code took 0.07s
-Loading analysis data took 0.03s
-Analyze and compile ATL took 0.01s
-Reloading save slot metadata took 0.03s
-Index archives took 0.00s
-Backing up script files to '/home/deck/.renpy/backups/Herve VN project':
-Dump and make backups took 0.07s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc took 0.09s
-DPI scale factor: 1.000000
-Creating interface object took 0.00s
-Cleaning stores took 0.00s
-Init translation took 0.07s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.02s
-Save screen analysis took 0.03s
-Prepare screens took 0.09s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.02s
-Running _start took 0.00s
-Interface start took 0.08s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 2560, 1440)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'AMD'"
-Renderer: b'AMD Custom GPU 0932 (radeonsi, vangogh, LLVM 18.1.8, DRM 3.54, 6.1.52-valve16-1-neptune-61)'
-Version: b'4.6 (Compatibility Profile) Mesa 24.2.4 (git-e2ab51c49f)'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1243, 699) drawable=(1243, 699)
-Maximum texture size: 4096x4096
-controller: '03000000de280000ff11000001000000' 'Steam Virtual Gamepad' 1
-Resetting cache.
-Early init took 45187.21s
-Loading error handling took 0.04s
-Loading script took 0.28s
-Loading save slot metadata took 0.04s
-Loading persistent took 0.00s
-Running init code took 0.06s
-Loading analysis data took 0.03s
-Analyze and compile ATL took 0.01s
-Reloading save slot metadata took 0.03s
-Index archives took 0.00s
-Backing up script files to '/home/deck/.renpy/backups/Herve VN project':
-Dump and make backups took 0.09s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc took 0.10s
-DPI scale factor: 1.000000
-Creating interface object took 0.00s
-Cleaning stores took 0.00s
-Init translation took 0.07s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.02s
-Save screen analysis took 0.03s
-Prepare screens took 0.11s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.02s
-Running _start took 0.00s
-Interface start took 0.08s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 2560, 1440)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'AMD'"
-Renderer: b'AMD Custom GPU 0932 (radeonsi, vangogh, LLVM 18.1.8, DRM 3.54, 6.1.52-valve16-1-neptune-61)'
-Version: b'4.6 (Compatibility Profile) Mesa 24.2.4 (git-e2ab51c49f)'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1243, 699) drawable=(1243, 699)
-Maximum texture size: 4096x4096
-controller: '03000000de280000ff11000001000000' 'Steam Virtual Gamepad' 1
-Resetting cache.
-Early init took 45258.26s
-Loading error handling took 0.03s
-Loading script took 0.21s
-Loading save slot metadata took 0.02s
-Loading persistent took 0.00s
-Running init code took 0.05s
-Loading analysis data took 0.03s
-Analyze and compile ATL took 0.01s
-Reloading save slot metadata took 0.02s
-Index archives took 0.00s
-Backing up script files to '/home/deck/.renpy/backups/Herve VN project':
-Dump and make backups took 0.07s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc took 0.10s
-DPI scale factor: 1.000000
-Creating interface object took 0.00s
-Cleaning stores took 0.00s
-Init translation took 0.07s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.02s
-Save screen analysis took 0.03s
-Prepare screens took 0.09s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.02s
-Running _start took 0.00s
-Interface start took 0.09s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 2560, 1440)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'AMD'"
-Renderer: b'AMD Custom GPU 0932 (radeonsi, vangogh, LLVM 18.1.8, DRM 3.54, 6.1.52-valve16-1-neptune-61)'
-Version: b'4.6 (Compatibility Profile) Mesa 24.2.4 (git-e2ab51c49f)'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1243, 699) drawable=(1243, 699)
-Maximum texture size: 4096x4096
-controller: '03000000de280000ff11000001000000' 'Steam Virtual Gamepad' 1
-Resetting cache.
-Early init took 45321.81s
-Loading error handling took 0.04s
-Loading script took 0.27s
-Loading save slot metadata took 0.03s
-Loading persistent took 0.00s
-Running init code took 0.07s
-Loading analysis data took 0.04s
-Analyze and compile ATL took 0.01s
-Reloading save slot metadata took 0.03s
-Index archives took 0.00s
-Backing up script files to '/home/deck/.renpy/backups/Herve VN project':
-Dump and make backups took 0.08s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc took 0.10s
-DPI scale factor: 1.000000
-Creating interface object took 0.00s
-Cleaning stores took 0.00s
-Init translation took 0.07s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.01s
-Save screen analysis took 0.02s
-Prepare screens took 0.09s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.02s
-Running _start took 0.00s
-Interface start took 0.08s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 2560, 1440)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'AMD'"
-Renderer: b'AMD Custom GPU 0932 (radeonsi, vangogh, LLVM 18.1.8, DRM 3.54, 6.1.52-valve16-1-neptune-61)'
-Version: b'4.6 (Compatibility Profile) Mesa 24.2.4 (git-e2ab51c49f)'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1243, 699) drawable=(1243, 699)
-Maximum texture size: 4096x4096
-controller: '03000000de280000ff11000001000000' 'Steam Virtual Gamepad' 1
-Resetting cache.
-Early init took 45410.83s
-Loading error handling took 0.03s
-Loading script took 0.25s
-Loading save slot metadata took 0.03s
-Loading persistent took 0.00s
-Running init code took 0.05s
-Loading analysis data took 0.03s
-Analyze and compile ATL took 0.01s
-Reloading save slot metadata took 0.03s
-Index archives took 0.00s
-Backing up script files to '/home/deck/.renpy/backups/Herve VN project':
-Dump and make backups took 0.09s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc took 0.10s
-DPI scale factor: 1.000000
-Creating interface object took 0.00s
-Cleaning stores took 0.00s
-Init translation took 0.07s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.02s
-Save screen analysis took 0.03s
-Prepare screens took 0.10s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.02s
-Running _start took 0.00s
-Interface start took 0.08s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 2560, 1440)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'AMD'"
-Renderer: b'AMD Custom GPU 0932 (radeonsi, vangogh, LLVM 18.1.8, DRM 3.54, 6.1.52-valve16-1-neptune-61)'
-Version: b'4.6 (Compatibility Profile) Mesa 24.2.4 (git-e2ab51c49f)'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1243, 699) drawable=(1243, 699)
-Maximum texture size: 4096x4096
-controller: '03000000de280000ff11000001000000' 'Steam Virtual Gamepad' 1
-Resetting cache.
-Early init took 45432.27s
-Loading error handling took 0.03s
-Loading script took 0.26s
-Loading save slot metadata took 0.03s
-Loading persistent took 0.00s
-Running init code took 0.05s
-Loading analysis data took 0.03s
-Analyze and compile ATL took 0.01s
-Reloading save slot metadata took 0.03s
-Index archives took 0.00s
-Backing up script files to '/home/deck/.renpy/backups/Herve VN project':
-Dump and make backups took 0.08s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc took 0.09s
-DPI scale factor: 1.000000
-Creating interface object took 0.00s
-Cleaning stores took 0.00s
-Init translation took 0.06s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.02s
-Save screen analysis took 0.02s
-Prepare screens took 0.09s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.02s
-Running _start took 0.00s
-Interface start took 0.07s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 2560, 1440)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'AMD'"
-Renderer: b'AMD Custom GPU 0932 (radeonsi, vangogh, LLVM 18.1.8, DRM 3.54, 6.1.52-valve16-1-neptune-61)'
-Version: b'4.6 (Compatibility Profile) Mesa 24.2.4 (git-e2ab51c49f)'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1243, 699) drawable=(1243, 699)
-Maximum texture size: 4096x4096
-controller: '03000000de280000ff11000001000000' 'Steam Virtual Gamepad' 1
-Resetting cache.
-Early init took 45486.79s
-Loading error handling took 0.03s
-Loading script took 0.25s
-Loading save slot metadata took 0.03s
-Loading persistent took 0.00s
-Running init code took 0.05s
-Loading analysis data took 0.04s
-Analyze and compile ATL took 0.01s
-Reloading save slot metadata took 0.03s
-Index archives took 0.00s
-Backing up script files to '/home/deck/.renpy/backups/Herve VN project':
-Dump and make backups took 0.07s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc took 0.09s
-DPI scale factor: 1.000000
-Creating interface object took 0.00s
-Cleaning stores took 0.00s
-Init translation took 0.06s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.02s
-Save screen analysis took 0.02s
-Prepare screens took 0.09s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.02s
-Running _start took 0.00s
-Interface start took 0.08s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 2560, 1440)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'AMD'"
-Renderer: b'AMD Custom GPU 0932 (radeonsi, vangogh, LLVM 18.1.8, DRM 3.54, 6.1.52-valve16-1-neptune-61)'
-Version: b'4.6 (Compatibility Profile) Mesa 24.2.4 (git-e2ab51c49f)'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1243, 699) drawable=(1243, 699)
-Maximum texture size: 4096x4096
-controller: '03000000de280000ff11000001000000' 'Steam Virtual Gamepad' 1
-Resetting cache.
-Early init took 45536.79s
-Loading error handling took 0.04s
-Loading script took 0.27s
-Loading save slot metadata took 0.03s
-Loading persistent took 0.00s
-Running init code took 0.07s
-Loading analysis data took 0.04s
-Analyze and compile ATL took 0.01s
-Reloading save slot metadata took 0.03s
-Index archives took 0.00s
-Backing up script files to '/home/deck/.renpy/backups/Herve VN project':
-Dump and make backups took 0.08s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc took 0.12s
-DPI scale factor: 1.000000
-Creating interface object took 0.00s
-Cleaning stores took 0.00s
-Init translation took 0.07s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.02s
-Save screen analysis took 0.03s
-Prepare screens took 0.09s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.02s
-Running _start took 0.00s
-Interface start took 0.08s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 2560, 1440)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'AMD'"
-Renderer: b'AMD Custom GPU 0932 (radeonsi, vangogh, LLVM 18.1.8, DRM 3.54, 6.1.52-valve16-1-neptune-61)'
-Version: b'4.6 (Compatibility Profile) Mesa 24.2.4 (git-e2ab51c49f)'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1243, 699) drawable=(1243, 699)
-Maximum texture size: 4096x4096
-controller: '03000000de280000ff11000001000000' 'Steam Virtual Gamepad' 1
-Resetting cache.
-Early init took 45760.99s
-Loading error handling took 0.02s
-Loading script took 0.19s
-Loading save slot metadata took 0.02s
-Loading persistent took 0.00s
-Running init code took 0.05s
-Loading analysis data took 0.03s
-Analyze and compile ATL took 0.01s
-Reloading save slot metadata took 0.02s
-Index archives took 0.00s
-Backing up script files to '/home/deck/.renpy/backups/Herve VN project':
-Dump and make backups took 0.06s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc took 0.10s
-DPI scale factor: 1.000000
-Creating interface object took 0.00s
-Cleaning stores took 0.00s
-Init translation took 0.07s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.02s
-Save screen analysis took 0.03s
-Prepare screens took 0.09s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.02s
-Running _start took 0.00s
-Interface start took 0.09s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 2560, 1440)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'AMD'"
-Renderer: b'AMD Custom GPU 0932 (radeonsi, vangogh, LLVM 18.1.8, DRM 3.54, 6.1.52-valve16-1-neptune-61)'
-Version: b'4.6 (Compatibility Profile) Mesa 24.2.4 (git-e2ab51c49f)'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1243, 699) drawable=(1243, 699)
-Maximum texture size: 4096x4096
-controller: '03000000de280000ff11000001000000' 'Steam Virtual Gamepad' 1
-Resetting cache.
-Early init took 45841.00s
-Loading error handling took 0.03s
-Loading script took 0.28s
-Loading save slot metadata took 0.03s
-Loading persistent took 0.00s
-Running init code took 0.06s
-Loading analysis data took 0.04s
-Analyze and compile ATL took 0.01s
-Reloading save slot metadata took 0.03s
-Index archives took 0.00s
-Backing up script files to '/home/deck/.renpy/backups/Herve VN project':
-Dump and make backups took 0.08s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc took 0.09s
-DPI scale factor: 1.000000
-Creating interface object took 0.00s
-Cleaning stores took 0.00s
-Init translation took 0.06s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.02s
-Save screen analysis took 0.04s
-Prepare screens took 0.12s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.02s
-Running _start took 0.00s
-Interface start took 0.14s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 2560, 1440)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'AMD'"
-Renderer: b'AMD Custom GPU 0932 (radeonsi, vangogh, LLVM 18.1.8, DRM 3.54, 6.1.52-valve16-1-neptune-61)'
-Version: b'4.6 (Compatibility Profile) Mesa 24.2.4 (git-e2ab51c49f)'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1243, 699) drawable=(1243, 699)
-Maximum texture size: 4096x4096
-controller: '03000000de280000ff11000001000000' 'Steam Virtual Gamepad' 1
-Resetting cache.
-Early init took 45845.89s
-Loading error handling took 0.03s
-Loading script took 0.18s
-Loading save slot metadata took 0.04s
-Loading persistent took 0.00s
-Running init code took 0.05s
-Loading analysis data took 0.03s
-Analyze and compile ATL took 0.01s
-Reloading save slot metadata took 0.03s
-Index archives took 0.00s
-Dump and make backups took 0.08s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc took 0.10s
-DPI scale factor: 1.000000
-Creating interface object took 0.00s
-Cleaning stores took 0.00s
-Init translation took 0.06s
-Build styles took 0.00s
-Load screen analysis took 0.04s
-Analyze screens took 0.00s
-Save screen analysis took 0.00s
-Prepare screens took 0.09s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.00s
-Running _start took 0.00s
-Interface start took 0.08s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 2560, 1440)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'AMD'"
-Renderer: b'AMD Custom GPU 0932 (radeonsi, vangogh, LLVM 18.1.8, DRM 3.54, 6.1.52-valve16-1-neptune-61)'
-Version: b'4.6 (Compatibility Profile) Mesa 24.2.4 (git-e2ab51c49f)'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1243, 699) drawable=(1243, 699)
-Maximum texture size: 4096x4096
-controller: '03000000de280000ff11000001000000' 'Steam Virtual Gamepad' 1
-controller: '03000000de2800000512000010010000' 'Steam Deck' 1
-Resetting cache.
-Early init took 52329.26s
-Loading error handling took 0.04s
-Loading script took 0.28s
-Loading save slot metadata took 0.04s
-Loading persistent took 0.00s
-Running init code took 0.05s
-Loading analysis data took 0.03s
-Analyze and compile ATL took 0.01s
-Reloading save slot metadata took 0.03s
-Index archives took 0.00s
-Backing up script files to '/home/deck/.renpy/backups/Herve VN project':
-Dump and make backups took 0.08s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc took 0.09s
-DPI scale factor: 1.000000
-Creating interface object took 0.00s
-Cleaning stores took 0.00s
-Init translation took 0.06s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.02s
-Save screen analysis took 0.02s
-Prepare screens took 0.09s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.02s
-Running _start took 0.00s
-Interface start took 0.07s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 2560, 1440)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'AMD'"
-Renderer: b'AMD Custom GPU 0932 (radeonsi, vangogh, LLVM 18.1.8, DRM 3.54, 6.1.52-valve16-1-neptune-61)'
-Version: b'4.6 (Compatibility Profile) Mesa 24.2.4 (git-e2ab51c49f)'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1243, 699) drawable=(1243, 699)
-Maximum texture size: 4096x4096
-controller: '03000000de2800000512000010010000' 'Steam Deck' 1
-Resetting cache.
-Early init took 52392.76s
-Loading error handling took 0.04s
-Loading script took 0.25s
-Loading save slot metadata took 0.03s
-Loading persistent took 0.00s
-Running init code took 0.05s
-Loading analysis data took 0.03s
-Analyze and compile ATL took 0.01s
-Reloading save slot metadata took 0.03s
-Index archives took 0.00s
-Backing up script files to '/home/deck/.renpy/backups/Herve VN project':
-Dump and make backups took 0.07s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc took 0.09s
-DPI scale factor: 1.000000
-Creating interface object took 0.00s
-Cleaning stores took 0.00s
-Init translation took 0.06s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.02s
-Save screen analysis took 0.02s
-Prepare screens took 0.11s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.02s
-Running _start took 0.00s
-Interface start took 0.08s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 2560, 1440)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'AMD'"
-Renderer: b'AMD Custom GPU 0932 (radeonsi, vangogh, LLVM 18.1.8, DRM 3.54, 6.1.52-valve16-1-neptune-61)'
-Version: b'4.6 (Compatibility Profile) Mesa 24.2.4 (git-e2ab51c49f)'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1243, 699) drawable=(1243, 699)
-Maximum texture size: 4096x4096
-controller: '03000000de2800000512000010010000' 'Steam Deck' 1
-Resetting cache.
-Early init took 52732.77s
-Loading error handling took 0.03s
-Loading script took 0.25s
-Loading save slot metadata took 0.03s
-Loading persistent took 0.00s
-Running init code took 0.05s
-Loading analysis data took 0.03s
-Analyze and compile ATL took 0.01s
-Reloading save slot metadata took 0.02s
-Index archives took 0.00s
-Backing up script files to '/home/deck/.renpy/backups/Herve VN project':
-Dump and make backups took 0.07s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc took 0.09s
-DPI scale factor: 1.000000
-Creating interface object took 0.00s
-Cleaning stores took 0.00s
-Init translation took 0.06s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.02s
-Save screen analysis took 0.02s
-Prepare screens took 0.09s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.02s
-Running _start took 0.00s
-Interface start took 0.08s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 2560, 1440)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'AMD'"
-Renderer: b'AMD Custom GPU 0932 (radeonsi, vangogh, LLVM 18.1.8, DRM 3.54, 6.1.52-valve16-1-neptune-61)'
-Version: b'4.6 (Compatibility Profile) Mesa 24.2.4 (git-e2ab51c49f)'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1243, 699) drawable=(1243, 699)
-Maximum texture size: 4096x4096
-controller: '03000000de2800000512000010010000' 'Steam Deck' 1
-Resetting cache.
-Early init took 52758.74s
-Loading error handling took 0.04s
-Loading script took 0.26s
-Loading save slot metadata took 0.03s
-Loading persistent took 0.00s
-Running init code took 0.05s
-Loading analysis data took 0.03s
-Analyze and compile ATL took 0.01s
-Reloading save slot metadata took 0.02s
-Index archives took 0.00s
-Backing up script files to '/home/deck/.renpy/backups/Herve VN project':
-Dump and make backups took 0.07s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc took 0.09s
-DPI scale factor: 1.000000
-Creating interface object took 0.00s
-Cleaning stores took 0.00s
-Init translation took 0.06s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.02s
-Save screen analysis took 0.02s
-Prepare screens took 0.09s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.02s
-Running _start took 0.00s
-Interface start took 0.08s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 2560, 1440)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'AMD'"
-Renderer: b'AMD Custom GPU 0932 (radeonsi, vangogh, LLVM 18.1.8, DRM 3.54, 6.1.52-valve16-1-neptune-61)'
-Version: b'4.6 (Compatibility Profile) Mesa 24.2.4 (git-e2ab51c49f)'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1243, 699) drawable=(1243, 699)
-Maximum texture size: 4096x4096
-controller: '03000000de2800000512000010010000' 'Steam Deck' 1
-Resetting cache.
-Early init took 52823.73s
-Loading error handling took 0.03s
-Loading script took 0.20s
-Loading save slot metadata took 0.03s
-Loading persistent took 0.00s
-Running init code took 0.03s
-Loading analysis data took 0.02s
-Analyze and compile ATL took 0.01s
-Reloading save slot metadata took 0.02s
-Index archives took 0.00s
-Backing up script files to '/home/deck/.renpy/backups/Herve VN project':
-Dump and make backups took 0.06s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc took 0.08s
-DPI scale factor: 1.000000
-Creating interface object took 0.00s
-Cleaning stores took 0.00s
-Init translation took 0.07s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.01s
-Save screen analysis took 0.02s
-Prepare screens took 0.09s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.02s
-Running _start took 0.00s
-Interface start took 0.08s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 2560, 1440)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'AMD'"
-Renderer: b'AMD Custom GPU 0932 (radeonsi, vangogh, LLVM 18.1.8, DRM 3.54, 6.1.52-valve16-1-neptune-61)'
-Version: b'4.6 (Compatibility Profile) Mesa 24.2.4 (git-e2ab51c49f)'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1243, 699) drawable=(1243, 699)
-Maximum texture size: 4096x4096
-controller: '03000000de2800000512000010010000' 'Steam Deck' 1
-Resetting cache.
-Early init took 53013.51s
-Loading error handling took 0.03s
-Loading script took 0.25s
-Loading save slot metadata took 0.03s
-Loading persistent took 0.00s
-Running init code took 0.04s
-Loading analysis data took 0.03s
-Analyze and compile ATL took 0.01s
-Reloading save slot metadata took 0.03s
-Index archives took 0.00s
-Backing up script files to '/home/deck/.renpy/backups/Herve VN project':
-Dump and make backups took 0.06s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc took 0.10s
-DPI scale factor: 1.000000
-Creating interface object took 0.00s
-Cleaning stores took 0.00s
-Init translation took 0.07s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.01s
-Save screen analysis took 0.02s
-Prepare screens took 0.10s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.02s
-Running _start took 0.00s
-Interface start took 0.08s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 2560, 1440)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'AMD'"
-Renderer: b'AMD Custom GPU 0932 (radeonsi, vangogh, LLVM 18.1.8, DRM 3.54, 6.1.52-valve16-1-neptune-61)'
-Version: b'4.6 (Compatibility Profile) Mesa 24.2.4 (git-e2ab51c49f)'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1243, 699) drawable=(1243, 699)
-Maximum texture size: 4096x4096
-controller: '03000000de2800000512000010010000' 'Steam Deck' 1
-Resetting cache.
-Early init took 53149.16s
-Loading error handling took 0.04s
-Loading script took 0.26s
-Loading save slot metadata took 0.03s
-Loading persistent took 0.00s
-Running init code took 0.05s
-Loading analysis data took 0.03s
-Analyze and compile ATL took 0.01s
-Reloading save slot metadata took 0.02s
-Index archives took 0.00s
-Backing up script files to '/home/deck/.renpy/backups/Herve VN project':
-Dump and make backups took 0.07s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc took 0.09s
-DPI scale factor: 1.000000
-Creating interface object took 0.00s
-Cleaning stores took 0.00s
-Init translation took 0.08s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.02s
-Save screen analysis took 0.03s
-Prepare screens took 0.09s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.02s
-Running _start took 0.00s
-Interface start took 0.07s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 2560, 1440)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'AMD'"
-Renderer: b'AMD Custom GPU 0932 (radeonsi, vangogh, LLVM 18.1.8, DRM 3.54, 6.1.52-valve16-1-neptune-61)'
-Version: b'4.6 (Compatibility Profile) Mesa 24.2.4 (git-e2ab51c49f)'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1243, 699) drawable=(1243, 699)
-Maximum texture size: 4096x4096
-controller: '03000000de2800000512000010010000' 'Steam Deck' 1
-Resetting cache.
-Early init took 53175.11s
-Loading error handling took 0.04s
-Loading script took 0.26s
-Loading save slot metadata took 0.03s
-Loading persistent took 0.00s
-Running init code took 0.05s
-Loading analysis data took 0.03s
-Analyze and compile ATL took 0.01s
-Reloading save slot metadata took 0.03s
-Index archives took 0.00s
-Backing up script files to '/home/deck/.renpy/backups/Herve VN project':
-Dump and make backups took 0.07s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc took 0.10s
-DPI scale factor: 1.000000
-Creating interface object took 0.00s
-Cleaning stores took 0.00s
-Init translation took 0.07s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.01s
-Save screen analysis took 0.02s
-Prepare screens took 0.09s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.02s
-Running _start took 0.00s
-Interface start took 0.07s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 2560, 1440)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'AMD'"
-Renderer: b'AMD Custom GPU 0932 (radeonsi, vangogh, LLVM 18.1.8, DRM 3.54, 6.1.52-valve16-1-neptune-61)'
-Version: b'4.6 (Compatibility Profile) Mesa 24.2.4 (git-e2ab51c49f)'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1243, 699) drawable=(1243, 699)
-Maximum texture size: 4096x4096
-controller: '03000000de2800000512000010010000' 'Steam Deck' 1
-Resetting cache.
-Early init took 53309.22s
-Loading error handling took 0.04s
-Loading script took 0.25s
-Loading save slot metadata took 0.04s
-Loading persistent took 0.00s
-Running init code took 0.06s
-Loading analysis data took 0.03s
-Analyze and compile ATL took 0.01s
-Reloading save slot metadata took 0.04s
-Index archives took 0.00s
-Backing up script files to '/home/deck/.renpy/backups/Herve VN project':
-Dump and make backups took 0.08s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc took 0.09s
-DPI scale factor: 1.000000
-Creating interface object took 0.00s
-Cleaning stores took 0.00s
-Init translation took 0.08s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.02s
-Save screen analysis took 0.02s
-Prepare screens took 0.09s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.02s
-Running _start took 0.00s
-Interface start took 0.08s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 2560, 1440)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'AMD'"
-Renderer: b'AMD Custom GPU 0932 (radeonsi, vangogh, LLVM 18.1.8, DRM 3.54, 6.1.52-valve16-1-neptune-61)'
-Version: b'4.6 (Compatibility Profile) Mesa 24.2.4 (git-e2ab51c49f)'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1243, 699) drawable=(1243, 699)
-Maximum texture size: 4096x4096
-controller: '03000000de2800000512000010010000' 'Steam Deck' 1
-Resetting cache.
-Early init took 53951.28s
-Loading error handling took 0.03s
-Loading script took 0.26s
-Loading save slot metadata took 0.03s
-Loading persistent took 0.00s
-Running init code took 0.05s
-Loading analysis data took 0.03s
-Analyze and compile ATL took 0.01s
-Reloading save slot metadata took 0.03s
-Index archives took 0.00s
-Backing up script files to '/home/deck/.renpy/backups/Herve VN project':
-Dump and make backups took 0.08s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc took 0.09s
-DPI scale factor: 1.000000
-Creating interface object took 0.00s
-Cleaning stores took 0.00s
-Init translation took 0.06s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.02s
-Save screen analysis took 0.02s
-Prepare screens took 0.09s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.02s
-Running _start took 0.00s
-Interface start took 0.08s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 2560, 1440)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'AMD'"
-Renderer: b'AMD Custom GPU 0932 (radeonsi, vangogh, LLVM 18.1.8, DRM 3.54, 6.1.52-valve16-1-neptune-61)'
-Version: b'4.6 (Compatibility Profile) Mesa 24.2.4 (git-e2ab51c49f)'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1243, 699) drawable=(1243, 699)
-Maximum texture size: 4096x4096
-controller: '03000000de2800000512000010010000' 'Steam Deck' 1
-Resetting cache.
-Early init took 54153.04s
-Loading error handling took 0.03s
-Loading script took 0.23s
-Loading save slot metadata took 0.03s
-Loading persistent took 0.00s
-Running init code took 0.05s
-Loading analysis data took 0.03s
-Analyze and compile ATL took 0.01s
-Reloading save slot metadata took 0.03s
-Index archives took 0.00s
-Backing up script files to '/home/deck/.renpy/backups/Herve VN project':
-Dump and make backups took 0.07s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc took 0.09s
-DPI scale factor: 1.000000
-Creating interface object took 0.00s
-Cleaning stores took 0.00s
-Init translation took 0.07s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.01s
-Save screen analysis took 0.03s
-Prepare screens took 0.08s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.02s
-Running _start took 0.00s
-Interface start took 0.09s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 2560, 1440)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'AMD'"
-Renderer: b'AMD Custom GPU 0932 (radeonsi, vangogh, LLVM 18.1.8, DRM 3.54, 6.1.52-valve16-1-neptune-61)'
-Version: b'4.6 (Compatibility Profile) Mesa 24.2.4 (git-e2ab51c49f)'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1243, 699) drawable=(1243, 699)
-Maximum texture size: 4096x4096
-controller: '03000000de2800000512000010010000' 'Steam Deck' 1
-Resetting cache.
-Early init took 54204.47s
-Loading error handling took 0.02s
-Loading script took 0.19s
-Loading save slot metadata took 0.02s
-Loading persistent took 0.00s
-Running init code took 0.03s
-Loading analysis data took 0.02s
-Analyze and compile ATL took 0.01s
-Reloading save slot metadata took 0.02s
-Index archives took 0.00s
-Backing up script files to '/home/deck/.renpy/backups/Herve VN project':
-Dump and make backups took 0.06s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc took 0.12s
-DPI scale factor: 1.000000
-Creating interface object took 0.00s
-Cleaning stores took 0.00s
-Init translation took 0.06s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.01s
-Save screen analysis took 0.02s
-Prepare screens took 0.08s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.02s
-Running _start took 0.00s
-Interface start took 0.07s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 2560, 1440)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'AMD'"
-Renderer: b'AMD Custom GPU 0932 (radeonsi, vangogh, LLVM 18.1.8, DRM 3.54, 6.1.52-valve16-1-neptune-61)'
-Version: b'4.6 (Compatibility Profile) Mesa 24.2.4 (git-e2ab51c49f)'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1243, 699) drawable=(1243, 699)
-Maximum texture size: 4096x4096
-controller: '03000000de2800000512000010010000' 'Steam Deck' 1
-Resetting cache.
-Early init took 54388.18s
-Loading error handling took 0.02s
 Loading script took 0.22s
 Loading save slot metadata took 0.02s
 Loading persistent took 0.00s
-Running init code took 0.04s
+Running init code took 0.05s
 Loading analysis data took 0.03s
 Analyze and compile ATL took 0.01s
 Reloading save slot metadata took 0.02s
 Index archives took 0.00s
 Backing up script files to '/home/deck/.renpy/backups/Herve VN project':
-Dump and make backups took 0.08s
+Dump and make backups took 0.07s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.12s
+DPI scale factor: 1.000000
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.07s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.02s
+Save screen analysis took 0.02s
+Prepare screens took 0.09s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Interface start took 0.10s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 2560, 1440)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'AMD'"
+Renderer: b'AMD Custom GPU 0932 (radeonsi, vangogh, LLVM 18.1.8, DRM 3.54, 6.1.52-valve16-1-neptune-61)'
+Version: b'4.6 (Compatibility Profile) Mesa 24.2.4 (git-e2ab51c49f)'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1442, 811) drawable=(1442, 811)
+Maximum texture size: 4096x4096
+controller: '03000000de280000ff11000001000000' 'Steam Virtual Gamepad' 1
+Resetting cache.
+Early init took 8528.27s
+Loading error handling took 0.04s
+Loading script took 0.30s
+Loading save slot metadata took 0.04s
+Loading persistent took 0.00s
+Running init code took 0.06s
+Loading analysis data took 0.03s
+Analyze and compile ATL took 0.01s
+Reloading save slot metadata took 0.03s
+Index archives took 0.00s
+Backing up script files to '/home/deck/.renpy/backups/Herve VN project':
+Dump and make backups took 0.07s
 Cleaning cache took 0.00s
 Making clean stores took 0.00s
 Initial gc took 0.10s
@@ -2627,6 +2518,170 @@ DPI scale factor: 1.000000
 Creating interface object took 0.00s
 Cleaning stores took 0.00s
 Init translation took 0.07s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.03s
+Prepare screens took 0.09s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Interface start took 0.08s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 2560, 1440)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'AMD'"
+Renderer: b'AMD Custom GPU 0932 (radeonsi, vangogh, LLVM 18.1.8, DRM 3.54, 6.1.52-valve16-1-neptune-61)'
+Version: b'4.6 (Compatibility Profile) Mesa 24.2.4 (git-e2ab51c49f)'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1442, 811) drawable=(1442, 811)
+Maximum texture size: 4096x4096
+controller: '03000000de280000ff11000001000000' 'Steam Virtual Gamepad' 1
+Resetting cache.
+Early init took 8902.15s
+Loading error handling took 0.04s
+Loading script took 0.33s
+Loading save slot metadata took 0.04s
+Loading persistent took 0.00s
+Running init code took 0.06s
+Loading analysis data took 0.03s
+Analyze and compile ATL took 0.01s
+Reloading save slot metadata took 0.03s
+Index archives took 0.00s
+Backing up script files to '/home/deck/.renpy/backups/Herve VN project':
+Dump and make backups took 0.07s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.10s
+DPI scale factor: 1.000000
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.07s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.02s
+Save screen analysis took 0.03s
+Prepare screens took 0.09s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Interface start took 0.09s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 2560, 1440)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'AMD'"
+Renderer: b'AMD Custom GPU 0932 (radeonsi, vangogh, LLVM 18.1.8, DRM 3.54, 6.1.52-valve16-1-neptune-61)'
+Version: b'4.6 (Compatibility Profile) Mesa 24.2.4 (git-e2ab51c49f)'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1442, 811) drawable=(1442, 811)
+Maximum texture size: 4096x4096
+controller: '03000000de280000ff11000001000000' 'Steam Virtual Gamepad' 1
+Resetting cache.
+Early init took 9027.22s
+Loading error handling took 0.04s
+Loading script took 0.30s
+Loading save slot metadata took 0.04s
+Loading persistent took 0.00s
+Running init code took 0.07s
+Loading analysis data took 0.04s
+Analyze and compile ATL took 0.01s
+Reloading save slot metadata took 0.03s
+Index archives took 0.00s
+Backing up script files to '/home/deck/.renpy/backups/Herve VN project':
+Dump and make backups took 0.08s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.11s
+DPI scale factor: 1.000000
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.09s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.02s
+Prepare screens took 0.09s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Interface start took 0.09s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 2560, 1440)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'AMD'"
+Renderer: b'AMD Custom GPU 0932 (radeonsi, vangogh, LLVM 18.1.8, DRM 3.54, 6.1.52-valve16-1-neptune-61)'
+Version: b'4.6 (Compatibility Profile) Mesa 24.2.4 (git-e2ab51c49f)'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1442, 811) drawable=(1442, 811)
+Maximum texture size: 4096x4096
+controller: '03000000de280000ff11000001000000' 'Steam Virtual Gamepad' 1
+Resetting cache.
+Early init took 9059.17s
+Loading error handling took 0.04s
+Loading script took 0.29s
+Loading save slot metadata took 0.03s
+Loading persistent took 0.00s
+Running init code took 0.06s
+Loading analysis data took 0.03s
+Analyze and compile ATL took 0.01s
+Reloading save slot metadata took 0.03s
+Index archives took 0.00s
+Backing up script files to '/home/deck/.renpy/backups/Herve VN project':
+Dump and make backups took 0.08s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.11s
+DPI scale factor: 1.000000
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.07s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.02s
+Save screen analysis took 0.03s
+Prepare screens took 0.09s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Interface start took 0.08s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 2560, 1440)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'AMD'"
+Renderer: b'AMD Custom GPU 0932 (radeonsi, vangogh, LLVM 18.1.8, DRM 3.54, 6.1.52-valve16-1-neptune-61)'
+Version: b'4.6 (Compatibility Profile) Mesa 24.2.4 (git-e2ab51c49f)'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1442, 811) drawable=(1442, 811)
+Maximum texture size: 4096x4096
+controller: '03000000de280000ff11000001000000' 'Steam Virtual Gamepad' 1
+Resetting cache.
+Early init took 9112.16s
+Loading error handling took 0.04s
+Loading script took 0.28s
+Loading save slot metadata took 0.03s
+Loading persistent took 0.00s
+Running init code took 0.04s
+Loading analysis data took 0.03s
+Analyze and compile ATL took 0.01s
+Reloading save slot metadata took 0.02s
+Index archives took 0.00s
+Backing up script files to '/home/deck/.renpy/backups/Herve VN project':
+Dump and make backups took 0.07s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.10s
+DPI scale factor: 1.000000
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.08s
 Build styles took 0.00s
 Load screen analysis took 0.00s
 Analyze screens took 0.01s
@@ -2645,139 +2700,98 @@ Vendor: "b'AMD'"
 Renderer: b'AMD Custom GPU 0932 (radeonsi, vangogh, LLVM 18.1.8, DRM 3.54, 6.1.52-valve16-1-neptune-61)'
 Version: b'4.6 (Compatibility Profile) Mesa 24.2.4 (git-e2ab51c49f)'
 Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1243, 699) drawable=(1243, 699)
+Screen sizes: virtual=(1920, 1080) physical=(1442, 811) drawable=(1442, 811)
 Maximum texture size: 4096x4096
-controller: '03000000de2800000512000010010000' 'Steam Deck' 1
+controller: '03000000de280000ff11000001000000' 'Steam Virtual Gamepad' 1
 Resetting cache.
-Early init took 54463.70s
+Early init took 9150.09s
 Loading error handling took 0.04s
-Loading script took 0.25s
-Loading save slot metadata took 0.03s
-Loading persistent took 0.00s
-Running init code took 0.05s
-Loading analysis data took 0.03s
-Analyze and compile ATL took 0.01s
-Reloading save slot metadata took 0.03s
-Index archives took 0.00s
-Backing up script files to '/home/deck/.renpy/backups/Herve VN project':
-Dump and make backups took 0.07s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc took 0.09s
-DPI scale factor: 1.000000
-Creating interface object took 0.00s
-Cleaning stores took 0.00s
-Init translation took 0.06s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.02s
-Save screen analysis took 0.02s
-Prepare screens took 0.09s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.02s
-Running _start took 0.00s
-Interface start took 0.07s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 2560, 1440)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'AMD'"
-Renderer: b'AMD Custom GPU 0932 (radeonsi, vangogh, LLVM 18.1.8, DRM 3.54, 6.1.52-valve16-1-neptune-61)'
-Version: b'4.6 (Compatibility Profile) Mesa 24.2.4 (git-e2ab51c49f)'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1243, 699) drawable=(1243, 699)
-Maximum texture size: 4096x4096
-controller: '03000000de2800000512000010010000' 'Steam Deck' 1
-Resetting cache.
-Early init took 54515.12s
-Loading error handling took 0.02s
-Loading script took 0.17s
-Loading save slot metadata took 0.02s
-Loading persistent took 0.00s
-Running init code took 0.04s
-Loading analysis data took 0.02s
-Analyze and compile ATL took 0.01s
-Reloading save slot metadata took 0.02s
-Index archives took 0.00s
-Backing up script files to '/home/deck/.renpy/backups/Herve VN project':
-Dump and make backups took 0.05s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc took 0.09s
-DPI scale factor: 1.000000
-Creating interface object took 0.00s
-Cleaning stores took 0.00s
-Init translation took 0.06s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.02s
-Save screen analysis took 0.02s
-Prepare screens took 0.08s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.02s
-Running _start took 0.00s
-Interface start took 0.08s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 2560, 1440)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'AMD'"
-Renderer: b'AMD Custom GPU 0932 (radeonsi, vangogh, LLVM 18.1.8, DRM 3.54, 6.1.52-valve16-1-neptune-61)'
-Version: b'4.6 (Compatibility Profile) Mesa 24.2.4 (git-e2ab51c49f)'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1243, 699) drawable=(1243, 699)
-Maximum texture size: 4096x4096
-controller: '03000000de2800000512000010010000' 'Steam Deck' 1
-Resetting cache.
-Early init took 54907.72s
-Loading error handling took 0.03s
-Loading script took 0.27s
-Loading save slot metadata took 0.03s
-Loading persistent took 0.00s
-Running init code took 0.05s
-Loading analysis data took 0.03s
-Analyze and compile ATL took 0.01s
-Reloading save slot metadata took 0.03s
-Index archives took 0.00s
-Backing up script files to '/home/deck/.renpy/backups/Herve VN project':
-Dump and make backups took 0.07s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc took 0.09s
-DPI scale factor: 1.000000
-Creating interface object took 0.00s
-Cleaning stores took 0.00s
-Init translation took 0.06s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.02s
-Save screen analysis took 0.02s
-Prepare screens took 0.09s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.02s
-Running _start took 0.00s
-Interface start took 0.07s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 2560, 1440)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'AMD'"
-Renderer: b'AMD Custom GPU 0932 (radeonsi, vangogh, LLVM 18.1.8, DRM 3.54, 6.1.52-valve16-1-neptune-61)'
-Version: b'4.6 (Compatibility Profile) Mesa 24.2.4 (git-e2ab51c49f)'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1243, 699) drawable=(1243, 699)
-Maximum texture size: 4096x4096
-controller: '03000000de2800000512000010010000' 'Steam Deck' 1
-Resetting cache.
-Early init took 55034.33s
-Loading error handling took 0.03s
 Loading script took 0.28s
-Loading save slot metadata took 0.03s
+Loading save slot metadata took 0.05s
+Loading persistent took 0.00s
+Running init code took 0.07s
+Loading analysis data took 0.04s
+Analyze and compile ATL took 0.01s
+Reloading save slot metadata took 0.03s
+Index archives took 0.00s
+Backing up script files to '/home/deck/.renpy/backups/Herve VN project':
+Dump and make backups took 0.07s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.09s
+DPI scale factor: 1.000000
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.06s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.02s
+Prepare screens took 0.09s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Interface start took 0.11s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 2560, 1440)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'AMD'"
+Renderer: b'AMD Custom GPU 0932 (radeonsi, vangogh, LLVM 18.1.8, DRM 3.54, 6.1.52-valve16-1-neptune-61)'
+Version: b'4.6 (Compatibility Profile) Mesa 24.2.4 (git-e2ab51c49f)'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1442, 811) drawable=(1442, 811)
+Maximum texture size: 4096x4096
+controller: '03000000de280000ff11000001000000' 'Steam Virtual Gamepad' 1
+Resetting cache.
+Early init took 9188.06s
+Loading error handling took 0.04s
+Loading script took 0.30s
+Loading save slot metadata took 0.04s
 Loading persistent took 0.00s
 Running init code took 0.05s
+Loading analysis data took 0.03s
+Analyze and compile ATL took 0.01s
+Reloading save slot metadata took 0.03s
+Index archives took 0.00s
+Backing up script files to '/home/deck/.renpy/backups/Herve VN project':
+Dump and make backups took 0.07s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.10s
+DPI scale factor: 1.000000
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.07s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.02s
+Save screen analysis took 0.03s
+Prepare screens took 0.09s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Interface start took 0.12s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 2560, 1440)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'AMD'"
+Renderer: b'AMD Custom GPU 0932 (radeonsi, vangogh, LLVM 18.1.8, DRM 3.54, 6.1.52-valve16-1-neptune-61)'
+Version: b'4.6 (Compatibility Profile) Mesa 24.2.4 (git-e2ab51c49f)'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1442, 811) drawable=(1442, 811)
+Maximum texture size: 4096x4096
+controller: '03000000de280000ff11000001000000' 'Steam Virtual Gamepad' 1
+Resetting cache.
+Early init took 9236.53s
+Loading error handling took 0.04s
+Loading script took 0.27s
+Loading save slot metadata took 0.04s
+Loading persistent took 0.00s
+Running init code took 0.06s
 Loading analysis data took 0.03s
 Analyze and compile ATL took 0.01s
 Reloading save slot metadata took 0.03s
@@ -2791,10 +2805,10 @@ DPI scale factor: 1.000000
 Creating interface object took 0.00s
 Cleaning stores took 0.00s
 Init translation took 0.07s
-Build styles took 0.01s
+Build styles took 0.00s
 Load screen analysis took 0.00s
 Analyze screens took 0.02s
-Save screen analysis took 0.03s
+Save screen analysis took 0.02s
 Prepare screens took 0.09s
 Save pyanalysis. took 0.00s
 Save bytecode. took 0.02s
@@ -2809,6 +2823,131 @@ Vendor: "b'AMD'"
 Renderer: b'AMD Custom GPU 0932 (radeonsi, vangogh, LLVM 18.1.8, DRM 3.54, 6.1.52-valve16-1-neptune-61)'
 Version: b'4.6 (Compatibility Profile) Mesa 24.2.4 (git-e2ab51c49f)'
 Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1243, 699) drawable=(1243, 699)
+Screen sizes: virtual=(1920, 1080) physical=(1442, 811) drawable=(1442, 811)
 Maximum texture size: 4096x4096
-controller: '03000000de2800000512000010010000' 'Steam Deck' 1
+controller: '03000000de280000ff11000001000000' 'Steam Virtual Gamepad' 1
+Screen sizes: virtual=(1920, 1080) physical=(1280, 763) drawable=(1280, 763)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 10158.02s
+Loading error handling took 0.04s
+Loading script took 0.28s
+Loading save slot metadata took 0.04s
+Loading persistent took 0.00s
+Running init code took 0.06s
+Loading analysis data took 0.03s
+Analyze and compile ATL took 0.01s
+Reloading save slot metadata took 0.03s
+Index archives took 0.00s
+Backing up script files to '/home/deck/.renpy/backups/Herve VN project':
+Dump and make backups took 0.08s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.09s
+DPI scale factor: 1.000000
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.07s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.02s
+Save screen analysis took 0.02s
+Prepare screens took 0.09s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Interface start took 0.09s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 2560, 1440)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'AMD'"
+Renderer: b'AMD Custom GPU 0932 (radeonsi, vangogh, LLVM 18.1.8, DRM 3.54, 6.1.52-valve16-1-neptune-61)'
+Version: b'4.6 (Compatibility Profile) Mesa 24.2.4 (git-e2ab51c49f)'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1280, 720) drawable=(1280, 720)
+Maximum texture size: 4096x4096
+controller: '03000000de280000ff11000001000000' 'Steam Virtual Gamepad' 1
+Resetting cache.
+Early init took 12086.28s
+Loading error handling took 0.04s
+Loading script took 0.30s
+Loading save slot metadata took 0.04s
+Loading persistent took 0.00s
+Running init code took 0.05s
+Loading analysis data took 0.03s
+Analyze and compile ATL took 0.01s
+Reloading save slot metadata took 0.03s
+Index archives took 0.00s
+Backing up script files to '/home/deck/.renpy/backups/Herve VN project':
+Dump and make backups took 0.07s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.09s
+DPI scale factor: 1.000000
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.06s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.02s
+Prepare screens took 0.09s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Interface start took 0.07s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 2560, 1440)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'AMD'"
+Renderer: b'AMD Custom GPU 0932 (radeonsi, vangogh, LLVM 18.1.8, DRM 3.54, 6.1.52-valve16-1-neptune-61)'
+Version: b'4.6 (Compatibility Profile) Mesa 24.2.4 (git-e2ab51c49f)'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1280, 720) drawable=(1280, 720)
+Maximum texture size: 4096x4096
+controller: '03000000de280000ff11000001000000' 'Steam Virtual Gamepad' 1
+Resetting cache.
+Early init took 12487.87s
+Loading error handling took 0.04s
+Loading script took 0.36s
+Loading save slot metadata took 0.05s
+Loading persistent took 0.00s
+Running init code took 0.07s
+Loading analysis data took 0.04s
+Analyze and compile ATL took 0.01s
+Reloading save slot metadata took 0.04s
+Index archives took 0.00s
+Backing up script files to '/home/deck/.renpy/backups/Herve VN project':
+Dump and make backups took 0.10s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.10s
+DPI scale factor: 1.000000
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.07s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.02s
+Save screen analysis took 0.03s
+Prepare screens took 0.11s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Interface start took 0.08s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 2560, 1440)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'AMD'"
+Renderer: b'AMD Custom GPU 0932 (radeonsi, vangogh, LLVM 18.1.8, DRM 3.54, 6.1.52-valve16-1-neptune-61)'
+Version: b'4.6 (Compatibility Profile) Mesa 24.2.4 (git-e2ab51c49f)'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1280, 720) drawable=(1280, 720)
+Maximum texture size: 4096x4096
+controller: '03000000de280000ff11000001000000' 'Steam Virtual Gamepad' 1

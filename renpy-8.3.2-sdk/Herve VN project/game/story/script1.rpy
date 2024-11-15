@@ -32,7 +32,7 @@ label story1:
     pause 1
     mco "Mmh, maybe start slow, and for the rest... Yeah we'll see !"
     pause 2
-    mco "He's my best friend, I don't wanna mess it up."
+    mco "He's my best friend, I don't wanna mess it up. It's been a good couple of years we know each other online, now."
     mco "I don't know how many rants he read from me. But he was always there, and so chill. He helped me a lot going through college."
     pause 1
     mco "I admire him in some ways, he looks like doing what's he's passionate about while keeping a safe place in the Discord server."
@@ -252,7 +252,7 @@ label story1:
     mco "Hii ?"
     womc "Hello, I'm miss Deborah, from the McSimon company, about your resume for the digital marking job offer. Do you have a couple of minutes for a quick interview ?"
     mco "S-sure !"
-    mci "Woah it's a job offer I sent aimlessly. It's from Seattle I think ?"
+    mci "Woah it's a job offer I sent just like that. It's from Seattle I think ?"
     scene houseBedroom at tint18 with Fade(1,1,1)
     womc "... And that's why in McSimon company, our top value is to make new innovations possible."
     pause 1
@@ -262,64 +262,114 @@ label story1:
     mco "Woah it's been a long time I haven't had an interview..."
     pause 1
     mco "Seattle, it's so far... Though, it could be my only chance... Being independant and living far away..."
-    scene houseBedroom with Fade(1,2,1)
+    scene black with Fade(1,0,1)
+    pause 1
+    scene houseBedroom with Fade(1,1,2)
     pause 1
     show houseLounge with Fade(1,0,1)
     pause 1
     show houseKitchen with Fade(1,0,1)
-    pause 1
+    pause .5
     # day 1
-    show road2 with Fade(1,0,1)
+    show road2
     show he at middle
+    with Fade(1,0,1)
     her "Mmh mh mh~ 🎶"
     mco "*yaawn*"
-    her "Woah there big guy, feeling tired again ?"
-    her "Is it not too boring to watch me work ?"
+    her "Woah there big guy, feeling tired again, today ?"
+    her "Or is it not too boring to watch me work ?"
     mco "Oh no ! It's just..."
     pause 1
-    her "... You must be all shifted for sleep."
+    her "... You must be a bit shifted with your sleep."
     mco "Mmh yeah."
     mci "I don't really want to tell him about my job searches and my interview. It's probably not going to work anyway."
     pause 1
     mci "Hervé seems like to collect samples of snow and making measurments since a short time ago. I'm not really sure what's he's doing."
-    mco "What are you doing with the snow, Hervé ?"
-    her "Well, that's not for my personal collection, it's for scientists. I sometimes get contacted by some universities to take samples of the snow. And send them remotely the measurements."
-    her "{size=21}Rha ! Scholars are a lazier now with the internet.{/size}"
+    mco "What are you doing, Hervé ?"
+    her "Well, that's not for my personal collection, it's for scientists. I sometimes get contacted by some universities to take samples. And send them remotely the measurements."
+    her "{size=21}Rha ! Scholars are a lazier now with the internet. Hopefully they gave me the equipment and trained me a little.{/size}"
     mco "It's looks more interesting to watch you work now."
-    her "Mh, yeah ! That's a job retraining I wasn't expecting at my age."
+    her "Mh, yeah ! Quite far from my job of forest ranger. That's a job retraining I wasn't expecting at my age."
     mco "Hehe, poor old man..."
     pause 1
     her "*sigh* I'm making the clown, but in reality it's more serious than it seems..."
-    mco "About the environment ?"
+    mco "It's for the environment ?"
     her "Indeed. It isn't going in the good direction..."
     mci "He seems careful to sample and measure the snow. He looks calmer now."
     pause 1
     mci "I think he cares deeply about his montains."
     pause 2
     her "{size=21}That will be it.{/size} I'm good, we can head back home now."
-    mci "He says that but he's still crouched, and not ready to leave... I will give him a hand."
+    mci "He says that but he's still crouched, and not ready to leave... Urh, I will give him a hand."
 
     call car_bumps
     show road1 with Fade(1,0,1)
-    play music music2
     play sfx1 driving
-    her "So... ? How was it to follow me to work ?"
+    mci "After the work, Hervé drive us back home."
+    pause 2
+    hero "So... ? How was it to follow me to work ?"
     mci "... He breaks this long silence while we drive back home."
     mco "Quite fun actually. I learnt a lot of things with you, for real. A real well of knowledge."
-    mco "... {size=21}Like when you showed me how you put your socks over your pants so you don't get them wet{/size}..."
-    her "Well, It's not very aestetic, I admit thaat. But it's a constant challenge to keep out the cold."
+    mco "... {size=21}Like when you showed me how you tuck your pants in your shoes{/size}..."
+    hero "Well, It's not very aesthetics, I admit that. But it's a constant challenge to keep out the cold."
     pause 1
     mci "It's crazy how we never stop joking about each other, it's like very natural. I don't know who started the first."
     pause 1
     mci "Though I wanna reasure him about the silences."
     mco "Hey, you know Hervé. It's quite alright if we have silences in out conversations. Don't feel forced to."
     pause 1
-    her "Oh I see..."
-    her "Thank you."
-    mco "Hehe, you welcomed."
-    mci "I don't know exactly why he thanks me."
+    hero "Oh I see..."
+    hero "Thank you."
+    mco "Hehe, no problem."
+    mci "I don't know exactly why he thanks me but I take it."
     pause 1
-    mco "... Besides, when do we arrive ? I'm not the biggest fan of these curving roads."
-    her "Don't worry, "
+    mci "I'm curious about him... He never told that he was living with someone, though this house is so big."
+    pause 1
+    mco "Say, Hervé what's the story behind the house ?"
+    pause 1
+    hero "I could do you a tour when returning home, you wanna ?"
+    mco "Sure !"
+    
+    scene houseOutside 
+    camera
+    show he at middle
+    with Fade(1,0,1)
+
+    her "So."
+    her "... How should I start... Well, first, it's a family house."
+    her "My family, they gave it to me for a pittance, {size=21}kinda{/size}."
+    pause 1
+    her "*ahem* No one wanted it. Too far from cities and no desk work here. The chalet was abandoned and had to be completely redone."
+    pause 1
+    mco "So, you did the renovations all by yourself ?"
+    her "I tried alone for some part like carpentry but for the rest it was sketchy... I ended up asked for help to the neighbors around."
+    her "That's how I found my new job too by the way !"
+    mco "Forest ranger, woah I think I only know you that is one. Was is a thing you always wanted to ?"
+    her "A little childhood dream at some point perhaps haha. But now I'm living it. I'm more than happy, it's so diverse. I feel helpful to many people around."
+    mco "But why did you end up here ?"
+    her "Urh, long story short, when I arrived here, I wanted to start over."   
+    her "I had problems in my life... I needed a break." 
+    pause 1
+    scene houseLounge with Fade(1,0,1) 
+    mci "Hervé seemed tired after that. Curiously, like this little conversation unsettled him ?"
+    mci "We prefered to sit on the sofa and chill."
+    mco "Home sweet home~ so warm in here."
+    show he at middle with dissolve
+    her "You're melting like the snow, watch out hehe."
+    pause 1
+    her "Say, about you, you told me you were looking for a job ?"
+    mco "We don't talk about the subjects that upset-- mmh yeah. *sigh* Not much for now unfortunaly."
+    her "You don't have to talk about that if you don't want to..."
+    mci "Arh... I kinda want to now. He's so easy to talk to."
+
+    mco "Well. It's been now 6 months I haven't found something that interests me."
+    mco "I was hopeful at the beginning for finding a well paid job. I worked hard for my diploma after all !"
+    mco "Uhm, and also since I'm under 30 years old I'm in broad for the international government program. I say to myself It's certainly an occasion that will never come again..."
+    
+    her "In my opinion, youngsters has a lot more than the past generations to find a job."
+    her "For now, I didn't need to reinvent myself a whole lot. But I see the scholars, they really have to be innovative. The world is more and more complicated..."
+    her "I think don't go too hard on yourself."
+
+    pause 1
 
 

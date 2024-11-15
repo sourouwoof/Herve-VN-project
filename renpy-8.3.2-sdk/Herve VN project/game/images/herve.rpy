@@ -19,4 +19,4 @@ layeredimage he:
     xalign 0.5
     yalign -0.5
 
-image side heSide = LayeredImageProxy("he", Transform(crop=(250, 350, 700, 510), zoom=0.75))
+image side heSide = LayeredImageProxy("he", Transform(crop=(0, 0, 700, 510), zoom=0.75))
