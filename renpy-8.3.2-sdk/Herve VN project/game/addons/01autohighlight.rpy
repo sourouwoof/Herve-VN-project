@@ -107,6 +107,7 @@ init -10 python:
         global blurSwitch
         global blurStatus
         global layerBuffer
+        # ===================
         global speaking_char
         if event in ["begin"]:
             # ================================================================= blur v

@@ -903,9 +903,12 @@ label story1:
         mco "*ahem* Well, we'll finish to setup everthing mom. Only a few weeks left, it will be fun together, I'm sure you'll really like the place !"
         pause 1
         mco "See ya !"
+        pause 1
+        scene black with Dissolve(5)
     else:
         mco "Hi mom ! How are you doing ?"
-        pause 2
+        pause 1
+        scene black with Dissolve(5)
     return
 
 image scared801:
