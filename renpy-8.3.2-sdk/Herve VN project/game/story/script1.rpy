@@ -907,6 +907,7 @@ label story1:
         scene black with Dissolve(5)
     else:
         mco "Hi mom ! How are you doing ?"
+        mco ""
         pause 1
         scene black with Dissolve(5)
     return
