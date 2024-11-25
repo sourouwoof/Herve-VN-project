@@ -113,15 +113,69 @@
                 }
             },
             {
+                "scope": "renpy.meta.color.#ffffff",
+                "settings": {
+                    "foreground": "#ffffff"
+                }
+            },
+            {
+                "scope": "renpy.meta.color.#8f7c43",
+                "settings": {
+                    "foreground": "#8f7c43"
+                }
+            },
+            {
                 "scope": "renpy.meta.color.#cc6600",
                 "settings": {
                     "foreground": "#cc6600"
                 }
             },
             {
-                "scope": "renpy.meta.color.#ffffff",
+                "scope": "renpy.meta.color.#f00",
                 "settings": {
-                    "foreground": "#ffffff"
+                    "foreground": "#f00"
+                }
+            },
+            {
+                "scope": "renpy.meta.color.#e7d7a7",
+                "settings": {
+                    "foreground": "#e7d7a7"
+                }
+            },
+            {
+                "scope": "renpy.meta.color.#b1a377",
+                "settings": {
+                    "foreground": "#b1a377"
+                }
+            },
+            {
+                "scope": "renpy.meta.color.#a28a43",
+                "settings": {
+                    "foreground": "#a28a43"
+                }
+            },
+            {
+                "scope": "renpy.meta.color.#f37468",
+                "settings": {
+                    "foreground": "#f37468"
+                }
+            },
+            {
+                "scope": "renpy.meta.color.#a7bfff",
+                "settings": {
+                    "foreground": "#a7bfff"
+                }
+            },
+            {
+                "scope": "renpy.meta.color.#9c8749",
+                "settings": {
+                    "foreground": "#9c8749"
+                }
+            },
+            {
+                "scope": "renpy.meta.color.#9e8b53",
+                "settings": {
+                    "foreground": "#9e8b53"
                 }
             }
         ]

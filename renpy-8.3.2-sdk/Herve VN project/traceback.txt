@@ -1,28 +1,36 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
 While running game code:
-  File "game/script.rpy", line 7, in script call
+  File "game/script.rpy", line 47, in script call
     call story1
-  File "game/story/script1.rpy", line 310, in script
-    hero "So... ? How was it to follow me to work ?"
-Exception: Sayer 'hero' is not defined.
+  File "game/story/script1.rpy", line 877, in script
+    show screen screen_snow1
+  File "renpy/common/000statements.rpy", line 647, in execute_show_screen
+    renpy.show_screen(name, *args, **kwargs)
+Exception: Screen screen_snow1 is not known.
+
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-  File "game/script.rpy", line 7, in script call
+  File "game/script.rpy", line 47, in script call
     call story1
-  File "game/story/script1.rpy", line 310, in script
-    hero "So... ? How was it to follow me to work ?"
-  File "/run/media/deck/SD512/Documents/Git/Herve-VN-project/renpy-8.3.2-sdk/renpy/ast.py", line 2573, in execute
-    Say.execute(self)
-  File "/run/media/deck/SD512/Documents/Git/Herve-VN-project/renpy-8.3.2-sdk/renpy/ast.py", line 575, in execute
-    who = eval_who(self.who, self.who_fast)
-  File "/run/media/deck/SD512/Documents/Git/Herve-VN-project/renpy-8.3.2-sdk/renpy/ast.py", line 464, in eval_who
-    raise Exception("Sayer '%s' is not defined." % who)
-Exception: Sayer 'hero' is not defined.
+  File "game/story/script1.rpy", line 877, in script
+    show screen screen_snow1
+  File "/run/media/deck/SD512/Documents/Git/Herve-VN-project/renpy-8.3.2-sdk/renpy/ast.py", line 1974, in execute
+    self.call("execute")
+  File "/run/media/deck/SD512/Documents/Git/Herve-VN-project/renpy-8.3.2-sdk/renpy/ast.py", line 1953, in call
+    return renpy.statements.call(method, parsed, *args, **kwargs)
+  File "/run/media/deck/SD512/Documents/Git/Herve-VN-project/renpy-8.3.2-sdk/renpy/statements.py", line 374, in call
+    return method(parsed, *args, **kwargs)
+  File "renpy/common/000statements.rpy", line 647, in execute_show_screen
+    renpy.show_screen(name, *args, **kwargs)
+  File "/run/media/deck/SD512/Documents/Git/Herve-VN-project/renpy-8.3.2-sdk/renpy/display/screen.py", line 1327, in show_screen
+    raise Exception("Screen %s is not known.\n" % (name[0],))
+Exception: Screen screen_snow1 is not known.
 
-Linux-6.1.52-valve16-1-neptune-61-x86_64-with-glibc2.40 x86_64
+
+Linux-6.5.0-valve22-1-neptune-65-g9a338ed8a75e-x86_64-with-glibc2.40 x86_64
 Ren'Py 8.3.2.24090902
 Hervé 1.0
-Thu Nov 14 19:33:25 2024
+Mon Nov 25 21:42:25 2024

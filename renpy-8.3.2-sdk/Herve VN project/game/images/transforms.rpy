@@ -78,7 +78,7 @@ transform y_shake(amt=5, repeats=None):
 label car_bumps:
     camera:
         xalign 0.5 yalign 0.5
-        ease 1.5 zoom 1.025
+        ease 1.5 zoom 1.035
         choice:
             pause 0.5
         choice:
@@ -89,7 +89,7 @@ label car_bumps:
 label train_bumps:
     camera:
         xalign 0.5 yalign 0.5
-        ease 1.5 zoom 1.025
+        ease 1.5 zoom 1.035
         choice:
             pause 0.5
         choice:
@@ -176,6 +176,17 @@ transform hops:
     align (0.54,0.20)
     alignaround (0.5,0.20)
     linear 0.875 angle 270.0 counterclockwise
+    repeat
+
+transform hops_slow:
+    align (0.46,0.20)
+    alignaround (0.5,0.20)
+    linear 0.875 angle 90.0 clockwise
+    pause 1
+    align (0.54,0.20)
+    alignaround (0.5,0.20)
+    linear 0.875 angle 270.0 counterclockwise
+    pause 1
     repeat
 
 transform hops1:

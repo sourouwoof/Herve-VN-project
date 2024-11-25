@@ -1,7 +1,7 @@
 image road1 = im.Scale("images/bgs/road1.jpg", 1920, 1080)
 image road2 = im.Scale("images/bgs/road2.jpg", 1920, 1080)
 image house1 = im.Scale("images/bgs/house1.jpg", 1920, 1080)
-image houseGuestHouse = im.Scale("images/bgs/houseGuestHouse.jpg", 1920, 1080)
+image houseGuestroom = im.Scale("images/bgs/houseGuestroom.jpg", 1920, 1080)
 image houseKitchen = im.Scale("images/bgs/houseKitchen.jpg", 1920, 1080)
 image houseLounge = im.Scale("images/bgs/houseLounge.jpg", 1920, 1080)
 image houseBedroom = im.Scale("images/bgs/houseBedroom.jpg", 1920, 1080)
@@ -25,3 +25,42 @@ image loading:
         pause .25
         linear .5 alpha 0
         repeat
+
+image snow1 = Fixed(
+        Snow("toto", 50, xspeed=(20, 50), yspeed=(100, 200), yborder=(-10,2000), start=50))
+
+image snow2 = Fixed(
+        Snow("toto", 50, xspeed=(20, 50), yspeed=(100, 200), yborder=(-10,2000), start=50),
+        Snow("toto", 100, xspeed=(10, 25), yspeed=(50, 100), yborder=(-10,2000), start=50)
+        )
+
+image snow3 = Fixed(
+        Snow("toto", 50, xspeed=(20, 50), yspeed=(100, 200), yborder=(-10,2000), start=10),
+        Snow("toto", 100, xspeed=(10, 25), yspeed=(50, 100), yborder=(-10,2000), start=10),
+        Snow("toto", 100, xspeed=(30, 30), yspeed=(75, 75), yborder=(-10,2000), start=10)
+        )
+
+image snow6 = Fixed(
+        Snow("toto", 50, xspeed=(20, 50), yspeed=(100, 200), yborder=(-10,2000), start=10),
+        Snow("toto", 100, xspeed=(10, 25), yspeed=(50, 100), yborder=(-10,2000), start=10),
+        Snow("toto", 100, xspeed=(30, 30), yspeed=(75, 75), yborder=(-10,2000), start=10),
+        Snow("toto", 100, xspeed=(10, 25), yspeed=(50, 100), yborder=(-10,2000), start=50),
+        Snow("toto", 100, xspeed=(10, 25), yspeed=(50, 100), yborder=(-10,2000), start=50),
+        Snow("toto", 100, xspeed=(10, 25), yspeed=(50, 100), yborder=(-10,2000), start=50)
+        )     
+
+screen snow_screen1:
+        style_prefix "textboxScreen"
+        add "snow1"
+
+screen snow_screen2:
+        style_prefix "textboxScreen"
+        add "snow2"
+
+screen snow_screen3:
+        style_prefix "textboxScreen"
+        add "snow3"
+
+screen snow_screen6:
+        style_prefix "textboxScreen"
+        add "snow6"

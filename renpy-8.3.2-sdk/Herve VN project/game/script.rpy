@@ -1,11 +1,21 @@
 ﻿# The script of the game goes in this file.
+default timer_current = 0
+default timer_max = 0
+default affinity = 0
 
-# The game starts here.
+screen timerFrame(missed_event, timer_max=7):
+    on "hide" action SetVariable("timer_current", 0)
+    frame:
+        xalign 0.5
+        yalign 0.6
+        hbox:
+            timer 0.1 action If(timer_current > timer_max, false = SetVariable("timer_current", timer_current + 0.1), true = [Hide("timerscreen"),Jump(missed_event)]) repeat True
 
-label start:
-    stop music fadeout 30.0
-    call story1
-    call end
+            bar:
+                value AnimatedValue(value=timer_current, range=timer_max, delay= 0.5)
+                xalign 0.0
+                yalign 0.0
+                xmaximum 250
 
 """
 jour 1:
@@ -30,6 +40,12 @@ La vie de RV (comment était sa famille, pourquoi il est ici, son ancien petit-a
 Le problème de la candidature de MC à avouer à RV
 La vie de MC (pourquoi il est ici, son rêve de partir loin)
 """
+
+# The game starts here.
+label start:
+    stop music fadeout 30.0
+    call story1
+    call end
 
 label end:
     "To be continued...{w=2}{nw}"

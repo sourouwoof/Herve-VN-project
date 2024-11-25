@@ -1,14 +1,14 @@
-2024-11-14 18:21:08 UTC
-Linux-6.1.52-valve16-1-neptune-61-x86_64-with-glibc2.40
+2024-11-25 19:23:48 UTC
+Linux-6.5.0-valve22-1-neptune-65-g9a338ed8a75e-x86_64-with-glibc2.40
 Ren'Py 8.3.2.24090902
 
 Early init took 0.10s
 Loading error handling took 0.07s
-Loading script took 1.09s
-Loading save slot metadata took 0.05s
+Loading script took 0.89s
+Loading save slot metadata took 0.04s
 Loading persistent took 0.00s
 Set script version to: None (alternate path)
-Running init code took 0.65s
+Running init code took 0.62s
 Loading analysis data took 0.05s
 Analyze and compile ATL took 0.01s
 Reloading save slot metadata took 0.02s
@@ -16,11 +16,11 @@ Index archives took 0.00s
 Dump and make backups took 0.00s
 Cleaning cache took 0.00s
 Making clean stores took 0.00s
-Initial gc took 0.09s
+Initial gc took 0.10s
 DPI scale factor: 1.000000
 Creating interface object took 0.00s
 Cleaning stores took 0.00s
-Init translation took 0.07s
+Init translation took 0.06s
 Build styles took 0.00s
 Load screen analysis took 0.07s
 Analyze screens took 0.00s
@@ -29,16 +29,15 @@ Prepare screens took 0.15s
 Save pyanalysis. took 0.00s
 Save bytecode. took 0.00s
 Running _start took 0.00s
-Interface start took 0.21s
+Interface start took 0.14s
 
 Initializing gl2 renderer:
-primary display bounds: (0, 0, 2560, 1440)
+primary display bounds: (0, 0, 2695, 1516)
 swap interval: 1 frames
 Windowed mode.
 Vendor: "b'AMD'"
-Renderer: b'AMD Custom GPU 0932 (radeonsi, vangogh, LLVM 18.1.8, DRM 3.54, 6.1.52-valve16-1-neptune-61)'
-Version: b'4.6 (Compatibility Profile) Mesa 24.2.4 (git-e2ab51c49f)'
+Renderer: b'AMD Custom GPU 0932 (radeonsi, vangogh, LLVM 18.1.8, DRM 3.57, 6.5.0-valve22-1-neptune-65-g9a338ed8a75e)'
+Version: b'4.6 (Compatibility Profile) Mesa 24.2.6 (git-c6b3580271)'
 Display Info: None
 Screen sizes: virtual=(800, 600) physical=(888, 666) drawable=(888, 666)
 Maximum texture size: 4096x4096
-controller: '03000000de280000ff11000001000000' 'Steam Virtual Gamepad' 1
