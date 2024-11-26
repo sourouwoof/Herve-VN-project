@@ -1,5 +1,6 @@
 define audio.music1 = "audio/ACOUSTICCOUNTRY MUSIC Happy Piano Guitar ROYALTY FREE Download No Copyright Content _ 12 MORNINGS.mp3"
 define audio.music2 = "audio/AMBIENT MUSIC Suspense Tension Light ROYALTY FREE Download No Copyright Content _ A WALK INTO SPACE.mp3"
+define audio.music3 = "audio/ACOUSTICCOUNTRY MUSIC Emotional Guitar ROYALTY FREE Download No Copyright Content  ONE FINE DAY.mp3"
 
 define audio.driving = "audio/sfx/66048__bidone__cars-drive-slow-wet-snow.mp3"
 define audio.phone_notification = "audio/sfx/400697__daphne_in_wonderland__messenger-notification-sound-imitation.ogg"

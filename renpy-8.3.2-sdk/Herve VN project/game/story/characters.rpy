@@ -1,9 +1,7 @@
 # ===================================== init characters
-"""
 init python:
     config.tag_layer["he"] = 'char'
-    config.tag_layer["mc"] = 'char'
-"""
+
 transform ctc_transform:
         alpha 0
         pause 1

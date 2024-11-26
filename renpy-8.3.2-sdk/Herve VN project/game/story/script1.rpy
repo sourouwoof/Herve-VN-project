@@ -1,10 +1,6 @@
 label story1:
 
     # ================================== day 1
-    camera:
-        #reset
-        perspective True
-
     show road1
     call car_bumps
     show road1 at tint18 with Dissolve(10)
@@ -122,7 +118,7 @@ label story1:
     mco "Zzz... {color=#9e8b53}{size=27}Hi...{/size}{/color}"
     play sound knockknock
     pause 2
-    scene road2 at tint18 
+    scene road2 at tint22 
     show he hat at middle
     with dissolve
     pause 1
@@ -165,14 +161,12 @@ label story1:
     $ renpy.music.set_volume(1.0, delay=0, channel='sfx1')
     play sfx1 fireplace
     pause 5
-    
-    camera:
-        #reset
-        perspective True
         
     scene houseGuestroom 
     show he:
-        zpos -2000 xpos 200 ycenter 500
+        zoom 0.25
+        xalign 0.3
+        yalign 0.5
     with open_eyes
     pause 1
     mci "I awake slowly, watching around. I take off a small blanket, and try to remember how I arrived here."
@@ -182,7 +176,7 @@ label story1:
     her "Hello [player_name] !"
     hide he
     show he eyclosed at middle
-    with dissolve
+    with Dissolve(1)
     pause 1
     mco "We're at your place ?"
     her -eyclosed "For sure ! You slept on this sofa, right on the spot."
@@ -223,7 +217,7 @@ label story1:
     with dissolve
     stop sfx1 fadeout 25
     mci "We head forward to the dark room, and we traverse a large, quite cluttered place. I can't really see what's in there, except some decorations here and there. We continue forward, to a kitchen."
-    show houseKitchen with Fade(1,0,1)
+    show houseKitchen at tintDimRoom with Fade(1,0,1)
     show he at middle with dissolve
     pause 1
     mco "Mmh~ that's tasty."
@@ -246,7 +240,9 @@ label story1:
     her "I'm going to mark out a few paths, do some measurements of snow and then we'll head back. Not too much but I need to get that done."
     mco "Alright, I'm in. That would be fun to walk in the snow with you."
     her mhappy eyclosed eblow "Okay, superb !"
-    show houseBedroom at tint18 with Fade(1,1,1)
+    scene houseBedroom at tint18 
+    hide he
+    with Fade(1,1,1)
     mci "After my diner I felt like to rest again. Hervé showed me this bedroom to settle in, this is front of the large lounge."
     mco "Really calm in here. A little colder than the guest room but it's alright."
     mco "*long sigh*"
@@ -279,7 +275,7 @@ label story1:
     scene black with Fade(1,0,1)
     pause 1
     scene houseBedroom with Fade(1,1,2)
-    play music music1 fadein 25
+    play music music1 fadein 15
     pause 1
     show houseLounge with Fade(1,0,1)
     pause 1
@@ -327,7 +323,9 @@ label story1:
     mci "Urh, he says that but he's still crouched, not ready to leave... I will give him a hand and help him finish."
 
     call car_bumps
-    show road1 with Fade(1,0,1)
+    scene road1 
+    hide he
+    with Fade(1,0,1)
     play sfx1 driving
     mci "After the work, Hervé drives us back home."
     pause 2
@@ -382,6 +380,7 @@ label story1:
     pause 1
     scene houseLounge 
     hide screen snow_screen1
+    hide he
     with Fade(1,0,1) 
     play sfx1 fireplace
     mci "Hervé seemed tired after that. Curiously, like this little conversation unsettled him ?"
@@ -487,26 +486,31 @@ label story1:
     pause 1
     her -eyclosed -eblow "Hey speaking about them, how about some couch gaming with the server ?"
     mco "With pleasure !"
+    play music music3 fadein 1
+    $ renpy.music.set_volume(0.5, delay=0, channel='music')
     play sfx1 fireplace
-    scene houseLounge with Fade(1,0,1) 
+    scene houseLounge 
+    hide he
+    with Fade(1,0,1) 
     pause 2
     mar "... Hii Hervé."
     mco "Hi Martin, how are you doing ?"
     mar "Woah [player_name] ? You're with Hervé, you two are in couple now ?"
     mco "..."
-    hero eblow eyclosed "... Of course not ! We just spend the christmas holidays together."
+    hero eblow eyclosed "Pccht ! ... Of course not ! We just spend the christmas holidays together."
     mar "I see, well I'm surprised [player_name], you managed to get into the big bear's den~"
     mar "... It's okay to be gay, guys, there's nothing to hide~"
-    mci "Geez, Martin's always the horny one."
-    hero mhappy -eblow -eyclosed "*AHEM* {color=#9e8b53}{size=27}Rholala can't be serious for 5 minutes{/size}{/color}... I think there's only us 3 connected tonight, what game do we play ?"
+    mci "Geez, Martin's always the horny one on our calls."
+    hero -eblow eyclosed "*AHEM* {color=#9e8b53}{size=27}Rholala can't be serious for 5 minutes{/size}{/color}..."
+    hero mhappy -eyclosed "I think there's only us 3 connected tonight, what game do we play ?"
     pause 1
     mco "Chicken Horse maybe ?"
     pause 1
     mar "I'm in !"
     hero "Let's go !"
-    scene houseLounge at tint16dark with Fade(1,0,1) 
+    scene houseLounge at tint16dark with Fade(1,1,1) 
     pause 2
-    mco "Sapristi !! You're trap got me !"
+    mco "Sapristi !! Your trap got me !"
     mci "Hervé and Martin are really pro ga(y)mers at these kind of platformers. It's like a platformer and party game, we have to place traps to make the parkour harder for others."
     mci "Martin is often ahead but Hervé is never too far behind on the leader board."
     pause 1
@@ -549,24 +553,28 @@ label story1:
     pause 1
     mco "{color=#9e8b53}{size=27}... Maybe just a hug, I could ask ?{/size}{/color}"
     stop sfx1
+    stop music fadeout 5
     scene houseBedroom at tint18 with Fade(1,1,1) 
     play sound knockknock
     "*knock knock*"
     her "Hey [player_name] ?"
     play sound light_switch
-    scene houseBedroom with dissolve
+    scene houseBedroom at tintDimRoom with dissolve
     mco "Come in !"
     show he at middle with dissolve
+    pause 1
     her "I just watched the weather forecast, and we are in a snow strom for at least two days. We're going to stay nice and warm at home. Don't hesitate to crank up the heat."
     her eyclosed eblow "... I have spare blankets as well."
     mco "Alrighty, thank you."
     pause 1
     hide he with dissolve
     pause 1
+    play sound light_switch
+    scene houseBedroom at tint18 with dissolve
     mco "Hervé ... !"
     pause 1
     mco "Have a good night."
-    her "You too, good night [player_name]."
+    her "You too, sleep tight [player_name]."
 
     # ================================== day 3
     scene black with Fade(1,0,1)
@@ -607,8 +615,10 @@ label story1:
     pause 1
     mco "You took care of me the last days, let me take charge of all. I'll do breakfast Rest a bit there on the sofa."
     her eyclosed mnormal "{color=#9e8b53}{size=27}Thank you.{/size}{/color}"
-    show houseKitchen with Fade(1,0,1)
-    $ renpy.music.set_volume(0.65, delay=5, channel='sfx1')
+    show houseKitchen at tintDimRoom
+    hide he
+    with Fade(1,1,1)
+    $ renpy.music.set_volume(0.5, delay=5, channel='sfx1')
     mco "Mmh mh mh~ 🎶 *whistling*"
     mci "While waiting for the drinks to heat up in the microwave, I observe the outdoor. It's so dense outside, it's almost like the night in broad day."
     mci "I have a certain feeling of comfortness being indoor right now."
@@ -685,6 +695,7 @@ label story1:
         yalign 0.5
         zoom 1.25
     with dissolve 
+    $ renpy.music.set_volume(0.5, delay=2, channel='sfx1')
     pause 1
     mco "Young Hervé ? He's a stud ! ... ? He's half naked ?!"
     mci "Looks like a cutted photo... I wonder, where would it come from ?"
@@ -748,20 +759,21 @@ label story1:
     mco "Hervé... {color=#9e8b53}{size=27}I would greatly like to... Hug with you.{/size}{/color}"
     pause 1
     her eblow eyclosed "O-oh sure. Come here {color=#9e8b53}{size=27}be careful with the glass.{/size}{/color}"
-    camera:
+    show he:
         xalign 0.5
-        yalign 0.5
-        ease 5.0 zoom 1.5
+        yalign 0.0
+        ease 2.5 zoom 1.5
+    with dissolve
     mci "He envelops me completely with his arms, he's taller so it's easy for him. I had time to cool off a bit, while Hervé was still all warm on his belly due his nap. "
     mci "My arms are all curled up... Though, I would really like to touch him."
     pause 1
     her eyopen "{color=#9e8b53}{size=27}You feeling better ?{/color}{/size}"
     mco "{color=#9e8b53}{size=27}Y-yes.{/color}{/size}"
-    her "{color=#9e8b53}{size=27}Lemme clean the floor, let's go on the sofa.{/color}{/size}"
+    her eyclosed "{color=#9e8b53}{size=27}Lemme clean the floor, let's go on the sofa.{/color}{/size}"
     pause 1
     show houseLounge at tint20 
     play sfx1 fireplace
-    camera
+    hide he
     with Fade(1,1,1)
     mci "After the clean, we checked the electric meter, but no luck to put it back on. By calling a neighbor, we got informed that it's a general electric breakdown, and they advised us to stay safe home."
     hero ebsad msad "We'll need to be careful with power, I'll shutdown my phone for now."
@@ -883,31 +895,36 @@ label story1:
     mci "I always remember this moment that changed my life."
     hide screen snow_screen2 with dissolve
     hide screen snow_screen6 with dissolve
+    define mcox = Character("[player_name]", color="#696fd4", kind=outter)
+    play sound phone_call
+    pause 6
+    stop sound
     if affinity > 2:
-        mco "Hi mom ! How are you ?"
+        
+        mcox "Hey mom ! How are you ?"
         pause 2
-        mco "I'm with Hervé."
+        mcox "I'm with Hervé."
         her "{color=#9e8b53}{size=27}Hi madam !{/color}{/size}"
         pause 2
-        mco "{i}What are we doing...{/i} ? We are preparing the christmas decorations."
-        mco "*chuckles* of course, for your coming !"
-        mco "Hervé really wanted to prepare in advance, but it's fun, we are used to it. It's our little tradition of the year."
-        mco "{color=#9e8b53}{size=27}Hervé also wants to make the best impression for you~ He's a little tense for real...{/color}{/size}"
+        mcox "{i}What are we doing...{/i} ? We are preparing the christmas decorations."
+        mcox "*chuckles* of course, for your coming !"
+        mcox "Hervé really wanted to prepare in advance, but it's fun, we are used to it. It's our little tradition of the year."
+        mcox "{color=#9e8b53}{size=27}Hervé also wants to make the best impression for you~ He's a little tense for real...{/color}{/size}"
         her "{color=#9e8b53}{size=27}H-hey, honey... !{/color}{/size}"
         her "Sorry madam, he says nonsense..."
-        her "Your son is a real naughty boy, for sure Santa Claus won't come for him... I don't know if we will deserve our present..."
+        her "[player_name] is a real naughty boy, for sure Santa Claus won't come for him... I don't know if we will deserve our present..."
         pause 2
-        mco "Heyy ? What ? What are you two up to, there's a gift for me ? "
+        mcox "Heyy ? What ? What are you two up to, there's a gift for me ? "
         her "You'll know the 25th !"
-        mco "..."
-        mco "*ahem* Well, we'll finish to setup everthing mom. Only a few weeks left, it will be fun together, I'm sure you'll really like the place !"
+        mcox "..."
+        mcox "*ahem* Well, we'll finish to setup everthing mom. Only a few weeks left, it will be fun together, I'm sure you'll really like the place !"
         pause 1
-        mco "See ya !"
+        mcox "See ya !"
         pause 1
         scene black with Dissolve(5)
     else:
-        mco "Hi mom ! How are you doing ?"
-        mco ""
+        mcox "Hi mom ! How are you doing ?"
+        mci "I'll always "
         pause 1
         scene black with Dissolve(5)
     return
