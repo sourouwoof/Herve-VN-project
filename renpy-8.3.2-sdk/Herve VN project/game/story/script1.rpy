@@ -884,6 +884,7 @@ label story1:
     mco "Yeah ! Lemme begin."
     pause 2
     mco "We're together in a strange forest... {color=#9e8b53}{size=27}I'm a great mage and you're...{/color}{/size}"
+    pause 1
     scene black with Dissolve(5)
     pause 5
     show screen snow_screen1
@@ -892,154 +893,81 @@ label story1:
     pause 6
     mci "Winter after winter..."
     pause 1
-    mci "I always remember this moment that changed my life."
+    mci "I will always remember this first moment with you, that changed my life."
     hide screen snow_screen2 with dissolve
     hide screen snow_screen6 with dissolve
-    define mcox = Character("[player_name]", color="#696fd4", kind=outter)
+    define mcc = Character("[player_name]", color="#696fd4", kind=outter)
     play sound phone_call
     pause 6
     stop sound
     if affinity > 2:
         
-        mcox "Hey mom ! How are you ?"
+        play music music3 fadein 2
+        mcc "Hey mom ! How are you ?"
         pause 2
-        mcox "I'm with Hervé."
-        her "{color=#9e8b53}{size=27}Hi madam !{/color}{/size}"
+        mcc "Yeah, I'm with Hervé !"
+        her "{color=#9e8b53}{size=27}... H-hi madam !{/color}{/size}"
         pause 2
-        mcox "{i}What are we doing...{/i} ? We are preparing the christmas decorations."
-        mcox "*chuckles* of course, for your coming !"
-        mcox "Hervé really wanted to prepare in advance, but it's fun, we are used to it. It's our little tradition of the year."
-        mcox "{color=#9e8b53}{size=27}Hervé also wants to make the best impression for you~ He's a little tense for real...{/color}{/size}"
+        show photo1
+        mcc "{i}What are we doing...{/i} ? We are preparing the home for you, for the holidays."
+        mcc "*chuckles* of course ! We are quite early, we are sorting out the stuff, well that's Hervé you know..."
+        pause 2
+        mcc "Mhm yeah, time goes fast... It's been roughly my first year I living here. I've seen all the seasons, it's been so great, I'm glad living here."
+        show photo2
+        pause 2
+        mcc "I'll show you the hiking, the little villages. And the food !"
+        mcc "{color=#9e8b53}{size=27}Hervé also wants to make the best impression for you, as always-- He's all tense for real...{/color}{/size}"
         her "{color=#9e8b53}{size=27}H-hey, honey... !{/color}{/size}"
-        her "Sorry madam, he says nonsense..."
-        her "[player_name] is a real naughty boy, for sure Santa Claus won't come for him... I don't know if we will deserve our present..."
+        her "Sorry madam, he's saying nonsense..."
+        her "[player_name] is a real naughty boy, for sure Santa Claus won't come for him this winter... I don't know if we will deserve our present..."
         pause 2
-        mcox "Heyy ? What ? What are you two up to, there's a gift for me ? "
+        mcc "Heyy ? What ? What are you two up to, there's a gift for me ? "
         her "You'll know the 25th !"
-        mcox "..."
-        mcox "*ahem* Well, we'll finish to setup everthing mom. Only a few weeks left, it will be fun together, I'm sure you'll really like the place !"
+        mcc "..."
+        mcc "*ahem* Well, we'll finish to setup everything today. Only a few weeks left, it will be fun together, I'm sure you'll really like the place !"
+        show photo3
         pause 1
-        mcox "See ya !"
+        mcc "See ya !"
         pause 1
         scene black with Dissolve(5)
     else:
-        mcox "Hi mom ! How are you doing ?"
+
+        play music music2 fadein 2
+        mcc "Hi mom ! How are you doing ?"
         mci "I'll always "
         pause 1
         scene black with Dissolve(5)
     return
 
-image scared801:
-    Text("{color=#f37468}Elias, on fait quoi ?{/color}")
+image photo1:
+    Image("cgs/PXL_20210824_103510106.jpg")
+    xalign 0.2
+    yalign 0.3
+    zoom 0.15
+    alpha 0
+    parallel:
+        linear 1 rotate -2.5
+    parallel:
+        linear 1 alpha 1
+
+image photo2:
+    Image("cgs/PXL_20210822_183431273.jpg")
+    xalign 0.8
+    yalign 0.3
+    zoom 0.15
+    alpha 0
+    parallel:
+        linear 1 rotate +2.5
+    parallel:
+        linear 1 alpha 1
+
+image photo3:
+    Image("cgs/PXL_20210822_185216451.jpg")
     xalign 0.5
-    yalign 0.5
-    zoom 1
-    alpha 0
-    linear 0.5 alpha 1
-    pause 3
-    linear 1 alpha 0
-
-image scared802:
-    Text("{color=#f37468}Je ne me sens plus bien ici...{/color}")
-    xalign 0.5
-    yalign 0.5
-    zoom 1
-    alpha 0
-    linear 0.5 alpha 1
-    pause 3
-    linear 1 alpha 0
-
-image scared803:
-    pause 3
-    Text("{color=#a7bfff}Viens, aller on s'en va.{/color}")
-    xalign 0.5
-    yalign 0.5
-    zoom 1
-    alpha 0
-    linear 0.5 alpha 1
-    pause 3
-    linear 1 alpha 0 
-
-image mean801:
-    pause 1
-    Text("{color=#ffffff}Putain ils ont encore pris la meilleure table.{/color}")
-    xalign 0.1
     yalign 0.3
-    zoom 1
+    zoom 0.15
     alpha 0
-    rotate -2.5
-    linear 0.5 alpha 1
-    pause 3
-    linear 1 alpha 0
-
-image mean802:
-    pause 3
-    Text("{color=#ffffff}C'est des pédés en plus.{/color}")
-    xalign 0.9
-    yalign 0.3
-    zoom 1
-    alpha 0
-    rotate +2.5
-    linear 0.5 alpha 1
-    pause 3
-    linear 1 alpha 0
-
-image mean803:
-    pause 3
-    Text("{color=#ffffff}Ca se se voit c'est des gros suceurs de bites,\n t'as vu comment ils sont maniérés ?{/color}")
-    xalign 0.1
-    yalign 0.3
-    zoom 1
-    alpha 0
-    rotate -2.5
-    linear 0.5 alpha 1
-    pause 3
-    linear 1 alpha 0
-
-image mean804:
-    pause 3
-    pause 3
-    Text("{color=#ffffff}Waah non, mec c'est dégueulasse.{/color}")
-    xalign 0.9
-    yalign 0.3
-    zoom 1
-    alpha 0
-    rotate +2.5
-    linear 0.5 alpha 1
-    pause 3
-    linear 1 alpha 0
-
-image mean805:
-    pause 3
-    Text("{color=#ffffff}Ah bah, on a dû faire fuir les tapettes.{/color}")
-    xalign 0.1
-    yalign 0.3
-    zoom 1
-    alpha 0
-    rotate -2.5
-    linear 0.5 alpha 1
-    pause 3
-    linear 1 alpha 0
-
-image mean806:
-    pause 3
-    pause 3
-    Text("{color=#ffffff}Baisse la tête, c'est bien.{/color}")
-    xalign 0.9
-    yalign 0.3
-    zoom 1
-    alpha 0
-    rotate +2.5
-    linear 0.5 alpha 1
-    pause 3
-    linear 1 alpha 0
-
-image mean807:
-    Text("{color=#ffffff}Vous faites ce que vous voulez chez vous,\n mais on veut pas de ça dans ce bar.{/color}")
-    xalign 0.5
-    yalign 0.5
-    zoom 1
-    alpha 0
-    linear 0.5 alpha 1
-    pause 3
-    linear 1 alpha 0
+    parallel:
+        linear 1 rotate +2.5
+    parallel:
+        linear 1 alpha 1

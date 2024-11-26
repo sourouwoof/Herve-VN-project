@@ -2,9 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/story/script1.rpy", line 823: expected statement.
-    ANCHOR
-          ^
+File "game/story/script1.rpy", line 956: expected statement.
+    PXL_20210824_103510106
+                          ^
 
 Ren'Py Version: Ren'Py 8.3.2.24090902
-Sun Nov 24 22:27:15 2024
+Tue Nov 26 19:42:19 2024

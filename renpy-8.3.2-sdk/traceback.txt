@@ -1,26 +1,28 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
 While running game code:
-FileNotFoundError: [Errno 2] No such file or directory: '/run/media/deck/SD512/Documents/Git/Herve-VN-project/renpy-8.3.2-sdk/Herve VN project/game/saves/persistent.1730546017.tmp'
+FileNotFoundError: [Errno 2] No such file or directory: '/home/deck/.renpy/launcher-4/persistent'
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-  File "/run/media/deck/SD512/Documents/Git/Herve-VN-project/renpy-8.3.2-sdk/renpy/bootstrap.py", line 359, in bootstrap
+  File "/home/deck/Desktop/Herve-VN-project/renpy-8.3.2-sdk/renpy/bootstrap.py", line 359, in bootstrap
     renpy.main.main()
-  File "/run/media/deck/SD512/Documents/Git/Herve-VN-project/renpy-8.3.2-sdk/renpy/main.py", line 666, in main
+  File "/home/deck/Desktop/Herve-VN-project/renpy-8.3.2-sdk/renpy/main.py", line 666, in main
     renpy.persistent.update(True)
-  File "/run/media/deck/SD512/Documents/Git/Herve-VN-project/renpy-8.3.2-sdk/renpy/persistent.py", line 434, in update
+  File "/home/deck/Desktop/Herve-VN-project/renpy-8.3.2-sdk/renpy/persistent.py", line 434, in update
     save()
-  File "/run/media/deck/SD512/Documents/Git/Herve-VN-project/renpy-8.3.2-sdk/renpy/persistent.py", line 456, in save
+  File "/home/deck/Desktop/Herve-VN-project/renpy-8.3.2-sdk/renpy/persistent.py", line 456, in save
     renpy.loadsave.location.save_persistent(compressed)
-  File "/run/media/deck/SD512/Documents/Git/Herve-VN-project/renpy-8.3.2-sdk/renpy/savelocation.py", line 622, in save_persistent
+  File "/home/deck/Desktop/Herve-VN-project/renpy-8.3.2-sdk/renpy/savelocation.py", line 622, in save_persistent
     l.save_persistent(data)
-  File "/run/media/deck/SD512/Documents/Git/Herve-VN-project/renpy-8.3.2-sdk/renpy/savelocation.py", line 426, in save_persistent
-    with open(fn_tmp, "wb") as f:
-FileNotFoundError: [Errno 2] No such file or directory: '/run/media/deck/SD512/Documents/Git/Herve-VN-project/renpy-8.3.2-sdk/Herve VN project/game/saves/persistent.1730546017.tmp'
+  File "/home/deck/Desktop/Herve-VN-project/renpy-8.3.2-sdk/renpy/savelocation.py", line 430, in save_persistent
+    safe_rename(fn_new, fn)
+  File "/home/deck/Desktop/Herve-VN-project/renpy-8.3.2-sdk/renpy/loadsave.py", line 303, in safe_rename
+    os.unlink(new)
+FileNotFoundError: [Errno 2] No such file or directory: '/home/deck/.renpy/launcher-4/persistent'
 
-Linux-6.1.52-valve16-1-neptune-61-x86_64-with-glibc2.37 x86_64
+Linux-6.5.0-valve22-1-neptune-65-g9a338ed8a75e-x86_64-with-glibc2.39 x86_64
 Ren'Py 8.3.2.24090902
-Herve VN project 1.0
-Sat Nov  2 12:13:53 2024
+Ren'Py Launcher 8.3.2.24090902
+Tue Nov 26 22:18:05 2024
