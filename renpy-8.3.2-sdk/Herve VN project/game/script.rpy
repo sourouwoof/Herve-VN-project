@@ -45,10 +45,9 @@ La vie de MC (pourquoi il est ici, son rêve de partir loin)
 label start:
     stop music fadeout 30.0
     call story1
-    call end
 
 label end:
-    "To be continued...{w=2}{nw}"
+    "The end.{w=2}{nw}"
     stop music
     stop sound
     scene black with Dissolve(1)

@@ -1,36 +1,105 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
 While running game code:
-  File "game/script.rpy", line 47, in script call
-    call story1
-  File "game/story/script1.rpy", line 877, in script
-    show screen screen_snow1
-  File "renpy/common/000statements.rpy", line 647, in execute_show_screen
-    renpy.show_screen(name, *args, **kwargs)
-Exception: Screen screen_snow1 is not known.
-
+  File "game/screens.rpy", line 582, in execute
+    screen about():
+  File "game/screens.rpy", line 582, in execute
+    screen about():
+  File "game/screens.rpy", line 589, in execute
+    use game_menu(_("About"), scroll="viewport"):
+  File "game/screens.rpy", line 452, in execute
+    screen game_menu(title, scroll=None, yinitial=0.0, spacing=0):
+  File "game/screens.rpy", line 452, in execute
+    screen game_menu(title, scroll=None, yinitial=0.0, spacing=0):
+  File "game/screens.rpy", line 461, in execute
+    frame:
+  File "game/screens.rpy", line 464, in execute
+    hbox:
+  File "game/screens.rpy", line 470, in execute
+    frame:
+  File "game/screens.rpy", line 473, in execute
+    if scroll == "viewport":
+  File "game/screens.rpy", line 475, in execute
+    viewport:
+  File "game/screens.rpy", line 484, in execute
+    vbox:
+  File "game/screens.rpy", line 487, in execute
+    transclude
+  File "game/screens.rpy", line 589, in execute
+    use game_menu(_("About"), scroll="viewport"):
+  File "game/screens.rpy", line 593, in execute
+    vbox:
+  File "game/screens.rpy", line 599, in execute
+    grid 1 2:
+Exception: Grid overfull.
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-  File "game/script.rpy", line 47, in script call
-    call story1
-  File "game/story/script1.rpy", line 877, in script
-    show screen screen_snow1
-  File "/run/media/deck/SD512/Documents/Git/Herve-VN-project/renpy-8.3.2-sdk/renpy/ast.py", line 1974, in execute
-    self.call("execute")
-  File "/run/media/deck/SD512/Documents/Git/Herve-VN-project/renpy-8.3.2-sdk/renpy/ast.py", line 1953, in call
-    return renpy.statements.call(method, parsed, *args, **kwargs)
-  File "/run/media/deck/SD512/Documents/Git/Herve-VN-project/renpy-8.3.2-sdk/renpy/statements.py", line 374, in call
-    return method(parsed, *args, **kwargs)
-  File "renpy/common/000statements.rpy", line 647, in execute_show_screen
-    renpy.show_screen(name, *args, **kwargs)
-  File "/run/media/deck/SD512/Documents/Git/Herve-VN-project/renpy-8.3.2-sdk/renpy/display/screen.py", line 1327, in show_screen
-    raise Exception("Screen %s is not known.\n" % (name[0],))
-Exception: Screen screen_snow1 is not known.
+  File "renpy/common/_layout/screen_load_save.rpym", line 35, in script
+    $ ui.interact()
+  File "/run/media/deck/SD512/Documents/Git/Herve-VN-project/renpy-8.3.2-sdk/renpy/ast.py", line 821, in execute
+    renpy.python.py_exec_bytecode(self.code.bytecode, self.hide, store=self.store)
+  File "/run/media/deck/SD512/Documents/Git/Herve-VN-project/renpy-8.3.2-sdk/renpy/python.py", line 1178, in py_exec_bytecode
+    exec(bytecode, globals, locals)
+  File "renpy/common/_layout/screen_load_save.rpym", line 35, in <module>
+    $ ui.interact()
+  File "/run/media/deck/SD512/Documents/Git/Herve-VN-project/renpy-8.3.2-sdk/renpy/ui.py", line 301, in interact
+    rv = renpy.game.interface.interact(roll_forward=roll_forward, **kwargs)
+  File "/run/media/deck/SD512/Documents/Git/Herve-VN-project/renpy-8.3.2-sdk/renpy/display/core.py", line 2215, in interact
+    repeat, rv = self.interact_core(preloads=preloads, trans_pause=trans_pause, pause=pause, pause_start=pause_start, pause_modal=pause_modal, **kwargs) # type: ignore
+  File "/run/media/deck/SD512/Documents/Git/Herve-VN-project/renpy-8.3.2-sdk/renpy/display/core.py", line 2745, in interact_core
+    root_widget.visit_all(lambda d : d.per_interact())
+  File "/run/media/deck/SD512/Documents/Git/Herve-VN-project/renpy-8.3.2-sdk/renpy/display/displayable.py", line 434, in visit_all
+    d.visit_all(callback, seen)
+  File "/run/media/deck/SD512/Documents/Git/Herve-VN-project/renpy-8.3.2-sdk/renpy/display/displayable.py", line 434, in visit_all
+    d.visit_all(callback, seen)
+  File "/run/media/deck/SD512/Documents/Git/Herve-VN-project/renpy-8.3.2-sdk/renpy/display/displayable.py", line 434, in visit_all
+    d.visit_all(callback, seen)
+  [Previous line repeated 1 more time]
+  File "/run/media/deck/SD512/Documents/Git/Herve-VN-project/renpy-8.3.2-sdk/renpy/display/screen.py", line 480, in visit_all
+    callback(self)
+  File "/run/media/deck/SD512/Documents/Git/Herve-VN-project/renpy-8.3.2-sdk/renpy/display/core.py", line 2745, in <lambda>
+    root_widget.visit_all(lambda d : d.per_interact())
+  File "/run/media/deck/SD512/Documents/Git/Herve-VN-project/renpy-8.3.2-sdk/renpy/display/screen.py", line 491, in per_interact
+    self.update()
+  File "/run/media/deck/SD512/Documents/Git/Herve-VN-project/renpy-8.3.2-sdk/renpy/display/screen.py", line 697, in update
+    self.screen.function(**self.scope)
+  File "game/screens.rpy", line 582, in execute
+    screen about():
+  File "game/screens.rpy", line 582, in execute
+    screen about():
+  File "game/screens.rpy", line 589, in execute
+    use game_menu(_("About"), scroll="viewport"):
+  File "game/screens.rpy", line 452, in execute
+    screen game_menu(title, scroll=None, yinitial=0.0, spacing=0):
+  File "game/screens.rpy", line 452, in execute
+    screen game_menu(title, scroll=None, yinitial=0.0, spacing=0):
+  File "game/screens.rpy", line 461, in execute
+    frame:
+  File "game/screens.rpy", line 464, in execute
+    hbox:
+  File "game/screens.rpy", line 470, in execute
+    frame:
+  File "game/screens.rpy", line 473, in execute
+    if scroll == "viewport":
+  File "game/screens.rpy", line 475, in execute
+    viewport:
+  File "game/screens.rpy", line 484, in execute
+    vbox:
+  File "game/screens.rpy", line 487, in execute
+    transclude
+  File "game/screens.rpy", line 589, in execute
+    use game_menu(_("About"), scroll="viewport"):
+  File "game/screens.rpy", line 593, in execute
+    vbox:
+  File "game/screens.rpy", line 599, in execute
+    grid 1 2:
+  File "/run/media/deck/SD512/Documents/Git/Herve-VN-project/renpy-8.3.2-sdk/renpy/display/layout.py", line 559, in add
+    raise Exception("Grid overfull.")
+Exception: Grid overfull.
 
-
-Linux-6.5.0-valve22-1-neptune-65-g9a338ed8a75e-x86_64-with-glibc2.40 x86_64
+Linux-6.5.0-valve22-1-neptune-65-g9a338ed8a75e-x86_64-with-glibc2.39 x86_64
 Ren'Py 8.3.2.24090902
 Hervé 1.0
-Mon Nov 25 21:42:25 2024
+Wed Nov 27 07:21:05 2024

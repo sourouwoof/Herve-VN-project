@@ -595,11 +595,19 @@ screen about():
             label "[config.name!t]"
             text _("Version [config.version!t]\n")
 
+            label __("\n{color=#cc6600}The team behind the game{u}")
+            text __("""{u}Bayron Desuga{/u} - art      
+""")
+            text __("""{u}Bedan Drake{/u} - proofreader
+""")
+            text __("""{u}Sourou Woof{/u} - game dev, UI, concept
+""")
+
             label __("\n{color=#cc6600}Everything by us except{u}")
             grid 2 2:
-                spacing 0
+                spacing 20
                 text __("""{u}Ren'Py addons:{/u}
-• Auto Highlight by {a=https://wattson.itch.io/renpy-auto-highlight}Wattson{/a}.""")
+• Auto Highlight and Character Blinking\n by {a=https://wattson.itch.io/renpy-auto-highlight}Wattson{/a}.""")
                 text __("""{u}Fonts:{/u} 
 • Belwe Bold
 • SamsungSans-Medium           
@@ -608,7 +616,7 @@ screen about():
 • Multiple sources from {a=https://freesound.org/}freesound.org{/a}.
 """)
                 text __("""{u}Musics:{/u} 
-• Royalty free musics from {a=https://www.youtube.com/@WHATPictures/playlists}We Have A Tripod{/a}.         
+• Royalty free musics by {a=https://www.youtube.com/@WHATPictures/playlists}We Have A Tripod{/a}.         
 """)
 
             ## gui.about is usually set in options.rpy.
